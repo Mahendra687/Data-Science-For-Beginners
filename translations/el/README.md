@@ -1,4 +1,4 @@
-# Data Science για Αρχάριους - Ένα Αναλυτικό Πρόγραμμα Σπουδών
+# Data Science για Αρχάριους - Ένα Πρόγραμμα Σπουδών
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
@@ -17,231 +17,231 @@
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Οι Πρεσβευτές του Azure Cloud στη Microsoft είναι χαρούμενοι να προσφέρουν ένα 10-εβδομάδων, 20-μαθημάτων αναλυτικό πρόγραμμα που καλύπτει όλη την Επιστήμη Δεδομένων. Κάθε μάθημα περιλαμβάνει κουίζ πριν και μετά το μάθημα, γραπτές οδηγίες για την ολοκλήρωση του μαθήματος, μια λύση και μια εργασία. Η μαθητοκεντρική προσέγγισή μας σας επιτρέπει να μαθαίνετε δημιουργώντας, έναν αποδεδειγμένο τρόπο για νέες δεξιότητες να «στερεωθούν».
+Οι Πρεσβευτές του Azure Cloud στη Microsoft είναι στην ευχάριστη θέση να προσφέρουν ένα δεκαεβδομαδιαίο πρόγραμμα σπουδών 10 εβδομάδων και 20 μαθημάτων που αφορά αποκλειστικά την Επιστήμη Δεδομένων. Κάθε μάθημα περιλαμβάνει κουίζ πριν και μετά το μάθημα, γραπτές οδηγίες για την ολοκλήρωση του μαθήματος, μία λύση και μία εργασία. Η παιδαγωγική μας που βασίζεται σε έργα σας επιτρέπει να μαθαίνετε καθώς δημιουργείτε, ένας αποδεδειγμένος τρόπος για να "εγκατασταθούν" νέες δεξιότητες.
 
-**Ειλικρινείς ευχαριστίες στους συγγραφείς μας:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+**Καρδιές ευχαριστίες στους συγγραφείς μας:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Ειδικές ευχαριστίες 🙏 στους συγγραφείς, αξιολογητές και συνεισφέροντες περιεχόμενο [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/),** ιδιαίτερα Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+**🙏 Ειδικές ευχαριστίες 🙏 στους [Πρεσβευτές Φοιτητών Microsoft](https://studentambassadors.microsoft.com/) συγγραφείς, αξιολογητές και συνεισφέροντες περιεχόμενο,** ιδιαίτερα στους Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/el/00-Title.8af36cd35da1ac55.webp)|
 |:---:|
-| Επιστήμη Δεδομένων για Αρχάριους - _Sketchnote από [@nitya](https://twitter.com/nitya)_ |
+| Data Science για Αρχάριους - _Συντομόγραμμα από [@nitya](https://twitter.com/nitya)_ |
 
-### 🌐 Υποστήριξη σε Πολλαπλές Γλώσσες
+### 🌐 Υποστήριξη Πολλών Γλωσσών
 
-#### Υποστηρίζεται μέσω GitHub Action (Αυτόματο & Πάντα Ενημερωμένο)
+#### Υποστηρίζεται μέσω GitHub Action (Αυτοματοποιημένο & Πάντα Ενημερωμένο)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](./README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **Προτιμάς να κάνεις Κλωνοποίηση Τοπικά;**
+> **Προτιμάτε να Κλωνοποιήσετε Τοπικά;**
 
-> Αυτό το αποθετήριο περιλαμβάνει 50+ μεταφράσεις σε γλώσσες που αυξάνουν σημαντικά το μέγεθος κατεβάσματος. Για κλωνοποίηση χωρίς τις μεταφράσεις, χρησιμοποίησε sparse checkout:
+> Αυτό το αποθετήριο περιλαμβάνει 50+ μεταφράσεις γλωσσών που αυξάνουν σημαντικά το μέγεθος λήψης. Για να κάνετε κλωνοποίηση χωρίς τις μεταφράσεις, χρησιμοποιήστε sparse checkout:
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
 > cd Data-Science-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> Αυτό σου δίνει όλα όσα χρειάζεσαι για να ολοκληρώσεις το μάθημα με πολύ πιο γρήγορο κατέβασμα.
+> Αυτό σας δίνει όλα όσα χρειάζεστε για να ολοκληρώσετε το μάθημα με πολύ ταχύτερη λήψη.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Αν επιθυμείς να υποστηριχθούν επιπλέον γλώσσες μετάφρασης, αυτές παρατίθενται [εδώ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Εάν θέλετε να υποστηριχθούν επιπλέον γλώσσες μετάφρασης, αυτές αναφέρονται [εδώ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-#### Γίνε Μέλος της Κοινότητάς μας  
+#### Ελάτε στην Κοινότητά μας 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Διοργανώνουμε μια σειρά Discord Learn with AI, μάθε περισσότερα και γίνε μέλος στο [Learn with AI Series](https://aka.ms/learnwithai/discord) από 18 - 30 Σεπτεμβρίου, 2025. Θα λάβεις συμβουλές και κόλπα για τη χρήση του GitHub Copilot στην Επιστήμη Δεδομένων.
+Έχουμε σε εξέλιξη μια σειρά Discord μάθησης με AI, μάθετε περισσότερα και γίνετε μέλος μας στο [Learn with AI Series](https://aka.ms/learnwithai/discord) από 18 - 30 Σεπτεμβρίου 2025. Θα λάβετε συμβουλές και κόλπα για τη χρήση του GitHub Copilot για την Επιστήμη Δεδομένων.
 
 ![Learn with AI series](../../translated_images/el/1.2b28cdc6205e26fe.webp)
 
 # Είσαι φοιτητής;
 
-Ξεκίνα με τους εξής πόρους:
+Ξεκίνα με τους παρακάτω πόρους:
 
-- [Student Hub σελίδα](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Σε αυτή τη σελίδα, θα βρεις πόρους για αρχάριους, πακέτα για φοιτητές και ακόμη και τρόπους να αποκτήσεις δωρεάν κουπόνι πιστοποίησης. Είναι μια σελίδα που θέλεις να προσθέσεις στα αγαπημένα σου και να την ελέγχεις τακτικά καθώς ανανεώνουμε το περιεχόμενο τουλάχιστον μηνιαίως.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Γίνε μέλος μιας παγκόσμιας κοινότητας φοιτητών πρεσβευτών, αυτό μπορεί να είναι ο δρόμος σου για τη Microsoft.
+- [Σελίδα Κέντρου Φοιτητών](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Σε αυτή τη σελίδα, θα βρεις πόρους για αρχάριους, πακέτα για φοιτητές και ακόμη τρόπους να πάρεις δωρεάν κουπόνι πιστοποίησης. Αυτή είναι μια σελίδα που θέλεις να αποθηκεύσεις στα αγαπημένα σου και να την ελέγχεις από καιρό σε καιρό καθώς ενημερώνουμε το περιεχόμενο τουλάχιστον κάθε μήνα.
+- [Πρεσβευτές Φοιτητών Microsoft](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Γίνε μέλος μιας παγκόσμιας κοινότητας φοιτητών πρεσβευτών, αυτό μπορεί να είναι ο δρόμος σου προς τη Microsoft.
 
 # Ξεκινώντας
 
 ## 📚 Τεκμηρίωση
 
-- **[Οδηγός Εγκατάστασης](INSTALLATION.md)** - Βήμα-βήμα οδηγίες για αρχάριους
+- **[Οδηγός Εγκατάστασης](INSTALLATION.md)** - Οδηγίες βήμα προς βήμα για αρχάριους
 - **[Οδηγός Χρήσης](USAGE.md)** - Παραδείγματα και συνηθισμένες εργασίες
-- **[Αντιμετώπιση Προβλημάτων](TROUBLESHOOTING.md)** - Λύσεις σε συνηθισμένα προβλήματα
-- **[Οδηγός Συμμετοχής](CONTRIBUTING.md)** - Πώς να συμβάλλετε στο έργο αυτό
-- **[Για Εκπαιδευτικούς](for-teachers.md)** - Οδηγίες διδασκαλίας και πόροι για την τάξη
+- **[Αντιμετώπιση Προβλημάτων](TROUBLESHOOTING.md)** - Λύσεις σε συνηθισμένα θέματα
+- **[Οδηγός Συνεργασίας](CONTRIBUTING.md)** - Πώς να συμβάλλετε σε αυτό το έργο
+- **[Για Εκπαιδευτικούς](for-teachers.md)** - Κατευθύνσεις διδασκαλίας και υλικό τάξης
 
 ## 👨‍🎓 Για Φοιτητές
-> **Απόλυτοι Αρχάριοι**: Νέοι στην επιστήμη δεδομένων; Ξεκίνα με τα [φιλικά για αρχάριους παραδείγματα](examples/README.md)! Αυτά τα απλά, καλά σχολιασμένα παραδείγματα θα σε βοηθήσουν να κατανοήσεις τις βάσεις πριν βουτήξεις στο πλήρες πρόγραμμα.
-> **[Φοιτητές](https://aka.ms/student-page)**: για να χρησιμοποιήσετε αυτό το πρόγραμμα μόνοι σας, κάντε fork ολόκληρο το αποθετήριο και ολοκληρώστε τις ασκήσεις μόνοι σας, ξεκινώντας με ένα κουίζ προ-διάλεξης. Μετά διάβασε τη διάλεξη και ολοκλήρωσε τις υπόλοιπες δραστηριότητες. Προσπάθησε να δημιουργήσεις τα έργα κατανοώντας τα μαθήματα αντί να αντιγράφεις τον κώδικα λύσης· ωστόσο, αυτός ο κώδικας είναι διαθέσιμος στους φακέλους /solutions σε κάθε μάθημα προσανατολισμένο σε έργα. Μια άλλη ιδέα είναι να σχηματίσεις μια ομάδα μελέτης με φίλους και να πάτε μαζί το περιεχόμενο. Για περαιτέρω μελέτη, προτείνουμε το [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Απόλυτοι Αρχάριοι**: Νέοι στην επιστήμη δεδομένων; Ξεκινήστε με τα [φιλικά προς αρχάριους παραδείγματά μας](examples/README.md)! Αυτά τα απλά, καλά σχολιασμένα παραδείγματα θα σας βοηθήσουν να κατανοήσετε τα βασικά πριν βουτήξετε στο πλήρες πρόγραμμα σπουδών.
+> **[Φοιτητές](https://aka.ms/student-page)**: για να χρησιμοποιήσετε αυτό το πρόγραμμα σπουδών μόνοι σας, κάντε fork όλο το repository και ολοκληρώστε τις ασκήσεις μόνοι σας, ξεκινώντας με ένα κουίζ πριν το μάθημα. Στη συνέχεια διαβάστε το μάθημα και ολοκληρώστε τις υπόλοιπες δραστηριότητες. Προσπαθήστε να δημιουργήσετε τα έργα κατανοώντας τα μαθήματα αντί να αντιγράψετε τον κώδικα λύσης· ωστόσο, αυτός ο κώδικας είναι διαθέσιμος στους φακέλους /solutions σε κάθε μάθημα με προσανατολισμό σε έργο. Μια άλλη ιδέα είναι να δημιουργήσετε μια ομάδα μελέτης με φίλους και να περάσετε το περιεχόμενο μαζί. Για περαιτέρω μελέτη, προτείνουμε το [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
-**Γρήγορη Έναρξη:**
-1. Δες τον [Οδηγό Εγκατάστασης](INSTALLATION.md) για να ρυθμίσεις το περιβάλλον σου
-2. Διάβασε τον [Οδηγό Χρήσης](USAGE.md) για να μάθεις πώς να δουλεύεις με το πρόγραμμα
-3. Ξεκίνησε με το Μάθημα 1 και δούλεψε σειριακά
-4. Γίνε μέλος της [κοινότητάς μας στο Discord](https://aka.ms/ds4beginners/discord) για υποστήριξη
+**Γρήγορη Εκκίνηση:**
+1. Ελέγξτε τον [Οδηγό Εγκατάστασης](INSTALLATION.md) για να ρυθμίσετε το περιβάλλον σας
+2. Ανασκοπήστε τον [Οδηγό Χρήσης](USAGE.md) για να μάθετε πώς να δουλέψετε με το πρόγραμμα σπουδών
+3. Ξεκινήστε με το Μάθημα 1 και συνεχίστε διαδοχικά
+4. Γίνετε μέλος της [κοινότητας Discord μας](https://aka.ms/ds4beginners/discord) για υποστήριξη
 
 ## 👩‍🏫 Για Εκπαιδευτικούς
 
-> **Εκπαιδευτικοί**: έχουμε [περιλάβει κάποιες προτάσεις](for-teachers.md) για το πώς να χρησιμοποιήσετε αυτό το πρόγραμμα. Θα χαρούμε πολύ να λάβουμε τα σχόλιά σας [στο φόρουμ συζητήσεων](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Εκπαιδευτικοί**: έχουμε [συμπεριλάβει μερικές προτάσεις](for-teachers.md) για το πώς να χρησιμοποιήσετε αυτό το πρόγραμμα σπουδών. Θα χαρούμε να λάβουμε τα σχόλιά σας [στο φόρουμ συζητήσεών μας](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 ## Γνωρίστε την Ομάδα
 
 [![Προωθητικό βίντεο](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Προωθητικό βίντεο")
 
 **Gif από** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 Κάντε κλικ στην εικόνα παραπάνω για ένα βίντεο σχετικά με το έργο και τα άτομα που το δημιούργησαν!
+> 🎥 Κάντε κλικ στην εικόνα παραπάνω για ένα βίντεο σχετικά με το έργο και τους ανθρώπους που το δημιούργησαν!
 
 ## Παιδαγωγική
 
-Έχουμε επιλέξει δύο παιδαγωγικές αρχές κατά την κατασκευή αυτής της διδακτέας ύλης: να είναι βασισμένη σε έργα και να περιλαμβάνει συχνά κουίζ. Μέχρι το τέλος αυτής της σειράς, οι μαθητές θα έχουν μάθει βασικές αρχές της επιστήμης των δεδομένων, συμπεριλαμβανομένων ηθικών εννοιών, προετοιμασίας δεδομένων, διαφορετικών τρόπων εργασίας με δεδομένα, οπτικοποίησης δεδομένων, ανάλυσης δεδομένων, πραγματικών περιπτώσεων χρήσης της επιστήμης των δεδομένων και άλλα.
+Έχουμε επιλέξει δύο παιδαγωγικές αρχές κατά την κατασκευή αυτού του προγράμματος σπουδών: να είναι βασισμένο σε έργα και να περιλαμβάνει συχνά κουίζ. Στο τέλος αυτής της σειράς, οι μαθητές θα έχουν μάθει βασικές αρχές της επιστήμης δεδομένων, συμπεριλαμβανομένων ηθικών εννοιών, προετοιμασίας δεδομένων, διαφόρων τρόπων εργασίας με δεδομένα, οπτικοποίησης δεδομένων, ανάλυσης δεδομένων, πραγματικών περιπτώσεων χρήσης της επιστήμης δεδομένων και άλλα.
 
-Επιπλέον, ένα κουίζ χαμηλής σημασίας πριν από το μάθημα θέτει την πρόθεση του μαθητή για την εκμάθηση ενός θέματος, ενώ ένα δεύτερο κουίζ μετά το μάθημα διασφαλίζει περαιτέρω διατήρηση. Αυτή η διδακτέα ύλη σχεδιάστηκε να είναι ευέλικτη και διασκεδαστική και μπορεί να ληφθεί ολόκληρη ή μεμονωμένα. Τα έργα ξεκινούν μικρά και γίνονται όλο και πιο πολύπλοκα μέχρι το τέλος του κύκλου των 10 εβδομάδων.
+Επιπλέον, ένα μικρής κλίμακας κουίζ πριν από ένα μάθημα θέτει την πρόθεση του μαθητή προς την εκμάθηση ενός θέματος, ενώ ένα δεύτερο κουίζ μετά το μάθημα διασφαλίζει περαιτέρω συγκράτηση. Αυτό το πρόγραμμα σπουδών σχεδιάστηκε να είναι ευέλικτο και διασκεδαστικό και μπορεί να ολοκληρωθεί ολόκληρο ή μεμονωμένα. Τα έργα ξεκινούν μικρά και γίνονται ολοένα και πιο πολύπλοκα μέχρι το τέλος του κύκλου των 10 εβδομάδων.
 
-> Βρείτε τις [Οδηγίες Συμπεριφοράς μας](CODE_OF_CONDUCT.md), τις οδηγίες [Συμβολής](CONTRIBUTING.md) και [Μετάφρασης](TRANSLATIONS.md). Εκτιμούμε τα εποικοδομητικά σας σχόλια!
+> Βρείτε τους [Κανόνες Συμπεριφοράς μας](CODE_OF_CONDUCT.md), [Κατευθυντήριες Οδηγίες Συμμετοχής](CONTRIBUTING.md), [Μετάφρασης](TRANSLATIONS.md). Καλωσορίζουμε τα εποικοδομητικά σας σχόλια!
 
 ## Κάθε μάθημα περιλαμβάνει:
 
-- Προαιρετική σημείωση σχεδίου (sketchnote)
+- Προαιρετικό σκίτσο σημειώσεων
 - Προαιρετικό συμπληρωματικό βίντεο
-- Προ-μαθηματικό κουίζ προθέρμανσης
+- Προ-μάθημα ζέσταμα κουίζ
 - Γραπτό μάθημα
-- Για μαθήματα βασισμένα σε έργα, βήμα-βήμα οδηγίες για το πώς να κατασκευάσετε το έργο
+- Για μαθήματα βασισμένα σε έργα, βήμα-βήμα οδηγίες για την κατασκευή του έργου
 - Έλεγχοι γνώσεων
 - Μια πρόκληση
 - Συμπληρωματική ανάγνωση
-- Ανάθεση εργασίας
-- [Μετα-μαθηματικό κουίζ](https://ff-quizzes.netlify.app/en/)
+- Ανάθεση
+- [Μετα-μάθημα κουίζ](https://ff-quizzes.netlify.app/en/)
 
-> **Μια σημείωση για τα κουίζ**: Όλα τα κουίζ βρίσκονται στον φάκελο Quiz-App, με συνολικά 40 κουίζ των τριών ερωτήσεων το καθένα. Συνδέονται από τα μαθήματα, αλλά η εφαρμογή κουίζ μπορεί να τρέξει τοπικά ή να αναπτυχθεί στο Azure· ακολουθήστε τις οδηγίες στον φάκελο `quiz-app`. Βρίσκονται σε διαδικασία σταδιακής τοπικοποίησης.
+> **Σημείωση για τα κουίζ**: Όλα τα κουίζ βρίσκονται στον φάκελο Quiz-App, συνολικά 40 κουίζ με τρεις ερωτήσεις το καθένα. Συνδέονται μέσα στα μαθήματα, αλλά η εφαρμογή κουίζ μπορεί να τρέξει τοπικά ή να αναπτυχθεί στο Azure· ακολουθήστε τις οδηγίες στο φάκελο `quiz-app`. Βρίσκονται σταδιακά σε διαδικασία τοπικοποίησης.
 
-## 🎓 Παραδείγματα φιλικά προς αρχάριους
+## 🎓 Παραδείγματα Φιλικά για Αρχάριους
 
-**Νέοι στην Επιστήμη Δεδομένων;** Δημιουργήσαμε έναν ειδικό [κατάλογο παραδειγμάτων](examples/README.md) με απλό, καλά σχολιασμένο κώδικα για να σας βοηθήσει να ξεκινήσετε:
+**Νέος στην Επιστήμη Δεδομένων;** Δημιουργήσαμε έναν ειδικό [κατάλογο παραδειγμάτων](examples/README.md) με απλό, καλο-σχολιασμένο κώδικα για να σας βοηθήσει να ξεκινήσετε:
 
-- 🌟 **Γεια σου Κόσμε** - Το πρώτο σας πρόγραμμα επιστήμης δεδομένων
+- 🌟 **Hello World** - Το πρώτο σας πρόγραμμα επιστήμης δεδομένων
 - 📂 **Φόρτωση Δεδομένων** - Μάθετε να διαβάζετε και να εξερευνάτε σύνολα δεδομένων
 - 📊 **Απλή Ανάλυση** - Υπολογίστε στατιστικά και βρείτε μοτίβα
-- 📈 **Βασική Οπτικοποίηση** - Δημιουργήστε διαγράμματα και γραφήματα
-- 🔬 **Πραγματικό Έργο** - Ολοκληρωμένη διαδικασία από την αρχή ως το τέλος
+- 📈 **Βασική Οπτικοποίηση** - Δημιουργήστε γραφήματα και διαγράμματα
+- 🔬 **Πραγματικό Έργο** - Πλήρης ροή εργασίας από την αρχή έως το τέλος
 
-Κάθε παράδειγμα περιλαμβάνει λεπτομερή σχόλια που εξηγούν κάθε βήμα, καθιστώντας το ιδανικό για απόλυτους αρχάριους!
+Κάθε παράδειγμα περιλαμβάνει λεπτομερή σχόλια που εξηγούν κάθε βήμα, καθιστώντας το τέλειο για απόλυτους αρχάριους!
 
 👉 **[Ξεκινήστε με τα παραδείγματα](examples/README.md)** 👈
 
 ## Μαθήματα
 
 
-|![ Σημείωση σχεδίου από @sketchthedocs https://sketchthedocs.dev](../../translated_images/el/00-Roadmap.4905d6567dff4753.webp)|
+|![ Σκίτσο σημειώσεων από @sketchthedocs https://sketchthedocs.dev](../../translated_images/el/00-Roadmap.4905d6567dff4753.webp)|
 |:---:|
-| Επιστήμη Δεδομένων για Αρχάριους: Οδικός Χάρτης - _Σημείωση σχεδίου από [@nitya](https://twitter.com/nitya)_ |
+| Επιστήμη Δεδομένων για Αρχάριους: Χάρτης Διαδρομών - _Σκίτσο σημειώσεων από [@nitya](https://twitter.com/nitya)_ |
 
 
-| Αριθμός Μαθήματος | Θέμα | Ομαδοποίηση Μαθήματος | Μαθησιακοί Στόχοι | Συνδεδεμένο Μάθημα | Συγγραφέας |
+| Αριθμός Μαθήματος | Θέμα | Ομάδα Μαθημάτων | Μαθησιακοί Στόχοι | Συνδεδεμένο Μάθημα | Συγγραφέας |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Ορισμός της Επιστήμης Δεδομένων | [Εισαγωγή](1-Introduction/README.md) | Μάθετε τις βασικές έννοιες πίσω από την επιστήμη δεδομένων και πώς σχετίζεται με την τεχνητή νοημοσύνη, τη μηχανική μάθηση και τα μεγάλα δεδομένα. | [μάθημα](1-Introduction/01-defining-data-science/README.md) [βίντεο](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Ηθική της Επιστήμης Δεδομένων | [Εισαγωγή](1-Introduction/README.md) | Έννοιες Ηθικής Δεδομένων, Προκλήσεις & Πλαίσια. | [μάθημα](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Ορισμός των Δεδομένων | [Εισαγωγή](1-Introduction/README.md) | Πώς ταξινομούνται τα δεδομένα και οι κοινές πηγές τους. | [μάθημα](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Εισαγωγή στη Στατιστική & Πιθανότητες | [Εισαγωγή](1-Introduction/README.md) | Οι μαθηματικές τεχνικές πιθανοτήτων και στατιστικής για την κατανόηση των δεδομένων. | [μάθημα](1-Introduction/04-stats-and-probability/README.md) [βίντεο](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Εργασία με Σχεσιακά Δεδομένα | [Εργασία με Δεδομένα](2-Working-With-Data/README.md) | Εισαγωγή στα σχεσιακά δεδομένα και τα βασικά της εξερεύνησης και ανάλυσης σχεσιακών δεδομένων με τη Γλώσσα Δομημένων Ερωτημάτων, γνωστή και ως SQL (προφέρεται “σι-κουελ”). | [μάθημα](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 01 | Ορισμός Επιστήμης Δεδομένων | [Εισαγωγή](1-Introduction/README.md) | Μάθετε τις βασικές έννοιες γύρω από την επιστήμη δεδομένων και πώς σχετίζεται με την τεχνητή νοημοσύνη, τη μηχανική μάθηση και τα μεγάλα δεδομένα. | [μάθημα](1-Introduction/01-defining-data-science/README.md) [βίντεο](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | Ηθική στην Επιστήμη Δεδομένων | [Εισαγωγή](1-Introduction/README.md) | Έννοιες ηθικής δεδομένων, προκλήσεις και πλαίσια. | [μάθημα](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | Ορισμός Δεδομένων | [Εισαγωγή](1-Introduction/README.md) | Πώς ταξινομούνται τα δεδομένα και οι κοινές πηγές τους. | [μάθημα](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Εισαγωγή στη Στατιστική & Πιθανότητες | [Εισαγωγή](1-Introduction/README.md) | Οι μαθηματικές τεχνικές πιθανότητας και στατιστικής για κατανόηση των δεδομένων. | [μάθημα](1-Introduction/04-stats-and-probability/README.md) [βίντεο](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Εργασία με Σχεσιακά Δεδομένα | [Εργασία με Δεδομένα](2-Working-With-Data/README.md) | Εισαγωγή στα σχεσιακά δεδομένα και στα βασικά της εξερεύνησης και ανάλυσης σχεσιακών δεδομένων με τη Γλώσσα Δομημένων Ερωτημάτων, γνωστή και ως SQL (προφέρεται “σι-κουελ”). | [μάθημα](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Εργασία με NoSQL Δεδομένα | [Εργασία με Δεδομένα](2-Working-With-Data/README.md) | Εισαγωγή σε μη σχεσιακά δεδομένα, τους διάφορους τύπους τους και τα βασικά της εξερεύνησης και ανάλυσης βάσεων δεδομένων εγγράφων. | [μάθημα](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Εργασία με Python | [Εργασία με Δεδομένα](2-Working-With-Data/README.md) | Βασικά της χρήσης της Python για εξερεύνηση δεδομένων με βιβλιοθήκες όπως η Pandas. Συνιστάται βασική κατανόηση προγραμματισμού Python. | [μάθημα](2-Working-With-Data/07-python/README.md) [βίντεο](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Προετοιμασία Δεδομένων | [Εργασία με Δεδομένα](2-Working-With-Data/README.md) | Θέματα τεχνικών δεδομένων για καθαρισμό και μετασχηματισμό των δεδομένων ώστε να αντιμετωπιστούν προκλήσεις όπως τα ελλιπή, ανακριβή ή ατελή δεδομένα. | [μάθημα](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 07 | Εργασία με Python | [Εργασία με Δεδομένα](2-Working-With-Data/README.md) | Βασικά της χρήσης της Python για εξερεύνηση δεδομένων με βιβλιοθήκες όπως οι Pandas. Συνιστάται θεμελιώδης κατανόηση προγραμματισμού Python. | [μάθημα](2-Working-With-Data/07-python/README.md) [βίντεο](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Προετοιμασία Δεδομένων | [Εργασία με Δεδομένα](2-Working-With-Data/README.md) | Θέματα τεχνικών καθαρισμού και μετασχηματισμού δεδομένων για αντιμετώπιση προκλήσεων όπως ελλιπή, ανακριβή ή ατελή δεδομένα. | [μάθημα](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Οπτικοποίηση Ποσοτήτων | [Οπτικοποίηση Δεδομένων](3-Data-Visualization/README.md) | Μάθετε πώς να χρησιμοποιείτε το Matplotlib για να οπτικοποιήσετε δεδομένα πουλιών 🦆 | [μάθημα](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Οπτικοποίηση Κατανομών Δεδομένων | [Οπτικοποίηση Δεδομένων](3-Data-Visualization/README.md) | Οπτικοποίηση παρατηρήσεων και τάσεων μέσα σε ένα διάστημα. | [μάθημα](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Οπτικοποίηση Αναλογιών | [Οπτικοποίηση Δεδομένων](3-Data-Visualization/README.md) | Οπτικοποίηση διακριτών και ομαδοποιημένων ποσοστών. | [μάθημα](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Οπτικοποίηση Συσχετίσεων | [Οπτικοποίηση Δεδομένων](3-Data-Visualization/README.md) | Οπτικοποίηση συνδέσεων και συσχετίσεων μεταξύ συνόλων δεδομένων και των μεταβλητών τους. | [μάθημα](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Σημαντικές Οπτικοποιήσεις | [Οπτικοποίηση Δεδομένων](3-Data-Visualization/README.md) | Τεχνικές και καθοδήγηση για να κάνετε τις οπτικοποιήσεις σας πολύτιμες για αποτελεσματική επίλυση προβλημάτων και εξαγωγή γνώσεων. | [μάθημα](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | Οπτικοποίηση Σχέσεων | [Οπτικοποίηση Δεδομένων](3-Data-Visualization/README.md) | Οπτικοποίηση συνδέσεων και συσχετίσεων μεταξύ συνόλων δεδομένων και των μεταβλητών τους. | [μάθημα](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Σημαντικές Οπτικοποιήσεις | [Οπτικοποίηση Δεδομένων](3-Data-Visualization/README.md) | Τεχνικές και οδηγίες για να κάνετε τις οπτικοποιήσεις σας πολύτιμες για αποτελεσματική επίλυση προβλημάτων και ανάλυση. | [μάθημα](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Εισαγωγή στον κύκλο ζωής της Επιστήμης Δεδομένων | [Κύκλος Ζωής](4-Data-Science-Lifecycle/README.md) | Εισαγωγή στον κύκλο ζωής της επιστήμης δεδομένων και το πρώτο βήμα της απόκτησης και εξαγωγής δεδομένων. | [μάθημα](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Ανάλυση | [Κύκλος Ζωής](4-Data-Science-Lifecycle/README.md) | Αυτή η φάση του κύκλου ζωής της επιστήμης δεδομένων εστιάζει σε τεχνικές ανάλυσης δεδομένων. | [μάθημα](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Επικοινωνία | [Κύκλος Ζωής](4-Data-Science-Lifecycle/README.md) | Αυτή η φάση του κύκλου ζωής της επιστήμης δεδομένων εστιάζει στην παρουσίαση των ευρημάτων από τα δεδομένα με τρόπο που διευκολύνει τους λήπτες αποφάσεων να κατανοήσουν. | [μάθημα](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Επιστήμη Δεδομένων στο Cloud | [Cloud Δεδομένα](5-Data-Science-In-Cloud/README.md) | Αυτή η σειρά μαθημάτων εισάγει την επιστήμη δεδομένων στο cloud και τα οφέλη της. | [μάθημα](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) και [Maud](https://twitter.com/maudstweets) |
-| 18 | Επιστήμη Δεδομένων στο Cloud | [Cloud Δεδομένα](5-Data-Science-In-Cloud/README.md) | Εκπαίδευση μοντέλων χρησιμοποιώντας εργαλεία Low Code. |[μάθημα](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) και [Maud](https://twitter.com/maudstweets) |
-| 19 | Επιστήμη Δεδομένων στο Cloud | [Cloud Δεδομένα](5-Data-Science-In-Cloud/README.md) | Ανάπτυξη μοντέλων με το Azure Machine Learning Studio. | [μάθημα](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) και [Maud](https://twitter.com/maudstweets) |
+| 15 | Ανάλυση | [Κύκλος Ζωής](4-Data-Science-Lifecycle/README.md) | Αυτή η φάση του κύκλου ζωής της επιστήμης δεδομένων επικεντρώνεται σε τεχνικές ανάλυσης δεδομένων. | [μάθημα](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Επικοινωνία | [Κύκλος Ζωής](4-Data-Science-Lifecycle/README.md) | Αυτή η φάση του κύκλου ζωής της επιστήμης δεδομένων εστιάζει στην παρουσίαση των ευρημάτων από τα δεδομένα με τρόπο που διευκολύνει τους φορείς λήψης αποφάσεων να κατανοήσουν. | [μάθημα](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | Επιστήμη Δεδομένων στο Νέφος | [Δεδομένα στο Νέφος](5-Data-Science-In-Cloud/README.md) | Αυτή η σειρά μαθημάτων εισάγει την επιστήμη δεδομένων στο νέφος και τα οφέλη της. | [μάθημα](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) και [Maud](https://twitter.com/maudstweets) |
+| 18 | Επιστήμη Δεδομένων στο Νέφος | [Δεδομένα στο Νέφος](5-Data-Science-In-Cloud/README.md) | Εκπαίδευση μοντέλων χρησιμοποιώντας εργαλεία Low Code. |[μάθημα](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) και [Maud](https://twitter.com/maudstweets) |
+| 19 | Επιστήμη Δεδομένων στο Νέφος | [Δεδομένα στο Νέφος](5-Data-Science-In-Cloud/README.md) | Ανάπτυξη μοντέλων με το Azure Machine Learning Studio. | [μάθημα](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) και [Maud](https://twitter.com/maudstweets) |
 | 20 | Επιστήμη Δεδομένων στην Πράξη | [Στην Πράξη](6-Data-Science-In-Wild/README.md) | Έργα επιστήμης δεδομένων στον πραγματικό κόσμο. | [μάθημα](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-Ακολουθήστε αυτά τα βήματα για να ανοίξετε αυτό το παράδειγμα σε ένα Codespace:
-1. Κάντε κλικ στο αναπτυσσόμενο μενού Κώδικα και επιλέξτε την επιλογή Άνοιγμα με Codespaces.
-2. Επιλέξτε + Νέο codespace στο κάτω μέρος του παραθύρου.
-Για περισσότερες πληροφορίες, δείτε την [τεκμηρίωση GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+Ακολουθήστε αυτά τα βήματα για να ανοίξετε αυτό το δείγμα σε μία Codespace:
+1. Κάντε κλικ στο αναπτυσσόμενο μενού Code και επιλέξτε την επιλογή Open with Codespaces.
+2. Επιλέξτε + New codespace στο κάτω μέρος του παραθύρου.
+Για περισσότερες πληροφορίες, δείτε την [τεκμηρίωση του GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Ακολουθήστε αυτά τα βήματα για να ανοίξετε αυτό το αποθετήριο σε container χρησιμοποιώντας τον τοπικό σας υπολογιστή και το VSCode με την επέκταση VS Code Remote - Containers:
+Ακολουθήστε αυτά τα βήματα για να ανοίξετε αυτό το αποθετήριο σε container χρησιμοποιώντας τον τοπικό σας υπολογιστή και το VSCode μέσω της επέκτασης VS Code Remote - Containers:
 
-1. Αν είναι η πρώτη φορά που χρησιμοποιείτε ένα development container, βεβαιωθείτε ότι το σύστημά σας πληροί τις προϋποθέσεις (π.χ. έχει εγκατασταθεί το Docker) στην [τεκμηρίωση εκκίνησης](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Αν είναι η πρώτη φορά που χρησιμοποιείτε development container, βεβαιωθείτε ότι το σύστημά σας πληροί τις προϋποθέσεις (π.χ. έχει εγκατεστημένο το Docker) σύμφωνα με [την τεκμηρίωση εκκίνησης](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-Για να χρησιμοποιήσετε αυτό το αποθετήριο, μπορείτε είτε να το ανοίξετε μέσα σε έναν απομονωμένο τόμο Docker:
+Για να χρησιμοποιήσετε αυτό το αποθετήριο, μπορείτε είτε να το ανοίξετε σε έναν απομονωμένο τόμο Docker:
 
-**Σημείωση**: Υπό το καπό, αυτό θα χρησιμοποιήσει την εντολή Remote-Containers: **Clone Repository in Container Volume...** για να κλωνοποιήσει τον κώδικα πηγής σε έναν τόμο Docker αντί για το τοπικό σύστημα αρχείων. Οι [τόμοι](https://docs.docker.com/storage/volumes/) είναι ο προτιμώμενος μηχανισμός για τη διατήρηση δεδομένων container.
+**Σημείωση**: Στο παρασκήνιο, αυτό θα χρησιμοποιήσει την εντολή Remote-Containers: **Clone Repository in Container Volume...** για να κλωνοποιήσει τον πηγαίο κώδικα σε ένα Docker volume αντί του τοπικού συστήματος αρχείων. [Volumes](https://docs.docker.com/storage/volumes/) είναι ο προτιμώμενος μηχανισμός για την αποθήκευση δεδομένων container.
 
 Ή να ανοίξετε μια τοπικά κλωνοποιημένη ή κατεβασμένη έκδοση του αποθετηρίου:
 
 - Κλωνοποιήστε αυτό το αποθετήριο στο τοπικό σας σύστημα αρχείων.
 - Πατήστε F1 και επιλέξτε την εντολή **Remote-Containers: Open Folder in Container...**.
-- Επιλέξτε το κλωνοποιημένο αντίγραφο αυτού του φακέλου, περιμένετε να ξεκινήσει το container και δοκιμάστε.
+- Επιλέξτε το κλωνοποιημένο αντίγραφο αυτού του φακέλου, περιμένετε να ξεκινήσει το container και δοκιμάστε λειτουργίες.
 
 ## Πρόσβαση εκτός σύνδεσης
 
-Μπορείτε να τρέξετε αυτή την τεκμηρίωση εκτός σύνδεσης χρησιμοποιώντας το [Docsify](https://docsify.js.org/#/). Κάντε fork αυτό το αποθετήριο, [εγκαταστήστε το Docsify](https://docsify.js.org/#/quickstart) στον τοπικό σας υπολογιστή, στη συνέχεια μέσα στο ριζικό φάκελο αυτού του αποθετηρίου, πληκτρολογήστε `docsify serve`. Η ιστοσελίδα θα σερβιριστεί στην πόρτα 3000 στον localhost σας: `localhost:3000`.
+Μπορείτε να εκτελέσετε αυτή την τεκμηρίωση εκτός σύνδεσης χρησιμοποιώντας το [Docsify](https://docsify.js.org/#/). Φτιάξτε ένα fork αυτού του αποθετηρίου, [εγκαταστήστε το Docsify](https://docsify.js.org/#/quickstart) στον τοπικό σας υπολογιστή, και στη ρίζα του φακέλου αυτού του αποθετηρίου πληκτρολογήστε `docsify serve`. Ο ιστότοπος θα σερβιριστεί στην θύρα 3000 στο localhost σας: `localhost:3000`.
 
-> Σημείωση, τα notebooks δεν θα αποδίδονται μέσω Docsify, οπότε όταν χρειαστεί να τρέξετε ένα notebook, κάντε το ξεχωριστά στο VS Code με kernel Python.
+> Σημείωση, τα notebooks δεν προβάλλονται μέσω Docsify, οπότε όταν χρειάζεται να εκτελέσετε ένα notebook, κάντε το ξεχωριστά στο VS Code χρησιμοποιώντας ένα Python kernel.
 
-## Άλλες Διδακτικές Ενότητες
+## Άλλα Προγράμματα Σπουδών
 
-Η ομάδα μας παράγει και άλλες διδακτικές ενότητες! Δείτε:
+Η ομάδα μας παράγει και άλλα προγράμματα σπουδών! Δείτε:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
 [![LangChain4j για Αρχάριους](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
-[![LangChain.js για Αρχάριους](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-
+[![LangChain.js για Αρχάριους](https://img.shields.io/badge/LangChain.js%20για%20Αρχάριους-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain για Αρχάριους](https://img.shields.io/badge/LangChain%20για%20Αρχάριους-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
-### Azure / Edge / MCP / Agents
-[![AZD για Αρχάριους](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI για Αρχάριους](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP για Αρχάριους](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents για Αρχάριους](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+### Azure / Edge / MCP / Πράκτορες
+[![AZD για Αρχάριους](https://img.shields.io/badge/AZD%20για%20Αρχάριους-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI για Αρχάριους](https://img.shields.io/badge/Edge%20AI%20για%20Αρχάριους-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP για Αρχάριους](https://img.shields.io/badge/MCP%20για%20Αρχάριους-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Πράκτορες για Αρχάριους](https://img.shields.io/badge/AI%20Πράκτορες%20για%20Αρχάριους-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### Σειρά Δημιουργικής Τεχνητής Νοημοσύνης
-[![Generative AI για Αρχάριους](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+### Σειρά Δημιουργικού AI
+[![Δημιουργικό AI για Αρχάριους](https://img.shields.io/badge/Δημιουργικό%20AI%20για%20Αρχάριους-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Δημιουργικό AI (.NET)](https://img.shields.io/badge/Δημιουργικό%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![Δημιουργικό AI (Java)](https://img.shields.io/badge/Δημιουργικό%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![Δημιουργικό AI (JavaScript)](https://img.shields.io/badge/Δημιουργικό%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Βασική Μάθηση
-[![ML για Αρχάριους](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Επιστήμη Δεδομένων για Αρχάριους](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI για Αρχάριους](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Κυβερνοασφάλεια για Αρχάριους](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Ανάπτυξη Ιστού για Αρχάριους](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT για Αρχάριους](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![Ανάπτυξη XR για Αρχάριους](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![ML για Αρχάριους](https://img.shields.io/badge/ML%20για%20Αρχάριους-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Επιστήμη Δεδομένων για Αρχάριους](https://img.shields.io/badge/Επιστήμη%20Δεδομένων%20για%20Αρχάριους-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI για Αρχάριους](https://img.shields.io/badge/AI%20για%20Αρχάριους-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Ασφάλεια Κυβερνοχώρου για Αρχάριους](https://img.shields.io/badge/Ασφάλεια%20Κυβερνοχώρου%20για%20Αρχάριους-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Ανάπτυξη Ιστοσελίδων για Αρχάριους](https://img.shields.io/badge/Ανάπτυξη%20Ιστοσελίδων%20για%20Αρχάριους-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT για Αρχάριους](https://img.shields.io/badge/IoT%20για%20Αρχάριους-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![Ανάπτυξη XR για Αρχάριους](https://img.shields.io/badge/Ανάπτυξη%20XR%20για%20Αρχάριους-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Σειρά Copilot
-[![Copilot για ζευγαρωμένο προγραμματισμό AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot για C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Περιπέτεια Copilot](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![Copilot για Συνεργατικό Προγραμματισμό με AI](https://img.shields.io/badge/Copilot%20για%20Συνεργατικό%20Προγραμματισμό%20με%20AI-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot για C#/.NET](https://img.shields.io/badge/Copilot%20για%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Περιπέτεια Copilot](https://img.shields.io/badge/Περιπέτεια%20Copilot-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
 ## Λήψη Βοήθειας
 
-**Αντιμετωπίζετε προβλήματα;** Ελέγξτε τον [Οδηγό Επίλυσης Προβλημάτων](TROUBLESHOOTING.md) για λύσεις σε συνηθισμένα ζητήματα.
+**Αντιμετωπίζετε προβλήματα;** Δείτε τον [Οδηγό Επίλυσης Προβλημάτων](TROUBLESHOOTING.md) για λύσεις σε συνηθισμένα θέματα.
 
-Εάν κολλήσετε ή έχετε οποιεσδήποτε ερωτήσεις σχετικά με την κατασκευή εφαρμογών τεχνητής νοημοσύνης, συμμετέχετε με άλλους μαθητές και έμπειρους προγραμματιστές σε συζητήσεις για το MCP. Είναι μια υποστηρικτική κοινότητα όπου οι ερωτήσεις είναι ευπρόσδεκτες και η γνώση μοιράζεται ελεύθερα.
+Αν κολλήσετε ή έχετε οποιεσδήποτε ερωτήσεις σχετικά με την κατασκευή εφαρμογών AI, συμμετέχετε με άλλους μαθητές και έμπειρους προγραμματιστές σε συζητήσεις για το MCP. Είναι μια υποστηρικτική κοινότητα όπου οι ερωτήσεις είναι ευπρόσδεκτες και η γνώση μοιράζεται ελεύθερα.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Εάν έχετε σχόλια προϊόντος ή σφάλματα κατά την ανάπτυξη, επισκεφθείτε:
+Αν έχετε σχόλια προϊόντος ή σφάλματα κατά την κατασκευή επισκεφτείτε:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -249,5 +249,5 @@
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Αποποίηση ευθυνών**:  
-Αυτό το έγγραφο έχει μεταφραστεί χρησιμοποιώντας την υπηρεσία μετάφρασης AI [Co-op Translator](https://github.com/Azure/co-op-translator). Παρόλο που προσπαθούμε για ακρίβεια, παρακαλούμε να σημειώσετε ότι οι αυτοματοποιημένες μεταφράσεις ενδέχεται να περιέχουν λάθη ή ανακρίβειες. Το πρωτότυπο έγγραφο στη γλώσσα του θεωρείται η αυθεντική πηγή. Για κρίσιμες πληροφορίες συνιστάται επαγγελματική ανθρώπινη μετάφραση. Δεν φέρουμε ευθύνη για οποιεσδήποτε παρεξηγήσεις ή λανθασμένες ερμηνείες που προκύπτουν από τη χρήση αυτής της μετάφρασης.
+Αυτό το έγγραφο έχει μεταφραστεί χρησιμοποιώντας την υπηρεσία μετάφρασης AI [Co-op Translator](https://github.com/Azure/co-op-translator). Παρόλο που επιδιώκουμε την ακρίβεια, παρακαλούμε να γνωρίζετε ότι οι αυτόματες μεταφράσεις ενδέχεται να περιέχουν λάθη ή ανακρίβειες. Το αρχικό έγγραφο στη γλώσσα του αποτελεί την αυθεντική πηγή. Για κρίσιμες πληροφορίες, συνιστάται η επαγγελματική μετάφραση από ανθρώπους. Δεν φέρουμε ευθύνη για τυχόν παρεξηγήσεις ή λανθασμένες ερμηνείες που προκύπτουν από τη χρήση αυτής της μετάφρασης.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
