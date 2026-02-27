@@ -42,7 +42,7 @@ Vytvořte základní bodový graf, který ukáže vztah mezi cenou za libru medu
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/cs/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
+![scatterplot 1](../../../../translated_images/cs/scatter1.5e1aa5fd6706c5d1.webp)
 
 Nyní zobrazte stejná data s barevným schématem připomínajícím med, abyste ukázali, jak se cena vyvíjela v průběhu let. Toho můžete dosáhnout přidáním parametru 'hue', který ukáže změnu rok od roku:
 
@@ -51,7 +51,7 @@ Nyní zobrazte stejná data s barevným schématem připomínajícím med, abyst
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/cs/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
+![scatterplot 2](../../../../translated_images/cs/scatter2.c0041a58621ca702.webp)
 
 S touto změnou barevného schématu je zřejmé, že cena za libru medu v průběhu let výrazně stoupá. Pokud se podíváte na vzorek dat (například stát Arizona), můžete vidět vzorec zvyšování cen rok od roku s několika výjimkami:
 
@@ -80,7 +80,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Vidíte, že velikost bodů se postupně zvětšuje.
 
-![scatterplot 3](../../../../translated_images/cs/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
+![scatterplot 3](../../../../translated_images/cs/scatter3.3c160a3d1dcb36b3.webp)
 
 Je to jednoduchý případ nabídky a poptávky? Kvůli faktorům, jako je změna klimatu a kolaps včelstev, je k dispozici méně medu k prodeji rok od roku, a proto cena stoupá?
 
@@ -95,7 +95,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Odpověď: Ano, s několika výjimkami kolem roku 2003:
 
-![line chart 1](../../../../translated_images/cs/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
+![line chart 1](../../../../translated_images/cs/line1.f36eb465229a3b1f.webp)
 
 ✅ Protože Seaborn agreguje data do jedné čáry, zobrazuje „vícenásobná měření pro každou hodnotu x vykreslením průměru a 95% intervalem spolehlivosti kolem průměru“. [Zdroj](https://seaborn.pydata.org/tutorial/relational.html). Toto časově náročné chování lze vypnout přidáním `ci=None`.
 
@@ -105,7 +105,7 @@ Otázka: No, můžeme v roce 2003 také vidět nárůst zásob medu? Co když se
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/cs/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
+![line chart 2](../../../../translated_images/cs/line2.a5b3493dc01058af.webp)
 
 Odpověď: Ani ne. Pokud se podíváte na celkovou produkci, zdá se, že v tomto konkrétním roce skutečně vzrostla, i když obecně množství vyprodukovaného medu v těchto letech klesá.
 
@@ -130,7 +130,7 @@ sns.relplot(
 ```
 V této vizualizaci můžete porovnat výnos na včelstvo a počet včelstev rok od roku vedle sebe s nastavením wrap na 3 pro sloupce:
 
-![facet grid](../../../../translated_images/cs/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
+![facet grid](../../../../translated_images/cs/facet.6a34851dcd540050.webp)
 
 Pro tento dataset nic zvláštního nevyniká, pokud jde o počet včelstev a jejich výnos rok od roku a stát od státu. Existuje jiný způsob, jak hledat korelaci mezi těmito dvěma proměnnými?
 
@@ -153,7 +153,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/cs/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
+![superimposed plots](../../../../translated_images/cs/dual-line.a4c28ce659603fab.webp)
 
 I když kolem roku 2003 nic zvláštního nevyniká, umožňuje nám to zakončit tuto lekci na trochu pozitivnější notě: i když celkový počet včelstev klesá, jejich počet se stabilizuje, i když jejich výnos na včelstvo klesá.
 

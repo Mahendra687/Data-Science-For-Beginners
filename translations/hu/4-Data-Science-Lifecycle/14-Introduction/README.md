@@ -16,7 +16,7 @@ Ezen a ponton valószínűleg már rájöttél, hogy az adattudomány egy folyam
 
 Ez a lecke az életciklus három részére összpontosít: adatgyűjtés, feldolgozás és karbantartás.
 
-![Az adattudomány életciklusának diagramja](../../../../translated_images/hu/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
+![Az adattudomány életciklusának diagramja](../../../../translated_images/hu/data-science-lifecycle.a1e362637503c4fb.webp)
 > Fotó: [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Adatgyűjtés
@@ -92,7 +92,7 @@ Fedezd fel a [Team Data Science Process életciklust](https://docs.microsoft.com
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/hu/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/hu/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/hu/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![Data Science Process Alliance Image](../../../../translated_images/hu/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | Kép: [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Kép: [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/27)

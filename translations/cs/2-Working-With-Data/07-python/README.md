@@ -4,7 +4,7 @@
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Práce s Pythonem - _Sketchnote od [@nitya](https://twitter.com/nitya)_                   |
 
-[![Úvodní video](../../../../translated_images/cs/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Úvodní video](../../../../translated_images/cs/video-ds-python.245247dc811db8e4.webp)](https://youtu.be/dZjWOGbsN4Y)
 
 Databáze nabízejí velmi efektivní způsoby ukládání dat a jejich dotazování pomocí dotazovacích jazyků, ale nejflexibilnějším způsobem zpracování dat je napsání vlastního programu pro manipulaci s daty. V mnoha případech by bylo efektivnější použít dotaz na databázi. Nicméně v některých situacích, kdy je potřeba složitější zpracování dat, to nelze snadno provést pomocí SQL. 
 Zpracování dat lze naprogramovat v jakémkoli programovacím jazyce, ale existují určité jazyky, které jsou na vyšší úrovni, pokud jde o práci s daty. Datoví vědci obvykle preferují jeden z následujících jazyků:
@@ -64,7 +64,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Graf časové řady](../../../../translated_images/cs/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
+![Graf časové řady](../../../../translated_images/cs/timeseries-1.80de678ab1cf727e.webp)
 
 Předpokládejme, že každý týden pořádáme večírek pro přátele a bereme dalších 10 balení zmrzliny na večírek. Můžeme vytvořit další sérii, indexovanou podle týdne, abychom to ukázali:
 ```python
@@ -75,7 +75,7 @@ Když sečteme dvě série dohromady, získáme celkový počet:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Graf časové řady](../../../../translated_images/cs/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
+![Graf časové řady](../../../../translated_images/cs/timeseries-2.aae51d575c55181c.webp)
 
 > **Poznámka**: Nepoužíváme jednoduchou syntaxi `total_items+additional_items`. Pokud bychom to udělali, dostali bychom mnoho hodnot `NaN` (*Not a Number*) v výsledné sérii. To je proto, že některé hodnoty indexu v sérii `additional_items` chybí, a přičtení `NaN` k čemukoli vede k `NaN`. Proto musíme při sčítání specifikovat parametr `fill_value`.
 
@@ -84,7 +84,7 @@ U časových řad můžeme také **převzorkovat** sérii na různé časové in
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Měsíční průměry časové řady](../../../../translated_images/cs/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
+![Měsíční průměry časové řady](../../../../translated_images/cs/timeseries-3.f3147cbc8c624881.webp)
 
 ### DataFrame
 
@@ -210,7 +210,7 @@ Prvním problémem, na který se zaměříme, je modelování epidemického ší
 
 Protože chceme ukázat, jak pracovat s daty, zveme vás k otevření [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) a jeho přečtení od začátku do konce. Můžete také spustit buňky a vyzkoušet některé výzvy, které jsme pro vás nechali na konci.
 
-![COVID Spread](../../../../translated_images/cs/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
+![COVID Spread](../../../../translated_images/cs/covidspread.f3d131c4f1d260ab.webp)
 
 > Pokud nevíte, jak spustit kód v Jupyter Notebooku, podívejte se na [tento článek](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -232,7 +232,7 @@ Kompletní příklad analýzy tohoto datasetu pomocí [Text Analytics for Health
 
 Otevřete [`notebook-papers.ipynb`](notebook-papers.ipynb) a přečtěte si jej od začátku do konce. Můžete také spustit buňky a vyzkoušet některé výzvy, které jsme pro vás nechali na konci.
 
-![Covid Medical Treatment](../../../../translated_images/cs/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
+![Covid Medical Treatment](../../../../translated_images/cs/covidtreat.b2ba59f57ca45fbc.webp)
 
 ## Zpracování obrazových dat
 

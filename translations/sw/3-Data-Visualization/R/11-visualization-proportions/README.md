@@ -88,7 +88,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, chati ya pai inayoonyesha uwiano wa data hii kulingana na madarasa haya mawili ya uyoga. Ni muhimu sana kupata mpangilio wa lebo sahihi, hasa hapa, kwa hivyo hakikisha unathibitisha mpangilio ambao safu ya lebo imejengwa!
 
-![chati ya pai](../../../../../translated_images/sw/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
+![chati ya pai](../../../../../translated_images/sw/pie1-wb.685df063673751f4.webp)
 
 ## Donati!
 
@@ -123,7 +123,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![chati ya donati](../../../../../translated_images/sw/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
+![chati ya donati](../../../../../translated_images/sw/donut-wb.34e6fb275da9d834.webp)
 
 Msimbo huu unatumia maktaba mbili - ggplot2 na webr. Kwa kutumia kipengele cha PieDonut cha maktaba ya webr, tunaweza kuunda chati ya donati kwa urahisi!
 
@@ -161,7 +161,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Kwa kutumia chati ya waffle, unaweza kuona wazi uwiano wa rangi za kofia za uyoga katika seti hii ya data. Cha kuvutia, kuna uyoga wengi wenye kofia za kijani!
 
-![chati ya waffle](../../../../../translated_images/sw/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
+![chati ya waffle](../../../../../translated_images/sw/waffle.aaa75c5337735a6e.webp)
 
 Katika somo hili, ulijifunza njia tatu za kuonyesha uwiano. Kwanza, unahitaji kupanga data yako katika kategoria na kisha kuamua ni njia gani bora ya kuonyesha data - pai, donati, au waffle. Zote ni tamu na zinamfurahisha mtumiaji kwa muhtasari wa haraka wa seti ya data.
 

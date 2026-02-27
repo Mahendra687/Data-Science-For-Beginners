@@ -16,7 +16,7 @@ V tuto chvíli jste si pravděpodobně uvědomili, že datová věda je proces. 
 
 Tato lekce se zaměřuje na 3 části životního cyklu: zachycení, zpracování a údržbu.
 
-![Diagram životního cyklu datové vědy](../../../../translated_images/cs/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
+![Diagram životního cyklu datové vědy](../../../../translated_images/cs/data-science-lifecycle.a1e362637503c4fb.webp)  
 > Foto od [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Zachycení
@@ -92,7 +92,7 @@ Prozkoumejte [životní cyklus procesu týmové datové vědy](https://docs.micr
 
 |Proces týmové datové vědy (TDSP)|Průmyslový standardní proces pro dolování dat (CRISP-DM)|
 |--|--|
-|![Životní cyklus týmové datové vědy](../../../../translated_images/cs/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Obrázek od Data Science Process Alliance](../../../../translated_images/cs/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
+|![Životní cyklus týmové datové vědy](../../../../translated_images/cs/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![Obrázek od Data Science Process Alliance](../../../../translated_images/cs/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | Obrázek od [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Obrázek od [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Kvíz po lekci](https://ff-quizzes.netlify.app/en/ds/quiz/27)
