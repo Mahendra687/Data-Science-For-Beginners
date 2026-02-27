@@ -4,7 +4,7 @@
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Lucrul cu Python - _Sketchnote de [@nitya](https://twitter.com/nitya)_                   |
 
-[![Video Introductiv](../../../../translated_images/ro/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Video Introductiv](../../../../translated_images/ro/video-ds-python.245247dc811db8e4.webp)](https://youtu.be/dZjWOGbsN4Y)
 
 Deși bazele de date oferă modalități foarte eficiente de stocare a datelor și de interogare a acestora folosind limbaje de interogare, cea mai flexibilă metodă de procesare a datelor este scrierea propriului program pentru manipularea datelor. În multe cazuri, o interogare SQL ar fi o metodă mai eficientă. Totuși, în unele situații, când este necesară o procesare mai complexă a datelor, aceasta nu poate fi realizată ușor folosind SQL. 
 Procesarea datelor poate fi programată în orice limbaj de programare, dar există anumite limbaje care sunt mai potrivite pentru lucrul cu date. De obicei, oamenii de știință în domeniul datelor preferă unul dintre următoarele limbaje:
@@ -66,7 +66,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Grafic Serii Temporale](../../../../translated_images/ro/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
+![Grafic Serii Temporale](../../../../translated_images/ro/timeseries-1.80de678ab1cf727e.webp)
 
 Acum să presupunem că în fiecare săptămână organizăm o petrecere pentru prieteni și luăm 10 pachete suplimentare de înghețată pentru petrecere. Putem crea un alt series, indexat pe săptămână, pentru a demonstra acest lucru:
 ```python
@@ -77,7 +77,7 @@ Când adunăm cele două series, obținem numărul total:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Grafic Serii Temporale](../../../../translated_images/ro/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
+![Grafic Serii Temporale](../../../../translated_images/ro/timeseries-2.aae51d575c55181c.webp)
 
 > **Notă** că nu folosim sintaxa simplă `total_items+additional_items`. Dacă am fi făcut acest lucru, am fi obținut multe valori `NaN` (*Not a Number*) în series-ul rezultat. Acest lucru se întâmplă deoarece lipsesc valori pentru unele puncte de index în series-ul `additional_items`, iar adunarea `NaN` cu orice altceva rezultă în `NaN`. Astfel, trebuie să specificăm parametrul `fill_value` în timpul adunării.
 
@@ -86,7 +86,7 @@ Cu serii temporale, putem **resampla** series-ul cu intervale de timp diferite. 
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Medii Lunare Serii Temporale](../../../../translated_images/ro/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
+![Medii Lunare Serii Temporale](../../../../translated_images/ro/timeseries-3.f3147cbc8c624881.webp)
 
 ### DataFrame
 
@@ -212,7 +212,7 @@ Prima problemă pe care ne vom concentra este modelarea răspândirii epidemiei 
 
 Deoarece dorim să demonstrăm cum să lucrăm cu datele, vă invităm să deschideți [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) și să îl citiți de la început până la sfârșit. Puteți, de asemenea, să executați celulele și să rezolvați unele provocări pe care le-am lăsat pentru voi la final.
 
-![COVID Spread](../../../../translated_images/ro/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
+![COVID Spread](../../../../translated_images/ro/covidspread.f3d131c4f1d260ab.webp)
 
 > Dacă nu știți cum să rulați codul în Jupyter Notebook, consultați [acest articol](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -234,7 +234,7 @@ Un exemplu complet de analiză a acestui set de date folosind serviciul cognitiv
 
 Deschideți [`notebook-papers.ipynb`](notebook-papers.ipynb) și citiți-l de la început până la sfârșit. Puteți, de asemenea, să executați celulele și să rezolvați unele provocări pe care le-am lăsat pentru voi la final.
 
-![Covid Medical Treatment](../../../../translated_images/ro/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
+![Covid Medical Treatment](../../../../translated_images/ro/covidtreat.b2ba59f57ca45fbc.webp)
 
 ## Procesarea Datelor din Imagini
 

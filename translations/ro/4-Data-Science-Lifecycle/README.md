@@ -1,6 +1,6 @@
 # Ciclu de Viață în Știința Datelor
 
-![communication](../../../translated_images/ro/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
+![communication](../../../translated_images/ro/communication.06d8e2a88d30d168.webp)
 > Fotografie de <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> pe <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 În aceste lecții, vei explora câteva aspecte ale ciclului de viață în Știința Datelor, inclusiv analiza și comunicarea legate de date.
