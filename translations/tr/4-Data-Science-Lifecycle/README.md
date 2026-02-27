@@ -1,6 +1,6 @@
 # Veri Bilimi Yaşam Döngüsü
 
-![communication](../../../translated_images/tr/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
+![communication](../../../translated_images/tr/communication.06d8e2a88d30d168.webp)
 > Fotoğraf: <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a>, <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> üzerinden
   
 Bu derslerde, Veri Bilimi yaşam döngüsünün bazı yönlerini, veri analizi ve iletişim dahil olmak üzere keşfedeceksiniz.

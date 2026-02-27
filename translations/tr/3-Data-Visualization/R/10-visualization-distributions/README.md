@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![her takıma göre maksimum uzunluk](../../../../../translated_images/tr/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![her takıma göre maksimum uzunluk](../../../../../translated_images/tr/max-length-per-order.e5b283d952c78c12.webp)
 
 Bu, her kuş takımına göre vücut uzunluğunun genel dağılımını gösterir, ancak gerçek dağılımları göstermek için en uygun yol değildir. Bu görev genellikle bir Histogram oluşturarak gerçekleştirilir.
 
@@ -48,7 +48,7 @@ Bu, her kuş takımına göre vücut uzunluğunun genel dağılımını gösteri
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![tüm veri kümesi üzerindeki dağılım](../../../../../translated_images/tr/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![tüm veri kümesi üzerindeki dağılım](../../../../../translated_images/tr/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Gördüğünüz gibi, bu veri kümesindeki 400'den fazla kuşun çoğu, Max Body Mass değerinin 2000'in altında olduğu aralığa düşmektedir. `bins` parametresini daha yüksek bir sayıya, örneğin 30'a değiştirerek veriler hakkında daha fazla bilgi edinin:
 
@@ -56,7 +56,7 @@ Gördüğünüz gibi, bu veri kümesindeki 400'den fazla kuşun çoğu, Max Body
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![30 bölmeli dağılım](../../../../../translated_images/tr/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![30 bölmeli dağılım](../../../../../translated_images/tr/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Bu grafik, dağılımı biraz daha ayrıntılı bir şekilde gösterir. Daha az sola eğimli bir grafik, yalnızca belirli bir aralıktaki verileri seçerek oluşturulabilir:
 
@@ -68,7 +68,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtrelenmiş histogram](../../../../../translated_images/tr/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![filtrelenmiş histogram](../../../../../translated_images/tr/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Diğer filtreleri ve veri noktalarını deneyin. Verilerin tam dağılımını görmek için, etiketli dağılımları göstermek için `['MaxBodyMass']` filtresini kaldırın.
 
@@ -82,7 +82,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Bu iki öğe arasında beklenen bir eksen boyunca bir korelasyon olduğu ve bir noktada özellikle güçlü bir yakınsama olduğu görülüyor:
 
-![2d grafik](../../../../../translated_images/tr/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![2d grafik](../../../../../translated_images/tr/2d-plot.c504786f439bd7eb.webp)
 
 Histogramlar, varsayılan olarak sayısal verilerle iyi çalışır. Peki ya metin verilerine göre dağılımları görmek isterseniz? 
 ## Metin verilerini kullanarak veri kümesindeki dağılımları keşfedin 
@@ -113,7 +113,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![kanat açıklığı ve koruma durumu](../../../../../translated_images/tr/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![kanat açıklığı ve koruma durumu](../../../../../translated_images/tr/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Minimum kanat açıklığı ile koruma durumu arasında iyi bir korelasyon görünmüyor. Bu yöntemi kullanarak veri kümesinin diğer öğelerini test edin. Farklı filtreler de deneyebilirsiniz. Herhangi bir korelasyon buluyor musunuz?
 
@@ -127,7 +127,7 @@ Hadi yoğunluk grafikleriyle çalışalım!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![yoğunluk grafiği](../../../../../translated_images/tr/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![yoğunluk grafiği](../../../../../translated_images/tr/density-plot.675ccf865b76c690.webp)
 
 Grafiğin, Minimum Kanat Açıklığı verileri için önceki grafiği nasıl yansıttığını görebilirsiniz; sadece biraz daha düzgün. İkinci grafikte oluşturduğunuz o keskin MaxBodyMass çizgisini yeniden oluşturup bu yöntemle çok iyi bir şekilde düzeltebilirsiniz:
 
@@ -135,7 +135,7 @@ Grafiğin, Minimum Kanat Açıklığı verileri için önceki grafiği nasıl ya
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![vücut kütlesi yoğunluğu](../../../../../translated_images/tr/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![vücut kütlesi yoğunluğu](../../../../../translated_images/tr/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Çok düzgün ama aşırı düzgün olmayan bir çizgi istiyorsanız, `adjust` parametresini düzenleyin: 
 
@@ -143,7 +143,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![daha az düzgün vücut kütlesi](../../../../../translated_images/tr/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![daha az düzgün vücut kütlesi](../../../../../translated_images/tr/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Bu tür grafik için mevcut parametreler hakkında okuyun ve deneyin!
 
@@ -153,7 +153,7 @@ Bu tür grafikler, açıklayıcı görselleştirmeler sunar. Örneğin, birkaç 
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![her takıma göre vücut kütlesi](../../../../../translated_images/tr/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![her takıma göre vücut kütlesi](../../../../../translated_images/tr/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Meydan Okuma
 

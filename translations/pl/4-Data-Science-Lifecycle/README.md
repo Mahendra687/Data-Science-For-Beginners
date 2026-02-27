@@ -1,6 +1,6 @@
 # Cykl życia Data Science
 
-![communication](../../../translated_images/pl/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
+![communication](../../../translated_images/pl/communication.06d8e2a88d30d168.webp)
 > Zdjęcie autorstwa <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> na <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 W tych lekcjach poznasz niektóre aspekty cyklu życia Data Science, w tym analizę i komunikację związaną z danymi.

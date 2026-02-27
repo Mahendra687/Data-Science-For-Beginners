@@ -13,7 +13,7 @@ L'interfaccia Explorer (mostrata nello screenshot qui sotto) ti consente di sele
  2. Esplorare il [Catalogo](https://planetarycomputer.microsoft.com/catalog) dei dataset - imparare lo scopo di ciascuno.
  3. Utilizzare l'Explorer - scegliere un dataset di interesse, selezionare una query e un'opzione di rendering pertinenti.
 
-![Il Planetary Computer Explorer](../../../../translated_images/it/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![Il Planetary Computer Explorer](../../../../translated_images/it/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Il tuo compito:`
 Ora studia la visualizzazione che viene generata nel browser e rispondi alle seguenti domande:
