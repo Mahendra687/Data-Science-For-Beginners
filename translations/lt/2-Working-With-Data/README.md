@@ -1,6 +1,6 @@
 # Darbas su duomenimis
 
-![data love](../../../translated_images/lt/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
+![data love](../../../translated_images/lt/data-love.a22ef29e6742c852.webp)
 > Nuotrauka <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> iš <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Šiose pamokose sužinosite, kaip galima valdyti, manipuliuoti ir naudoti duomenis programose. Susipažinsite su reliacinėmis ir nereliacinėmis duomenų bazėmis bei kaip jose galima saugoti duomenis. Išmoksite pagrindus, kaip naudotis Python valdant duomenis, ir atrasite daugybę būdų, kaip Python gali būti naudojamas duomenims valdyti ir analizuoti.

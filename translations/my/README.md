@@ -1,4 +1,4 @@
-# Data Science for Beginners - A Curriculum
+# Data Science for Beginners - သင်ရိုးညွှန်းတမ်း
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
@@ -17,183 +17,196 @@
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Microsoft တွင် Azure Cloud Advocates သည် Data Science အကြောင်းအားလုံးအတွက် ၁၀ ပတ်၊ ၂၀ ခန်းစာ များပါဝင်သည့် သင်ရိုးစဉ်တစ်ခုကို ပေးအပ်ရန်ဝမ်းမြောက်ပါသည်။ ခန်းစာတိုင်းတွင် ခန်းစာမတိုင်မီနှင့် ခန်းစာပြီးနောက်တွင် စစ်တမ်းများ၊ ခန်းစာကို ပြီးမြောက်စေရန် စာရေးထုတ်ပြန်ချက်များ၊ ဖြေရှင်းနည်းနှင့်တာဝန်ပေးအစီအစဉ်ပါဝင်သည်။ ကျွန်ုပ်တို့၏ ပရောဂျက်အခြေပြုသင်ကြားမှုနည်းလမ်းသည် သင်ယူသူ၏ ကျွမ်းကျင်မှုအသစ်များကို ထိရောက်စွာ သဘာဝကျကျသိရှိနိုင်စေသည်။
+Microsoft ရဲ့ Azure Cloud Advocates က Data Science အကြောင်း ၁၀ နာရီကြာ၊ သင်ခန်းစာ ၂၀ ပါသော သင်ရိုးညွှန်းတမ်းကို ပေးအပ်ရန် ဝမ်းမြောက်ပါသည်။ သင်ခန်းစာတစ်ခုစီတွင် သင်ခန်းစာမတိုင်မီနှင့် သင်ခန်းစာပြီးနောက် ပြန်လည်စစ်ဆေးနိုင်သော ဂေးဇင်းများ၊ သင်ခန်းစာကို ဖြည့်ဆည်းရန် လက်ရေးညွှန်ကြားချက်များ၊ ဖြေရှင်းချက်နှင့် အလုပ်လက်တွေ့ လေ့ကျင့်မှု ပါဝင်သည်။ ကျွန်ုပ်တို့၏ ပရောဂျက်အခြေခံသင်ကြားမှု များသည် သင်ယူရင်း ဆောက်လုပ်နိုင်ရန်ဖြစ်ပြီး၊ အသစ်သောကျွမ်းကျင်မှုများကို စွဲမြဲစေသည်။
 
-**ကျေးဇူးအထူးတင်ရှိသော ဆရာရေးသူများ**: [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer)။
+**ကျွန်ုပ်တို့၏ ပရောဂျက်ရေးသားသူများအား အထူးကျေးဇူးတင်ရှိပါသည်။** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer)။
 
-**🙏 ကျေးဇူးအထူး 🙏 [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) ဆရာရေးသူများ၊ ပြန်လည်သုံးသပ်သူများနှင့် အကြောင်းအရာပူးပေါင်းသူများသို့**, အထူးသဖြင့် Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)။
+**🙏 အထူးကျေးဇူးတင်ရှိပါသည် 🙏 ကျွန်ုပ်တို့၏ [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) ပရောဂျက်ရေးသားသူများ၊ ပြန်လည်သုံးသပ်သူများနှင့် အကြောင်းအရာထည့်သွင်းသူများအား၊** အထူးသဖြင့် Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/my/00-Title.8af36cd35da1ac55.webp)|
 |:---:|
 | Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-### 🌐 ဘာသာစကားစုံထောက်ပံ့မှု
+### 🌐 ဘာသာစကားများစွာ တွေ့ဆုံနိုင်မှု
 
-#### GitHub Action ဖြင့် ထောက်ပံ့ထား (အလိုအလျောက်နှင့် အမြဲတမ်း အဆင့်မြှင့်)
+#### GitHub Action မှတဆင့် ထောက်ပံ့ထားသည် (အလိုအလျောက်နှင့် အမြဲတမ်းအသစ်ပြုလုပ်ထားသည်)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](./README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **ဒေသတွင်းတွင် ကလုံဖို့ ဦးစားပေးပါသလား?**
-
-> ဤ repository တွင် ဘာသာစကား ၅၀ ကျော် ပါဝင်မှုကြောင့် ဒေါင်းလုပ်အရွယ်အစား များပြားပါသည်။ ဘာသာပြန်များ မပါဘဲ ကလုံလိုပါက sparse checkout ကို အသုံးပြုပါ:
+> **တည်နေရာဒေသတွင် ပုံမှန်ကူးယူလိုပါသလား?**
+>
+> ဤဂိုဒေါင်းသည် ဘာသာစကား ၅၀ ကျော်၏ ဘာသာပြန်ချက်များပါဝင်လို့ ဒေါင်းလုပ်အရွယ်အစားကြီးမားလာသည်။ ဘာသာပြန်ချက်များမပါဘဲ ကူးယူချင်ပါက sparse checkout ကို အသုံးပြုပါ။
+>
+> **Bash / macOS / Linux:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
 > cd Data-Science-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> ၎င်းသည် သင်ကြားမှုဆိုင်ရာလိုအပ်ချက်အားလုံးကို ပေးသည့်အပြင် ဒေါင်းလုပ်ကို ပိုမိုမြန်ဆန်စေပါသည်။
+>
+> **CMD (Windows):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
+> cd Data-Science-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> ဒါက သင်သင်ကြားသင့်သည့်အရာအားလုံးကို ပိုမိုလျင်မြန်စွာ ဒေါင်းလုပ်လုပ်နိုင်စေပါသည်။
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**ထပ်မံဘာသာပြန်မှုများ ထောက်ပံ့ရေးလိုပါက [ဤနေရာတွင်](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) ပြထားပါသည်**
+**အပို ဘာသာပြန်ချက် ပေါင်းစည်းခြင်း လိုပါက [ဒါ]တွင် ရနိုင်ပါသည်။ (https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-#### ကျွန်ုပ်တို့့အသိုင်းအဝိုင်းတွင် ပါဝင်ပါ  
+#### ကျွန်ုပ်တို့၏ အသိုင်းအဝိုင်းထဲ ဝင်ပါ
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-AI နှင့်အတူ သင်ယူနိုင်သော Discord စီးရီး ရှိပါသည်၊ ပို၍လေ့လာရန်နှင့် ပါဝင်ရန် [Learn with AI Series](https://aka.ms/learnwithai/discord) တွင် ၂၀၂၅ ခုနှစ် စက်တင်ဘာ ၁၈ ရက်မှ ၃၀ ရက်ထိ ပါဝင်နိုင်ပါသည်။ GitHub Copilot ကို Data Science အတွက် အသုံးပြုနည်းများနှင့် လမ်းညွှန်ချက်များ လေ့လာရရှိမည် ဖြစ်သည်။
+Discord တွင် AI နည်းပညာသင်ယူမှု စီးရီးများ ဆက်လက် ဖြစ်ပွားနေပြီး၊ ၂၀၂၅ ခုနှစ် စက်တင်ဘာ ၁၈ ရက်မှ ၃၀ ရက်အထိ [Learn with AI Series](https://aka.ms/learnwithai/discord) မှ ကြိုဆိုဖိတ်ခေါ်ပါတယ်။ GitHub Copilot ကို Data Science အတွက် အသုံးပြုနည်း လှောကတော်များရရှိမည်ဖြစ်သည်။
 
 ![Learn with AI series](../../translated_images/my/1.2b28cdc6205e26fe.webp)
 
-# သင်သည် ကျောင်းသူ/သူမ တစ်ဦးလား?
+# သင်ကျောင်းသားဆိုပါသလား?
 
-အောက်ပါ ရင်းမြစ်များဖြင့် စတင်လိုက်ပါ-
+အောက်ပါအရင်းအမြစ်များဖြင့် စတင်ပါ:
 
-- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) ဤစာမျက်နှာတွင် စပြီးသင်ယူသူအတွက်ရင်းမြစ်များ၊ ကျောင်းသားအထုပ်များနှင့် အခမဲ့ ယူဆာဆာတောင်လက်မှတ် ရယူနည်း အားလုံး ပါဝင်သည်။ ယင်းသည် သင်ကြားမှုပစ္စည်းများကို အချိန်နှင့်တပြေးညီ ပြောင်းလဲသွားသောကြောင့် အချိန်အားဖြင့် လျှောက်လည်သင့်သည်။
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) ကမ္ဘာတစ်ဝှမ်းမှ ကျောင်းသားလမ်းညွှန်များအသိုင်းအဝိုင်းအား ပါဝင်ရန်၊ ၎င်းသည် Microsoft တွင် ဝင်ရောက်ရာလမ်းဖြစ်နိုင်သည်။
+- [Student Hub စာမျက်နှာ](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) ဒီစာမျက်နှာတွင် အစပြုသူအတွက် အရင်းအမြစ်များ၊ ကျောင်းသားစာအုပ်များနှင့် လက်မှတ်အခမဲ့ရရှိစေနိုင်သောနည်းလမ်းများ တွေ့နိုင်ပါသည်။ နေ့တိုင်း အကြောင်းအရာ အသစ်ပြောင်းလဲတော့ နောက်ကြည့်ဖို့ သင်ထားသင့်တဲ့စာမျက်နှာဖြစ်ပါတယ်။
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) ကမ္ဘာလုံးဆိုင်ရာ ကျောင်းသားသံတမန္ အသိုင်းအဝိုင်း ပူးပေါင်းပါဝင်နိုင်ရန်၊ သင့်ခရီးစဉ် Microsoft ထဲသို့ ဝင်ခွင့်ရရှိနိုင်သည်။
 
 # စတင်ခြင်း
 
-## 📚 စာတမ်းများ
+## 📚 စာရွက်စာတမ်းများ
 
-- **[တပ်ဆင်ရန်လမ်းညွှန်](INSTALLATION.md)** - စတင်သင်ယူသူများအတွက် တ Schritt-by-Schritt တပ်ဆင်နည်း
-- **[အသုံးပြုနည်းလမ်းညွှန်](USAGE.md)** - နမူနာများနှင့် ထည့်သွင်းအသုံးပြုခွင့်များ
-- **[ပြဿနာဖြေရှင်းနည်း](TROUBLESHOOTING.md)** - အထွေထွေပြဿနာများအတွက် ဖြေရှင်းနည်းများ
-- **[ပူးပေါင်းဆောင်ရွက်ခြင်းလမ်းညွှန်](CONTRIBUTING.md)** - ဒီပရောဂျက်တွင် ပူးပေါင်းရန်နည်းလမ်းများ
-- **[ဆရာများအတွက်](for-teachers.md)** - သင်ကြားရေးလမ်းညွှန်နှင့် စားပွဲထဲစာရင်း
+- **[သွင်းယူခြင်း လမ်းညွှန်](INSTALLATION.md)** - အကြမ်းဖျင်း အဆင့်လိုက် သတ်မှတ်ချက်များ၊ အစပြုသူများအတွက်
+- **[အသုံးပြုနည်း လမ်းညွှန်](USAGE.md)** - ဥပမာများနှင့် အခြေချ ကိရိယာများ
+- **[ပြဿနာများ ဖြေရှင်းခြင်း](TROUBLESHOOTING.md)** - ပြဿနာများအတွက် ဖြေရှင်းနည်းများ
+- **[ပါဝင်ဆောင်ရွက်ရန် လမ်းညွှန်](CONTRIBUTING.md)** - ဤပရောဂျက်တွင် ပူးပေါင်းဆောင်ရွက်နည်း
+- **[ဆရာများအတွက်](for-teachers.md)** - သင်ကြားမှု ညွှန်ကြားချက်များနှင့် သင်တန်းခန်း အရင်းအမြစ်များ
 
-## 👨‍🎓 ကျောင်းသူ/ကျောင်းသားများအတွက်
-> **စတင်သင်ယူသူများအတွက်**: data science ဘာလို့လဲ? ကျွန်ုပ်တို့၏ [စတင်သူ များအတွက် နမူနာများ](examples/README.md) နှင့် စတင်လိုက်ပါ။ ဤရိုးရှင်းပြီး ကောင်းမွန်စွာ မှတ်ချက်ပြုထားသော နမူနာများသည် သင်ကြားမှုအခြေခံကို နားလည်နိုင်ရန်ကူညီပေးသည်။
-> **[ကျောင်းသားများ](https://aka.ms/student-page)**: သင်၏ကိုယ်ပိုင်အဖြစ် သင်ရိုးစဉ်ကို အသုံးပြုချင်သောသူများသည် repository အားလုံးကို fork ပြုလုပ်ပြီး လက်တွေ့လေ့ကျင့်ခန်းများကို ကိုယ်တိုင်ပြီးမြောက်စေလိုက်ပါ၊ အခန်းစာမတိုင်မီ စစ်တမ်းဖြေပြီးနောက် ခန်းစာကို ဖတ်ပြီး ကျက်စားပါ။ ဖြေရှင်းနည်း ကုဒ်ကို ကောက်ယူခြင်းမဟုတ်ပဲ သင်ကြားချက်များကို နားလည်ပြီးပရောဂျက်များဖန်တီးရန်ကြိုးစားပါ။ သို့သော် သူ့ကုဒ်များကို /solutions ဖိုလ်ဒါများတွင် ရနိုင်ပါသည်။ တစ်ခုသော နည်းလမ်းက ဆရာမိတ်ဆွေများနှင့် သင်တန်းအုပ်ဖွဲ့ပြီး ပညာရပ်အကြောင်းအရာများကို တိုင်ပင်ဆွေးနွေးသင်ယူခြင်းဖြစ်နိုင်သည်။ နောက်ဆုံးသင်ယူခိုင်းမှုအတွက် [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) ကို အသုံးပြုရန် အကြံပြုသည်။
+## 👨‍🎓 ကျောင်းသားများအတွက်
+> **အစပြုပျော်ရွှင်သူများ**: ဒေတာသိပ္ပံအတွက် အသစ်လား? ကျွန်ုပ်တို့၏ [အစပြုသူအဆင်ပြေသော ဥပမာများ](examples/README.md) ဖြင့် စတင်ပါ! ဤနမူနာများသည် ရိုးရှင်းပြီး မှတ်ချက်ကောင်းကောင်းဖြင့် သင်နားလည်နိုင်ရန် ကူညီပါလိမ့်မည်။
+> **[ကျောင်းသားများ](https://aka.ms/student-page)**: ဤသင်ရိုးညွှန်းတမ်းကို ကိုယ်တိုင်သုံးရန်၊ ကုဒ်ကူးယူပြီး ကိုယ်တိုင် လေ့ကျင့်ခန်းများ ပြီးစီးပါ။ သင်ခန်းစာမတိုင်မီ ဂေးဇင်းဖြေပြီး၊ သင်ခန်းစာကိုဖတ်ပါ၊ နောက်ကျောလှည့် လေ့ကျင့်ခန်းများ အကုန်ပြုလုပ်ပါ။ ဖြေရှင်းချက် ကုဒ်ကို မကူးယူဘဲ သင်ခန်းစာကို နားလည်ပြီး ပရောဂျက်အား ဖန်တီးကြည့်ပါ၊ သို့သော် ဖြေရှင်းချက်သည် /solutions ဖိုဒါတွင် သီးခြားရှိသည်။ ထို့အပြင် မိတ်ဆွေများနှင့် သင်တန်းအဖွဲ့ဖွဲ့၍ အတူတူ အကြောင်းအရာများကို ကြားလေ့လာနိုင်ပါသည်။ ပိုမိုလေ့လာရန် Microsoft Learn ကို အကြံပြုပါသည်(https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum)။
 
-**အမြန်စတင်ချိန်:**
-1. သင်၏ပတ်ဝန်းကျင်တပ်ဆင်ရန် [တပ်ဆင်လမ်းညွှန်](INSTALLATION.md) ကိုစစ်ဆေးပါ
-2. သင်ရိုးသည်းစည်းမှုကို အသုံးပြုနည်း [အသုံးပြုပုံလမ်းညွှန်](USAGE.md) ကို ပြန်လည်ဆန်းစစ်ပါ
-3. ခန်းစာ ၁ နှင့် စတင်ပြီး ဆက်တိုက်လုပ်ဆောင်ပါ
-4. ကူညီပံ့ပိုးမှုအတွက် ကျွန်ုပ်တို့၏ [Discord အသိုင်းအဝိုင်း](https://aka.ms/ds4beginners/discord) တွင် ပါဝင်ပါ
+**လျင်မြန်စတင်ရန်:**
+1. သင့်ပတ်ဝန်းကျင် ကို [သွင်းယူခြင်း လမ်းညွှန်](INSTALLATION.md) အတိုင်း စစ်ဆေးပါ
+2. သင်ရိုးမောင်းနှင်မှုနည်းလမ်း ကို [အသုံးပြုနည်း လမ်းညွှန်](USAGE.md) မှာလေ့လာပါ
+3. သင်ခန်းစာ ၁ မှ စတင်၍ အဆက်မပြတ် လေ့လာပါ
+4. ရည်ညွှန်းချက်များအတွက် ကျွန်ုပ်တို့၏ [Discord အသိုင်းအဝိုင်း](https://aka.ms/ds4beginners/discord) ထဲ ဝင်ပါ
 
 ## 👩‍🏫 ဆရာများအတွက်
+> **ဆရာ/ဆရာမများ**: ကျွန်ုပ်တို့သည် ဤသင်ရိုးညွှန်းတမ်းအသုံးပြုမှုအတွက် [အကြံပြုချက်အချို့ကို ပါဝင်စဉ်းစားထားပြီး](for-teachers.md) ဖြစ်သည်။ သင်၏ တုံ့ပြန်ချက်ကို ကျွန်ုပ်တို့၏ ဆွေးနွေးပွဲဖိုရမ်တွင် [လည်း မျှဝေလိုပါသည်](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **ဆရာများ**: ဤသင်ရိုးစဉ်ကို မည်သို့အသုံးပြုရမည့် အကြံပြုချက်တချို့အား [ထည့်သွင်းထားပါသည်](for-teachers.md)။ ကျွန်ုပ်တို့၏ ဆွေးနွေးမှုဖိုရမ်တွင် [တုံ့ပြန်စာများ](https://github.com/microsoft/Data-Science-For-Beginners/discussions) ပြုလုပ်ရန် မမေ့ပါနှင့်!
-## အဖွဲ့အစည်းနှင့် တွေ့ဆုံခြင်း
+## အဖွဲ့သားများကို ရှင်းလင်းပြုစုခြင်း
 
-[![ကြော်ညာဗီဒီယို](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "ကြော်ညာဗီဒီယို")
+[![ပရိုမိုးရှင်း ဗီဒီယို](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "ပရိုမိုးရှင်း ဗီဒီယို")
 
-**Gif ကိုဖန်တီးသူ** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
+**Gif အတွက်** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 အမြဲတမ်းထက် ဖန်တီးသူများအကြောင်း ဗီဒီယိုကြည့်ရန် ဓါတ်ပုံကို နှိပ်ပါ။
+> 🎥 ဤပရိုဂျက်နှင့် ဖန်တီးသူများအကြောင်း ဗီဒီယိုကို မြင်ရန် အပေါ်ဓာတ်ပုံကို နှိပ်ပါ!
 
-## ပညာသင်ကြားမှုနည်းပညာ
+## သင်ကြားနည်း
 
-ဒီသင်တန်းအစီအစဉ်ကို ဖန်တီးတဲ့အခါ ကျွန်တော်တို့ ရွေးချယ်ထားတဲ့ ပညာသင်ကြားမှု အမြင်နှစ်ခုရှိပါတယ်။ ဒါက ပရောဂျက်အခြေပြုထားပြီး မိမိများသောကွစ်ဇ်များ ပါဝင်ရန် သေချာစေခြင်း ဖြစ်ပါတယ်။ ဒီစီးရီးအဆုံးသတ်တဲ့အချိန်မှာ ကျောင်းသားများသည် ဒေတာသိပ္ပံ၏ အခြေခံ 원리များ၊ ‌ရိုးသားမှုဆိုင်ရာ တွေးခေါ်ချက်များ၊ ဒေတာပြင်ဆင်ခြင်း၊ ဒေတာဖြင့် အလုပ်လုပ်နည်းမျိုးစုံ၊ ဒေတာမြင်ကြည့်ခြင်း၊ ဒေတာသုံးသပ်ခြင်း၊ ဒေတာသိပ္ပံ၏ တကယ့်လောကအသုံးချမှုများ နှင့် နောက်ထပ်များကို လေ့လာရမည်ဖြစ်သည်။
+ဤသင်ရိုးညွှန်းတမ်း စီမံရာတွင် ကျွန်ုပ်တို့သည် သင်ကြားနည်းစွမ်းဆောင်မှုနှစ်ခုကို ရွေးချယ်ထားသည်။ ၎င်းမှာ ပရောဂျက်အခြေခံဖြစ်စေခြင်းနှင့် မကြာခဏ ရွေးချယ်မှုမေးခွန်းများပါဝင်စေခြင်းတို့ ဖြစ်သည်။ ဤအစီအစဉ် ပြီးဆုံးသည်အထိ ကျောင်းသားများသည် ဒေတာသိပ္ပံ၏ အခြေခံအယူအဆများ၊ စည်းကမ်းသတ်မှတ်ချက်များ၊ ဒေတာပြင်ဆင်ခြင်း၊ ဒေတာနှင့် ဆက်ဆံသော အလုပ်လုပ်နည်းမျိုးစုံ၊ ဒေတာမြင်ကွင်းဆောင်မှု၊ ဒေတာခွဲခြမ်းစိတ်ဖြာခြင်း၊ ဒေတာသိပ္ပံ၏ အပြင်ပန်းအသုံးချမှုများနှင့် အခြားများကို ရယူသင်ယူထားမည်ဖြစ်သည်။
 
-ထို့အပြင်၊ တန်းသွားမတိုင်မှီ လျော့နည်းသောကွစ်ဇ်တစ်ခုသည် ကျောင်းသား၏ အနာဂတ် ပညာသင်ကြားရန် စိတ်ထားကိုပြသသည်။ တန်းပြီးချိန် စတုတျမြောက်လုပ်ထားသော ဒုတိယကွစ်ဇ်က တက်ကြွမှုကို အတည်ပြုသည်။ ဒီသင်တန်းအစီအစဉ်သည် လွယ်ကူပြီး ပျော်ရွှင်စရာဖြစ်ပြီး၊ အစိတ်အပိုင်း တစ်ခုလုံး သို့မဟုတ် အပိုင်းတစ်စိတ်တစ်ပိုင်း ပြုလုပ်နိုင်သည်။ ပရောဂျက်များသည် သေးငယ်စွာ စတင်ပြီး ၁၀ ပတ် အရေးအသား ပိုမို ရှုပ်ထွေးလာသည်။
+ထို့အပြင်၊ တန်းသို့ မဝင်ခင် အနည်းငယ်သော မေးခွန်းဖြေခြင်းသည် ကျောင်းသား၏ သင်ယူလိုသည့် ရည်ရွယ်ချက်ကို ပြသပေးပြီး၊ တန်းပြီးနောက်တွင် ဒုတိယမေးခွန်းဖြေခြင်းက အတတ်ပညာ ထပ်မံ သတ္တိရစေသည့် အခန်းကဏ္ဍဖြစ်သည်။ ဤသင်ရိုးညွှန်းတမ်းသည် အလွယ်တကူ လှုပ်ရှားနိုင်ပြီး ပျော်ရွှင်စရာ ဖြစ်စေရန်ဒီဇိုင်းပြုထားပြီး စုစုပေါင်း သို့မဟုတ် အစိတ်အပိုင်းအလိုက် လေ့လာနိုင်သည်။ ပရောဂျက်များသည် အစပိုင်းတွင် အသေးစားဖြစ်ကာ ၁၀ ပတ် သင်တန်းစီစဉ်မှု၏ နောက်ဆုံးတွင် စိန်ခေါ်မှုများ မြင့်တက်လာသည်။
 
-> ကျွန်ုပ်တို့၏ [Code of Conduct](CODE_OF_CONDUCT.md), [ပါဝင်ဆောင်ရွက်ခြင်း](CONTRIBUTING.md), [ဘာသာပြန်ဆိုင်ရာ](TRANSLATIONS.md) လမ်းညွှန်များကို တွေ့ပါ။ သင်၏တည်ဆောက်မှုဆိုင်ရာ တုံ့ပြန်ချက်ကို ကြိုဆိုပါသည်!
+> ကျွန်ုပ်တို့၏ [စည်းကမ်းများ](CODE_OF_CONDUCT.md), [ပါဝင်ဆောင်ရွက်မှု](CONTRIBUTING.md), [ဘာသာပြန်](TRANSLATIONS.md) လမ်းညွှန်ချက်များကို ရှာဖွေကြည့်နိုင်သည်။ သင့်ထောက်ပြချက်များအား ကြိုဆိုပါသည်!
 
-## လေ့လာမှု တစ်ခုချင်းစီတွင် ပါဝင်သည်များ -
+## တစ်ခုချင်းစီ သင်ခန်းစာတွင် ပါဝင်သည့် အရာများ
 
-- ရွေးချယ်စရာ Sketchnote
-- ရွေးချယ်စရာ ပထမအပိုင်း ဗီဒီယို
-- သင်ခန်းစာမတိုင်မီ အပူပေးကွစ်ဇ်
-- စာသားသင်ခန်းစာ
-- ပရောဂျက်အခြေပြုသင်ခန်းစာများအတွက် ပရောဂျက် ဖန်တီးနည်း လမ်းညွှန်များ
-- အသိပညာ စစ်ဆေးမှုများ
-- စိန်ခေါ်မှုတစ်ခု
-- အပိုစဉ်စာဖတ်ခြင်း
-- တာဝန်ပေးမှု
-- [သင်ခန်းစာပြီးနောက် ကွစ်ဇ်](https://ff-quizzes.netlify.app/en/)
+- ရွေးချယ်စရာ စကက်ချ်မှတ်တမ်း
+- ရွေးချယ်စရာ ထောက်ပံ့ဗီဒီယို
+- သင်ခန်းစာမတိုင်မီ အပူသွင်းမေးခွန်း
+- စာရေးသားထားသော သင်ခန်းစာ
+- ပရောဂျက်အခြေခံ သင်ခန်းစာများအတွက် ပရောဂျက်တည်ဆောက်ပုံ အဆင့်ခြားလမ်းညွှန်များ
+- နားလည်မှု စစ်ဆေးမှုများ
+- စိန်ခေါ်မှုတစ်ခုပြုလုပ်ခြင်း
+- ထောက်ပံ့စာဖတ်စာပေ
+- အလုပ်အပ်နှံမှု
+- [သင်ခန်းစာပြီးနောက် မေးခွန်းများဖြေခြင်း](https://ff-quizzes.netlify.app/en/)
 
-> **ကွစ်ဇ်များအကြောင်း မှတ်ချက်**: ကွစ်ဇ်အားလုံးကို Quiz-App ဖိုဒါထဲမှာ တွဲဖက်ထားပြီး ၄၀ ခုရှိ၊ တစ်ခုစီတွင် မေးခွန်း ၃ ခုပါဝင်သည်။ သင်ခန်းစာများမှ ဆက်သွယ်ထားပေမယ့် ကွစ်ဇ်အက်ပ်ကို ဒေသတွင်းမှာ ပြေးနိုင်ပြီး Azure သို့ စတင်တင်သွင်းနိုင်သည်။ `quiz-app` ဖိုဒါတွင် လမ်းညွှန်ချက်များကို လိုက်နာပါ။ ဒါတွေကို တဖက်တည်း ဘာသာပြန်နေဆဲဖြစ်ပါတယ်။
+> **မေးခွန်းဖြေခြင်းများအကြောင်း မှတ်ချက်**: မေးခွန်းအားလုံးသည် Quiz-App ဖိုလ်ဒါတွင် ထည့်သွင်းထားပြီး မေးခွန်းသုံးခုပါရှိသည့် မေးခွန်းများကို စုစုပေါင်း ၄၀ မေးခွန်း ရှိသည်။ ၎င်းများသည် သင်ခန်းစာများအတွင်း မှတဆင့် လင့်ခ် ထားပြီး မေးခွန်းအက်ပ်ကို ဒေသတွင်းတွင် လည်ပတ်နိုင်ပြီး Azure သို့ ထည့်သွင်းနိုင်သည်။ `quiz-app` ဖိုလ်ဒါတွင် လမ်းညွှန်ချက်များကို လိုက်နာပါ။ ၎င်းများသည် အမြဲတမ်း စံသတ်မှတ်ချက်များနှင့် နီးကပ်စွာ ချိန်ညှိနေဆဲ ဖြစ်သည်။
 
-## 🎓 စတင်လေ့လာသူများအတွက် နမူနာများ
+## 🎓 အစွမ်းကုန် လေ့လာသူများအတွက် ဥပမာများ
 
-**ဒေတာသိပ္ပံ အသစ်သူများအတွက်** - တယ်လီနားလည်ရလွယ်ကူသော၊ အဓိက မှတ်ချက်များ ပါဝင်သော အထူး [နမူနာ ဖိုင်တွဲ](examples/README.md) ကို ဖန်တီးခဲ့ပါသည်။
+**ဒေတာသိပ္ပံသစ်လွင်လင်လား?** ကျွန်ုပ်တို့သည် သင့်အား စတင်လေ့လာရာတွင် ကူညီစေရန် ရိုးရှင်းပြီး ကောင်းမွန်စွာ မှတ်ချက်ပြုထားသော ကုဒ်မူများပါဝင်သည့် [ဥပမာဖိုင် စုစည်းမှု](examples/README.md) ကို ဖန်တီးထားသည်။
 
-- 🌟 **Hello World** - သင်၏ ပထမဆုံး ဒေတာသိပ္ပံပရိုဂရမ်
-- 📂 **ဒေတာဖတ်ခြင်း** - ဒေတာစုစည်းမှုများကို ဖတ်ရှုလေ့လာခြင်း
-- 📊 **ရိုးရှင်းသော သုံးသပ်ခြင်း** - စာရင်းအချက်အလက် တွက်ချက်ခြင်းနှင့် ပုံစံများ ရှာဖွေရန်
-- 📈 **အခြေခံ မြင်ကွင်းဖော်ခြင်း** - ဇယားများနှင့် မြှောက်ပြ
-- 🔬 **တကယ့်လောက ပရောဂျက်** - စတင်ခြင်းမှ အပြီးထိ အလုပ် זרုမှအလုပ်စဉ်
+- 🌟 **Hello World** - သင့် ပထမဆုံး ဒေတာသိပ္ပံ ပရိုဂရမ်းမင်း
+- 📂 **ဒေတာတင်ခြင်း** - ဒေတာစုစည်းမှုများ ဖတ်ရှု စူးစမ်းလေ့လာခြင်းကို သင်ယူပါ
+- 📊 **ရိုးရှင်းသော ခွဲခြားစစ်ဆေးမှု** - စာရင်းသင်္ချာကို တွက်ချက်ပြီး မျဉ်းတန်းများ ရှာဖွေခြင်း
+- 📈 **အခြေခံ မြင်ကွင်းဆွဲခြင်း** - ဖော်ပြချက်များနှင့် အခြား ဂရပ်များ ဖန်တီးခြင်း
+- 🔬 **အမှန်တကယ် ဖြစ်ပေါ်နေသော ပရောဂျက်** - စတင်မှပြီးဆုံးမှုအထိ လုပ်ငန်းစဉ် ပြီးမြောက်ခြင်း
 
-နမူနာတစ်ခုချင်းစီတွင် တစ်ဆင့်ချင်းစီ ဖတ်ရှုနားလည်ရန် အသေးစိတ် မှတ်ချက်များပါရှိသည်၊ စတင်လေ့လာသူများအတွက် သင့်တော်ပါသည်!
+တစ်ခုချင်းစီ ဥပမာတွင် အဆင့်တိုင်းကို အသေးစိတ် မှတ်ချက်များ ပေးထားပြီး အစွမ်းကုန် လေ့လာသူများ အတွက် အပြည့်အဝ သင့်တော်သည်။
 
-👉 **[နမူနာများနှင့် စတင်ပါ](examples/README.md)** 👈
+👉 **[ဥပမာများနှင့် စတင်ပါ](examples/README.md)** 👈
 
 ## သင်ခန်းစာများ
 
-|![ @sketchthedocs မှ Sketchnote https://sketchthedocs.dev](../../translated_images/my/00-Roadmap.4905d6567dff4753.webp)|
-|:---:|
-| ဒေတာသိပ္ပံ အတွက် စတက်ခြင်း လမ်းပြမြေပုံ - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-| သင်ခန်းစာနံပါတ် | ခေါင်းစဉ် | သင်ခန်းစာ အုပ်စု | သင်ယူရမည့် ရည်မှန်းချက်များ | ဆက်စပ်သင်ခန်းစာ | စာရေးသူ |
+|![ @sketchthedocs ရေးဆွဲသော စကက်ချ်မှတ်တမ်း https://sketchthedocs.dev](../../translated_images/my/00-Roadmap.4905d6567dff4753.webp)|
+|:---:|
+| ဒေတာသိပ္ပံ အစျဖဴး: လမ်းပြမြေပုံ - _စကက်ချ်မှတ်တမ်းရေးသားသူ [@nitya](https://twitter.com/nitya)_ |
+
+
+| သင်ခန်းစာနံပါတ် | ခေါင်းစဉ် | သင်ခန်းစာအုပ်စု | သင်ယူရမည့် ရည်ရွယ်ချက်များ | ဖော်ပြချက်နှင့် ချိတ်ဆက်ထားသော သင်ခန်းစာ | စာရေးသူ |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | ဒေတာသိပ္ပံ သတ်မှတ်ခြင်း | [နိဒါန်း](1-Introduction/README.md) | ဒေတာသိပ္ပံ၏ အခြေခံ ရိုးရာများကို လေ့လာပြီး အတုယူနိုင်အားအတူ AI၊ မရှာမဖြေသင်ယူခြင်းနှင့် ကြီးမားသောဒေတာနှင့် ဘယ်လို သက်ဆိုင်ပါတယ်ကို ရှင်းလင်းပါ။ | [သင်ခန်းစာ](1-Introduction/01-defining-data-science/README.md) [ဗီဒီယို](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | ဒေတာသိပ္ပံ တရားတန်ဖိုး | [နိဒါန်း](1-Introduction/README.md) | ဒေတာတရားတန်ဖိုး အတွေးအခေါ်များ၊ စိန်ခေါ်မှုများနှင့် ဖရိမ်ဝပ်များ။ | [သင်ခန်းစာ](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | ဒေတာသတ်မှတ်ခြင်း | [နိဒါန်း](1-Introduction/README.md) | ဒေတာကို ဘယ်လို သတ်မှတ်ပြီး များသော မူရင်းများကို သိရှိခြင်း။ | [သင်ခန်းစာ](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | စာရင်းအင်းနှင့် ရာဘယ်ဖြန့်ဖြူးမှု သင့်တော်မှု | [နိဒါန်း](1-Introduction/README.md) | ဒေတာကို နားလည်ရန် ရာဘယ်နှင့် စာရင်းအင်း စနစ်များထပ်မံ သင်ကြားရန်။ | [သင်ခန်းစာ](1-Introduction/04-stats-and-probability/README.md) [ဗီဒီယို](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | ဆက်စပ် ဒေတာနှင့် လုပ်ဆောင်မှု | [ဒေတာဆိုင်ရာလုပ်ငန်း](2-Working-With-Data/README.md) | ဆက်စပ် ဒေတာအကြောင်း မိတ်ဆက်ခြင်းနှင့် SQL ဖြင့် ဒေတာကို ရှာဖွေ သုံးသပ်ခြင်း အခြေခံများ။ | [သင်ခန်းစာ](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | NoSQL ဒေတာနှင့် လုပ်ဆောင်မှု | [ဒေတာဆိုင်ရာလုပ်ငန်း](2-Working-With-Data/README.md) | ဆက်စပ် မဟုတ်သော ဒေတာအမျိုးအစားများနှင့် စာရွက်စာတမ်းဒေတာဘေ့စ်များကို ရှာဖွေ သုံးသပ်ခြင်း အခြေခံများ။ | [သင်ခန်းစာ](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Python ဖြင့် လုပ်ဆောင်ခြင်း | [ဒေတာဆိုင်ရာလုပ်ငန်း](2-Working-With-Data/README.md) | Pandas စသည့် ไลဘ်ရေးရီများနှင့် ဒေတာရှာဖွေရန် Python ကို အသုံးပြုခြင်း အခြေခံ။ Python အခြေခံ ပရိုဂရမ်မင်း များ ရှိရန် အကြံပြုသည်။ | [သင်ခန်းစာ](2-Working-With-Data/07-python/README.md) [ဗီဒီယို](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | ဒေတာ ပြင်ဆင်ခြင်း | [ဒေတာဆိုင်ရာလုပ်ငန်း](2-Working-With-Data/README.md) | မရှိမဖြစ်ဖြစ်မှု၊ မှားယွင်းမှု သို့မဟုတ် အပြီးမစုံသော ဒေတာများကို ကိုင်တွယ်ရန် သန့်စင်ခြင်းနှင့် အပြောင်းအလဲ နည်းဗျူဟာများ။ | [သင်ခန်းစာ](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | မျိုးစုံ အရေအတွက် မြင်ကွင်းဖော်ခြင်း | [ဒေတာမြင်ကြည့်ခြင်း](3-Data-Visualization/README.md) | Matplotlib ကို အသုံးပြုပြီး ခြင်္သေ့ဒေတာကို မြင်ကွင်းဖော်ခြင်း 🦆 | [သင်ခန်းစာ](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | ဒေတာ ဖော်ပြချက်များ မြင်ကွင်းဖော်ခြင်း | [ဒေတာမြင်ကြည့်ခြင်း](3-Data-Visualization/README.md) | အစီရင်ခံချက်များနှင့် လိုက်လျောညီထွေမှုများကို မြင်ကွင်းဖော်ခြင်း။ | [သင်ခန်းစာ](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | အပိုင်းများ မြင်ကွင်းဖော်ခြင်း | [ဒေတာမြင်ကြည့်ခြင်း](3-Data-Visualization/README.md) | ကြဲပြားခြားနားသော နှုန်းထားများနှင့် အုပ်စုနည်းပြုစုထားမှုကို မြင်ကွင်းဖော်ခြင်း။ | [သင်ခန်းစာ](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | ဆက်စပ်မှုများ မြင်ကွင်းဖော်ခြင်း | [ဒေတာမြင်ကြည့်ခြင်း](3-Data-Visualization/README.md) | ဒေတာနှင့် ပြောင်းလဲမှုအာရုံစူးစိုက်မှုများ။ | [သင်ခန်းစာ](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | အဓိပ္ပာယ်ရှိသော မြင်ကွင်းဖော်ခြင်း | [ဒေတာမြင်ကြည့်ခြင်း](3-Data-Visualization/README.md) | မြင်ကွင်းဖော်ခြင်းများကို ပြဿနာဖြေရှင်းခြင်းနှင့် ယေဘုယျ အသိပညာများအတွက် အသုံးဝင်စေရန် နည်းဗျူဟာများ။ | [သင်ခန်းစာ](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | ဒေတာသိပ္ပံ ဘဝဆိုင်ရာ ကွက်လပ်သွားခြင်းအကြောင်း မိတ်ဆက်ခြင်း | [ဘဝဆိုင်ရာ](4-Data-Science-Lifecycle/README.md) | ဒေတာသိပ္ပံ ဘဝဆိုင်ရာ ကွက်လပ်၏ ပထမအဆင့် အဖြစ် ဒေတာရယူခြင်းနှင့် ထုတ်ယူခြင်း မိတ်ဆက်ခြင်း။ | [သင်ခန်းစာ](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | သုံးသပ်ခြင်း | [ဘဝဆိုင်ရာ](4-Data-Science-Lifecycle/README.md) | ဒေတာသိပ္ပံ ဘဝဆိုင်ရာ ကွက်လပ် တွင် ဒေတာသုံးသပ်နည်းများကို အဓိကထားခြင်း။ | [သင်ခန်းစာ](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | ဆက်သွယ်ပြောဆိုခြင်း | [ဘဝဆိုင်ရာ](4-Data-Science-Lifecycle/README.md) | ဒေတာမှသော မူဝါဒကောက်ချက်များကို ဆုံးဖြတ်မှတဆင့် များနားလည်စေဖို့ ပိုမိုလွယ်ကူရန် ပြသခြင်း။ | [သင်ခန်းစာ](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Cloud တွင် ဒေတာသိပ္ပံ | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Cloud မှာ ဒေတာသိပ္ပံအသုံးပြုမှုနှင့် အကျိုးကျေးဇူးများ မိတ်ဆက်ခြင်း။ | [သင်ခန်းစာ](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 18 | Cloud တွင် ဒေတာသိပ္ပံ | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Low Code ကိရိယာများဖြင့် မော်ဒယ်လေ့ကျင့်ခြင်း။ |[သင်ခန်းစာ](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 19 | Cloud တွင် ဒေတာသိပ္ပံ | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Azure Machine Learning Studio ဖြင့် မော်ဒယ်တင်သွင်းခြင်း။ | [သင်ခန်းစာ](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 20 | တကယ့်လောကတွင် ဒေတာသိပ္ပံ | [In the Wild](6-Data-Science-In-Wild/README.md) | တကယ့်လောကတွင် ဒေတာသိပ္ပံဉာဏ်ထွန်းထားသော ပရောဂျက်များ။ | [သင်ခန်းစာ](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 01 | ဒေတာသိပ္ပံ အဓိပ္ပါယ်သတ်မှတ်ခြင်း | [နိဒါန်း](1-Introduction/README.md) | ဒေတာသိပ္ပံ၏ အခြေခံ မှတ်ယူခွင့်များနှင့် အတုအသွင်သိပ္ပံ၊ စက် ရေတွက်မှု လေ့လာမှု၊ သက်တမ်းကြီး ဒေတာနည်းပညာတို့နှင့် ဘယ်လို ဆက်စပ်နေသည်ကို သင်ယူပါ။ | [သင်ခန်းစာ](1-Introduction/01-defining-data-science/README.md) [ဗီဒီယို](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | ဒေတာသိပ္ပံ စည်းကမ်းသတ်မှတ်ချက်များ | [နိဒါန်း](1-Introduction/README.md) | ဒေတာ ကုသရေး စည်းကမ်းများ၊ စိန်ခေါ်မှုများနှင့် ဖွဲ့စည်းပုံများ။ | [သင်ခန်းစာ](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | ဒေတာ သတ်မှတ်ခြင်း | [နိဒါန်း](1-Introduction/README.md) | ဒေတာများ မည်သို့ အမျိုးအစား ခွဲခြားထားသည်နှင့် ၎င်း၏ ရိုးရာ အရင်းအမြစ်များ။ | [သင်ခန်းစာ](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | စာရင်းအင်းနှင့် ဖြစ်နိုင်ခြေ အခြေခံအကြောင်း | [နိဒါန်း](1-Introduction/README.md) | ဒေတာကို နားလည်ရန် ဖြစ်နိုင်ခြေဝေခေါ်မှုနှင့် စာရင်းအင်းပညာ စနစ်များ။ | [သင်ခန်းစာ](1-Introduction/04-stats-and-probability/README.md) [ဗီဒီယို](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | ဆက်စပ် ဒေတာနှင့် လုပ်ဆောင်ခြင်း | [ဒေတာနှင့်အလုပ်လုပ်ရန်](2-Working-With-Data/README.md) | ဆက်စပ် ဒေတာအကြောင်း မိတ်ဆက်ခြင်းနှင့် စနစ်တကျ မေးခွန်းရပ်နှင့် ရုပ်သေဖြစ်ခံသုံးသပ်ခြင်းအခြေခံများ၊ အမည်ကြီး Structured Query Language (SQL) အသုံးပြုပုံ (ဖတ်ရန် “စီ-ကွဲ”)။ | [သင်ခန်းစာ](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | NoSQL ဒေတာနှင့် လုပ်ဆောင်ခြင်း | [ဒေတာနှင့်အလုပ်လုပ်ရန်](2-Working-With-Data/README.md) | ဆက်စပ်မဟုတ်သော ဒေတာ များအကြောင်း၊ ကွဲပြားမှုများနှင့် စာရွက်စာတမ်း ဒေတာဘေ့စ်များ စူးစမ်းသုံးသပ်ခြင်းအခြေခံများ။ | [သင်ခန်းစာ](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Python ဖြင့် လုပ်ဆောင်ခြင်း | [ဒေတာနှင့်အလုပ်လုပ်ရန်](2-Working-With-Data/README.md) | Pandas တို့ကဲ့သို့ ရုပ်သေ ဒေတာ လေ့လာမှု အတွက် Python အသုံးပြုရန် အခြေခံများ။ Python programming အခြေခံကို သိရှိခြင်း အကြံပြုသည်။ | [သင်ခန်းစာ](2-Working-With-Data/07-python/README.md) [ဗီဒီယို](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | ဒေတာပြင်ဆင်ခြင်း | [ဒေတာနှင့်အလုပ်လုပ်ရန်](2-Working-With-Data/README.md) | ဒေတာတွင် မရှိသည်၊ မှား၊ ပြည့်စုံမှု မရှိမှု စိန်ခေါ်ချက်များကို ကိုင်တွယ်ရန် အတွက် ချည်းထုတ်ခြင်းနှင့် ပြောင်းလဲခြင်း နည်းစနစ်များ။ | [သင်ခန်းစာ](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | ပမာဏများ မြင်ကွင်းဆွဲခြင်း | [ဒေတာမြင်ကွင်းဆွဲမှု](3-Data-Visualization/README.md) | Matplotlib ကို အသုံးပြု လေ့လာသည့်ငှက် ဒေတာကို မြင်ကွင်းဆွဲနည်းများ 🦆 | [သင်ခန်းစာ](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | ဒေတာဖြန့်ဝေမှုများ မြင်ကွင်းဆွဲခြင်း | [ဒေတာမြင်ကွင်းဆွဲမှု](3-Data-Visualization/README.md) | အတွင်းခွင့်တွင် မျဉ်းတန်းများနှင့် ယှဉ်ပြိုင်မှုများ မြင်ကွင်းဆွဲခြင်း။ | [သင်ခန်းစာ](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | အချိုးအစားများ မြင်ကွင်းဆွဲခြင်း | [ဒေတာမြင်ကွင်းဆွဲမှု](3-Data-Visualization/README.md) | ခွဲခြားထားသော ဝေစုများနှင့် အုပ်စုအလိုက် ရာခိုင်နှုန်းများ မြင်ကွင်းဆွဲခြင်း။ | [သင်ခန်းစာ](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | ဆက်နွယ်မှုများ မြင်ကွင်းဆွဲခြင်း | [ဒေတာမြင်ကွင်းဆွဲမှု](3-Data-Visualization/README.md) | ဒေတာအစုလိုက်အပြုံလိုက်နှင့် ၎င်းတို့ အပြောင်းအလဲများ၊ ဆက်သွယ်မှုများ မြင်ကွင်းဆွဲခြင်း။ | [သင်ခန်းစာ](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | အဓိပ္ပါယ်ရှိသော မြင်ကွင်းဆွဲမှုများ | [ဒေတာမြင်ကွင်းဆွဲမှု](3-Data-Visualization/README.md) | သင့် မြင်ကွင်းဆွဲမှုများကို အကျိုးရှိစွာ ပြုပြင်နိုင်ရန် နည်းပြချက်များနှင့် လမ်းညွှန်ချက်များ။ | [သင်ခန်းစာ](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | ဒေတာသိပ္ပံဘဝ အစိတ်အပိုင်းများ မိတ်ဆက်ခြင်း | [ဘဝသက်တမ်း](4-Data-Science-Lifecycle/README.md) | ဒေတာသိပ္ပံဘဝသက်တမ်း၏ မိတ်ဆက်နှင့် ပထမ အဆင့်ဖြစ်သည့် ဒေတာ ဝယ်ယူခြင်းနှင့် ဖယ်ရှားခြင်းအကြောင်း။ | [သင်ခန်းစာ](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | ခွဲခြမ်းစိတ်ဖြာခြင်း | [ဘဝသက်တမ်း](4-Data-Science-Lifecycle/README.md) | ဒေတာသိပ္ပံဘဝသက်တမ်း၏ ဒေတာခွဲခြမ်းစိတ်ဖြာနည်းများကို အာရုံစိုက်ဆောင်ရွက်ခြင်း။ | [သင်ခန်းစာ](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | ဆက်သွယ်မှု | [ဘဝသက်တမ်း](4-Data-Science-Lifecycle/README.md) | ဒေတာမှ ရရှိသော အကြောင်းအရာများကို ဆုံးဖြတ်ချက်ထုတ်သူများ အတွက် အလွယ်တကူ နားလည်နိုင်စေရန် ဖြန့်ဝေရေးအဆင့်။ | [သင်ခန်းစာ](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | မိုးကောင်းကင်ရှိ ဒေတာသိပ္ပံ | [မိုးကောင်းကင် ဒေတာ](5-Data-Science-In-Cloud/README.md) | ဒီသင်ခန်းစာ အစီအစဉ်သည် မိုးကောင်းကင်ရှိ ဒေတာသိပ္ပံနှင့် ၎င်း၏ အကျိုးကျေးဇူးများကို မိတ်ဆက်ပေးသည်။ | [သင်ခန်းစာ](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) နှင့် [Maud](https://twitter.com/maudstweets) |
+| 18 | မိုးကောင်းကင်ရှိ ဒေတာသိပ္ပံ | [မိုးကောင်းကင် ဒေတာ](5-Data-Science-In-Cloud/README.md) | Low Code ကိရိယာများ အသုံးပြု၍ မော်ဒယ်များ လေ့ကျင့်ခြင်း။ |[သင်ခန်းစာ](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) နှင့် [Maud](https://twitter.com/maudstweets) |
+| 19 | မိုးကောင်းကင်ရှိ ဒေတာသိပ္ပံ | [မိုးကောင်းကင် ဒေတာ](5-Data-Science-In-Cloud/README.md) | Azure Machine Learning Studio ဖြင့် မော်ဒယ်များ တင်သွင်းခြင်း။ | [သင်ခန်းစာ](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) နှင့် [Maud](https://twitter.com/maudstweets) |
+| 20 | သဘာဝဘေးအန္တရာယ်ရှိ ဒေတာသိပ္ပံ | [သဘာဝဘေးအန္တရာယ်](6-Data-Science-In-Wild/README.md) | အမှန်တကယ် ကမ္ဘာလုံးဆိုင်ရာ အခြေအနေများတွင် ဒေတာသိပ္ပံ အခြေပြု ပရောဂျက်များ။ | [သင်ခန်းစာ](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-ဒီနမူနာကို Codespace ထဲတွင် ဖွင့်ရန် အဆင့်များကတော့:
-1. Code dropdown မီနူးကို နှိပ်ပြီး Open with Codespaces ရွေးပါ။
-2. ပေါ်လာသော ပက်နယ်တွင် + New codespace ကို ရွေးပါ။
-အကြောင်းအရာပိုများရန် [GitHub ဆောင်းပါး](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) ကို ကြည့်ပါ။
+ဤနမူနာကို Codespace တွင်ဖွင့်ရန် အဆင့်များ -
+
+1. Code drop-down မီနူးကို နှိပ်ပြီး Open with Codespaces ရွေးချယ်ပါ။
+2. ပံ့ပိုးမှု ပန်းပေါ်တွင် + New codespace ကို ရွေးပါ။
+အသေးစိတ်အချက်အလက်များအတွက် [GitHub စာရွက်စာတမ်း](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) ကို ဆက်သွယ်ကြည့်ပါ။
 
 ## VSCode Remote - Containers
-VSCode Remote - Containers extension ကိုသုံးပြီး သင့်ရဲ့ ဒေသတွင်းစက်နှင့် အတူ ဒီကိုဒ်ပေါင်းကို ကွန်တိန်နာထဲမှာ ဖွင့်ချင်ရင် အောက်ပါအဆင့်တွေလိုက်နာပါ။
+သင့် ဒေသတွင်းကွန်ပျူတာနှင့် VSCode သုံး၍ ဒီ repository ကို container ပြုလုပ်ဖွင့်ရန်၊ VS Code Remote - Containers extension အသုံးပြုပုံအဆင့်များ:
 
-1. ဒါဟာ ဒါဟာ သင့်ရဲ့ ပထမဆုံး ဖွံဖြိုးတိုးတက်မှု ကွန်တိန်နာ ဖြစ်ခဲ့ရင် Docker ထည့်သွင်းပြီး ရှိကြောင်း သေချာပါစေ ([အစပြုရန် စာတမ်းများ](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started))။
+1. ဒါဟာ သင်၏ ပထမဆုံး ဖွံ့ဖြိုးရေး container အသုံးပြုခြင်းဖြစ်ပါက၊ [စတင်ရန် လမ်းညွှန်စာရွက်](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) အရ စနစ်လိုအပ်ချက်များ (ဥပမာ Docker ရှိမှု) ကို သေချာစေပါ။
 
-Repo ကို အသုံးပြုရန် isolated Docker volume တစ်ခုအတွင်း တခြားသောနည်းလမ်းဖြင့် ဖွင့်နိုင်ပါတယ်။
+ဒီ repository သုံးရန်၊ သင်သည် isolated Docker volume ထဲမှ repo ကို ဖွင့်နိုင်သည် -
 
-**အကြံပြုချက်**: Remote-Containers: **Clone Repository in Container Volume...** အမိန့်ကို အသုံးပြုကာ ဒေတာအရင်းအမြစ်ကို Docker volume ထဲ ယူသည်။ [Volumes](https://docs.docker.com/storage/volumes/) တွင် container data သိမ်းဆည်းရန် အကြံပြုသည်။
+**မှတ်ချက်**: အောက်ခံတွင် Remote-Containers: **Clone Repository in Container Volume...** command ကို သုံးပြီး စာရင်းအင်းကို ဒေသတွင်း filesystem မဟုတ်ပဲ Docker volume ထဲသို့ ကလုံးသွားမည်။ [Volumes](https://docs.docker.com/storage/volumes/) သည် container data ကို သိမ်းဆည်းရာတွင် ဦးစားပေးသောကိရိယာဖြစ်သည်။
 
-သို့မဟုတ် ဒေသတွင်းတွင် clone လုပ်ထားသည့် သို့မဟုတ် ဒေါင်းလုဒ်လုပ်ထားသည့် မူရင်း repo ကို ဖွင့်နိုင်သည်။
+သို့မဟုတ် ဒေသတွင်းက ပြန်လည်ကလုံးပြီး သို့မဟုတ် ဒေါင်းလုပ်လုပ်ပြီး نسخه ကို ဖွင့်နိုင်သည် -
 
-- သင့်ရဲ့ ဒေသတွင်းဖိုင်စနစ်ကိုအတည်ပြုရန် ဒါကို clone လုပ်ပါ။
-- F1 ကိုနှိပ်ပြီး **Remote-Containers: Open Folder in Container...** အမိန့်ကို ရွေးပါ။
-- ဒီ folder ကိုရွေးပြီး container စတင်ရန် စောင့်ပါ၊ ထို့နောက် စမ်းသပ်ကြည့်ပါ။
+- ဒီ repo ကို ဒေသတွင်း filesystem သို့ ကလုံးပါ။
+- F1 နှိပ်ပြီး **Remote-Containers: Open Folder in Container...** command ကို ရွေးချယ်ပါ။
+- ဖိုလ်ဒါ ကလုံထားသော ပိုင်းကို ရွေးချယ်၊ container စတင်ရန် ကာလကို စောင့်ပါ၊ ပြီးနောက် စမ်းသပ်ကြည့်ပါ။
 
-## အော့ဖ်လိုင်း မောင်းနှင်ခြင်း
+## ဒေါင်းလုပ်မလိုအပ်သော ဝင်ရောက်မှု
 
-ဒီစာတမ်းကို လမ်းညွှန်ပုံစံဖြင့် အော့ဖ်လိုင်းတွင် ပြေးနိုင်သည် [Docsify](https://docsify.js.org/#/) ကူညီပါမည်။ ဒီ repo ကို fork လုပ်ပြီး ဒေသတွင်းစက်တွင် [Docsify ထည့်သွင်းပြီး](https://docsify.js.org/#/quickstart) repo root directory မှ `docsify serve` ကို ရိုက်ထည့်ပါ။။ ဝဘ်ဆိုဒ်ကို localhost ၏ ၃၀၀၀ ပေါ့တ်တွင်ဝင်ရောက် ကြည့်ရှုနိုင်ပါသည်။
+[Docsify](https://docsify.js.org/#/) ကို အသုံးပြုပြီး ဤစာတမ်းကို ဒေါင်းလုပ်မလိုဘဲ လည်ပတ်နိုင်ပါသည်။ ဒီ repo ကို fork ပြုလုပ်ပြီး၊ သင့်ဒေသတွင်း စက်တွင် [Docsify ကို ထည့်သွင်းပြီး](https://docsify.js.org/#/quickstart)၊ repo ၏ မူလ ဖိုလ်ဒါ၌ `docsify serve` ဟု ရိုက်ထည့်ပါ။ ဝဘ်ဆိုဒ်သည် သင့်ဒေသတွင်းမှ localhost:3000 ပေါ်တွင် တင်ဆက်ပါမည်။
 
-> မှတ်ချက် - notebook များကို Docsify ဖြင့် မဖော်ပြနိုင်ပါ၊ ထို့ကြောင့် notebook မတက်ဖို့လိုသောအခါ VS Code တွင် Python kernel ဖြင့် သီးသန့် run လုပ်ပါ။
+> မှတ်ချက်၊ notebook များကို Docsify ဖြင့် ကြည့်ရှု၍ မရပါ၊ ထို့ကြောင့် notebook များကို ဘယ်လို လုပ်ရမည်ဆိုသည့်ကိစ္စဖြစ်လျှင် VS Code အတွင်း Python kernel ဖြင့် သီးခြား လည်ပတ်ပါ။
 
-## အခြား သင်တန်းအစီအစဉ်များ
+## အခြား သင်ရိုးညွှန်းတမ်းများ
 
-ကျွန်ုပ်တို့ အဖွဲ့သည် အခြားသင်တန်းများကို ထုတ်လုပ်ပါသည်! ကြည့်ပါ:
+ကျွန်ုပ်တို့၏ အဖွဲ့သည် အခြား သင်ရိုးညွှန်းတမ်းများကို ထုတ်လုပ်ပါသည်! ဆက်လက်ကြည့်ရှုပါ -
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![LangChain4j အတွက် စတင်သူများ](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
 [![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
 [![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
@@ -231,22 +244,21 @@ Repo ကို အသုံးပြုရန် isolated Docker volume တစ�
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## အကူအညီရယူခြင်း
+## Getting Help
 
-**ပြဿနာတွေရှိပြီလား?** ပုံမှန်ပြဿနာများအတွက် ဖြေရှင်းချက်များကို ကြည့်ရှုနိုင်ရန် [Troubleshooting Guide](TROUBLESHOOTING.md) ကို စစ်ဆေးပါ။
+**ပြဿနာတွေကြုံနေရပါသလား?** မကြာခဏကြုံတွေ့ရသော ပြဿနာများအတွက် ဖြေရှင်းနည်းများကို [Troubleshooting Guide](TROUBLESHOOTING.md) မှာ ကြည့်ရှုနိုင်ပါသည်။
 
-AI အက်ပလီကေးရှင်းများ ဖန်တီးရာတွင် ရပ်တန့်သွားခဲ့ခြင်း သို့မဟုတ် မေးခွန်းများရှိှိမိပါက MCP အကြောင်း ဆွေးနွးမှုများတွင် ကျောင်းသားများ နှင့် အတွေ့အကြုံရှိ မိတ်ဆွေများထံ ပူးပေါင်းပါ။ အဲဒီမှာ မေးခွန်းများကို ကြိုဆိုပြီး အသိပညာများကို လွတ်လပ်စွာ မျှဝေကြသည့် ကွန်ယက်တစ်ခု ဖြစ်ပါသည်။
+AI အက်ပ်များ တည်ဆောက်ရာတွင် ထောက်ပံ့မှု လိုအပ်ပါက MCP အကြောင်း ဆွေးနွေးရန် လေ့လာသူများနှင့် အတွေ့အကြုံရှိ နည်းပညာရှင်များ အားပှဲသို့ တက်ရောက်ပါ။ အဲဒါဟာ မေးခွန်းတွေကို လက်ခံပြီး သိပ္ပံပညာ သောလောကကို လွတ်လပ်စွာ မျှဝေကြတဲ့ သင်တန်းဝိုင်းတစ်ခုဖြစ်ပါတယ်။
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-ထုတ်ကုန်မှတ်ချက်များ သို့မဟုတ် အမှားများရှိပါက ဖန်တီးခြင်းအတွင်း ဝင်ရောက်ကြည့်ရှုပါ။
+ထုတ်ကုန် အကြံပြုချက် သို့မဟုတ် အမှားများရှိပါက ဆောက်လုပ်စဉ်တွင် -
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**အကြောင်းကြားချက်**။
-
-ဤစာရွက်ကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ဖြင့် ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးပမ်းသော်လည်း အလိုအလျောက် ဘာသာပြန်ချက်များတွင် အမှားများ သို့မဟုတ် မှားယွင်းချက်များ ရှိနိုင်ကြောင်း သတိပြုပါရန် မေတ္တာရပ်ခံအပ်ပါသည်။ မူလစာရွက်ကို မူရင်းဘာသာဖြင့်သာ တရားဝင်အချက်အလက်အနေဖြင့် ယူဆရန် လိုအပ်ပါသည်။ အရေးပါတဲ့ သတင်းအချက်အလက်များအတွက် သမားရိုးကျ လူသား ဘာသာပြန်ခြင်းကို အကြံပြုပါသည်။ ဤဘာသာပြန်ချက်ကို အသုံးပြုမှုကြောင့် ဖြစ်ပေါ်လာသည့် နားမလည်မှုများ သို့မဟုတ် မှားယွင်းစွာ အဓိပ္ပာယ်ဖတ်ခြင်းများအတွက် ကျွန်ုပ်တို့ တာဝန်မခံပါ။
+**အချက်ပေးချက်**:
+ဤစာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ဖြင့် ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားအားထုတ်ပေမယ့် ကွန်ပျူတာအလိုအလျောက် ဘာသာပြန်ခြင်းများတွင် အနည်းငယ် အမှားများ သို့မဟုတ် တိကျမှုမရှိမှုများ ရှိနိုင်ကြောင်း သတိပြုပါရန် ဖြစ်သည်။ မူရင်းစာတမ်းကို မိဘဘာသာဖြင့်သာ အတည်ပြုနိုင်သော အချက်အလက်အရင်းမြစ်အဖြစ် သတ်မှတ်ပါရန် အကြံပြုပါတယ်။ အရေးကြီးသော သတင်းအချက်အလက်များအတွက်တော့ ပရော်ဖက်ရှင်နယ် လူသားဘာသာပြန်သူများ၏ ဘာသာပြန်ခြင်းကို အသုံးပြုရန် တိုက်တွန်းပါသည်။ ဤဘာသာပြန်ချက်ကို အသုံးပြုရာတွင် ဖြစ်ပေါ်နိုင်သည့် နားလည်မှားယွင်းမှုများ သို့မဟုတ် စကားလုံးဉာဏ်ကြီးယားမှုများအတွက် ကျွန်ုပ်တို့၏ တာဝန်မရှိပါ။
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
