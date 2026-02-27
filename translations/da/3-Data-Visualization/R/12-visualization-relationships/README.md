@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/da/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
+![scatterplot 1](../../../../../translated_images/da/scatter1.86b8900674d88b26.webp)
 
 Vis nu de samme data med et honningfarvetema for at vise, hvordan prisen udvikler sig over årene. Du kan gøre dette ved at tilføje en 'scale_color_gradientn'-parameter for at vise ændringen år for år:
 
@@ -52,7 +52,7 @@ Vis nu de samme data med et honningfarvetema for at vise, hvordan prisen udvikle
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/da/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
+![scatterplot 2](../../../../../translated_images/da/scatter2.4d1cbc693bad20e2.webp)
 
 Med denne farveskemaændring kan du se, at der tydeligvis er en stærk progression over årene i forhold til honningprisen pr. pund. Faktisk, hvis du ser på et eksempel fra datasættet for at verificere (vælg en given stat, f.eks. Arizona), kan du se et mønster af prisstigninger år for år, med få undtagelser:
 
@@ -83,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Du kan se, at prikkerne gradvist bliver større.
 
-![scatterplot 3](../../../../../translated_images/da/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
+![scatterplot 3](../../../../../translated_images/da/scatter3.722d21e6f20b3ea2.webp)
 
 Er dette et simpelt tilfælde af udbud og efterspørgsel? På grund af faktorer som klimaforandringer og kolonikollaps, er der mindre honning tilgængelig for køb år for år, og derfor stiger prisen?
 
@@ -98,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Svar: Ja, med nogle undtagelser omkring året 2003:
 
-![line chart 1](../../../../../translated_images/da/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
+![line chart 1](../../../../../translated_images/da/line1.299b576fbb2a59e6.webp)
 
 Spørgsmål: Nå, i 2003 kan vi også se en stigning i honningforsyningen? Hvad hvis du ser på den totale produktion år for år?
 
@@ -106,7 +106,7 @@ Spørgsmål: Nå, i 2003 kan vi også se en stigning i honningforsyningen? Hvad 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/da/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
+![line chart 2](../../../../../translated_images/da/line2.3b18fcda7176ceba.webp)
 
 Svar: Ikke rigtig. Hvis du ser på den totale produktion, ser det faktisk ud til at være steget i det pågældende år, selvom mængden af produceret honning generelt er faldende i disse år.
 
@@ -126,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 I denne visualisering kan du sammenligne udbytte pr. koloni og antal kolonier år for år, side om side med en wrap sat til 3 for kolonnerne:
 
-![facet grid](../../../../../translated_images/da/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
+![facet grid](../../../../../translated_images/da/facet.491ad90d61c2a7cc.webp)
 
 For dette datasæt skiller intet sig særligt ud med hensyn til antallet af kolonier og deres udbytte år for år og stat for stat. Er der en anden måde at finde en korrelation mellem disse to variabler?
 
@@ -143,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/da/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
+![superimposed plots](../../../../../translated_images/da/dual-line.fc4665f360a54018.webp)
 
 Mens intet springer i øjnene omkring året 2003, giver det os mulighed for at afslutte denne lektion på en lidt gladere note: selvom der generelt er et faldende antal kolonier, stabiliserer antallet af kolonier sig, selvom deres udbytte pr. koloni falder.
 

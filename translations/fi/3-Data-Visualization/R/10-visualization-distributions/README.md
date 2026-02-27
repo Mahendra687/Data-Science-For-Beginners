@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![maksimipituus per lahko](../../../../../translated_images/fi/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![maksimipituus per lahko](../../../../../translated_images/fi/max-length-per-order.e5b283d952c78c12.webp)
 
 Tämä antaa yleiskuvan kehon pituuden jakaumasta lintulahkoittain, mutta se ei ole paras tapa esittää todellisia jakaumia. Tätä tehtävää varten käytetään yleensä histogrammia.
 
@@ -48,7 +48,7 @@ Tämä antaa yleiskuvan kehon pituuden jakaumasta lintulahkoittain, mutta se ei 
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![jakauma koko datasetissä](../../../../../translated_images/fi/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![jakauma koko datasetissä](../../../../../translated_images/fi/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Kuten näet, suurin osa tämän datasetin yli 400 linnusta kuuluu alle 2000:n Max Body Mass -alueeseen. Saat lisää tietoa datasta muuttamalla `bins`-parametrin suuremmaksi, esimerkiksi 30:ksi:
 
@@ -56,7 +56,7 @@ Kuten näet, suurin osa tämän datasetin yli 400 linnusta kuuluu alle 2000:n Ma
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![jakauma-30bins](../../../../../translated_images/fi/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![jakauma-30bins](../../../../../translated_images/fi/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Tämä kaavio näyttää jakauman hieman tarkemmin. Vähemmän vasemmalle vinoutunut kaavio voidaan luoda varmistamalla, että valitset vain tietyn alueen sisällä olevan datan:
 
@@ -68,7 +68,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![suodatettu histogrammi](../../../../../translated_images/fi/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![suodatettu histogrammi](../../../../../translated_images/fi/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Kokeile muita suodattimia ja datapisteitä. Näyttääksesi datan koko jakauman, poista `['MaxBodyMass']`-suodatin ja näytä nimettyjä jakaumia.
 
@@ -82,7 +82,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Näyttää siltä, että näiden kahden elementin välillä on odotettu korrelaatio odotetun akselin mukaisesti, ja yksi erityisen vahva yhtymäkohta:
 
-![2d kaavio](../../../../../translated_images/fi/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![2d kaavio](../../../../../translated_images/fi/2d-plot.c504786f439bd7eb.webp)
 
 Histogrammit toimivat oletuksena hyvin numeeriselle datalle. Entä jos haluat nähdä jakaumia tekstidatan perusteella? 
 ## Tutki datasettiä jakaumien osalta tekstidatan avulla 
@@ -113,7 +113,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![siipiväli ja suojelustatus](../../../../../translated_images/fi/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![siipiväli ja suojelustatus](../../../../../translated_images/fi/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Näyttää siltä, ettei minimisiipivälin ja suojelustatuksen välillä ole selvää korrelaatiota. Testaa datasetin muita elementtejä tällä menetelmällä. Voit kokeilla myös erilaisia suodattimia. Löydätkö mitään korrelaatiota?
 
@@ -127,7 +127,7 @@ Työskennellään nyt tiheyskäyrien parissa!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![tiheyskäyrä](../../../../../translated_images/fi/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![tiheyskäyrä](../../../../../translated_images/fi/density-plot.675ccf865b76c690.webp)
 
 Näet, kuinka käyrä muistuttaa aiempaa minimisiipivälin kaaviota; se on vain hieman tasaisempi. Jos haluat tarkastella uudelleen sitä epätasaista MaxBodyMass-käyrää, jonka loit toisessa kaaviossa, voit tasoittaa sen hyvin luomalla sen uudelleen tällä menetelmällä:
 
@@ -135,7 +135,7 @@ Näet, kuinka käyrä muistuttaa aiempaa minimisiipivälin kaaviota; se on vain 
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![kehon massan tiheys](../../../../../translated_images/fi/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![kehon massan tiheys](../../../../../translated_images/fi/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Jos haluat tasaisen, mutta ei liian tasaisen käyrän, muokkaa `adjust`-parametria: 
 
@@ -143,7 +143,7 @@ Jos haluat tasaisen, mutta ei liian tasaisen käyrän, muokkaa `adjust`-parametr
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![vähemmän tasainen kehon massa](../../../../../translated_images/fi/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![vähemmän tasainen kehon massa](../../../../../translated_images/fi/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Lue tämän kaaviotyypin käytettävissä olevista parametreista ja kokeile!
 
@@ -153,7 +153,7 @@ Tämä kaaviotyyppi tarjoaa kauniita ja selittäviä visualisointeja. Esimerkiks
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![kehon massa per lahko](../../../../../translated_images/fi/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![kehon massa per lahko](../../../../../translated_images/fi/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Haaste
 

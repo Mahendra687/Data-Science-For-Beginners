@@ -13,7 +13,7 @@ Explorer-käyttöliittymä (näkyy alla olevassa kuvakaappauksessa) antaa mahdol
  2. Tutustu tietoaineistojen [luetteloon](https://planetarycomputer.microsoft.com/catalog) - opi kunkin tarkoitus.
  3. Käytä Exploreria - valitse kiinnostava tietoaineisto, valitse relevantti kysely ja visualisointivaihtoehto.
 
-![Planetary Computer Explorer](../../../../translated_images/fi/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![Planetary Computer Explorer](../../../../translated_images/fi/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Tehtäväsi:`
 Tutki nyt selaimessa luotua visualisointia ja vastaa seuraaviin kysymyksiin:
