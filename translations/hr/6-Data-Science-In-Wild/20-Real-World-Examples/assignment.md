@@ -13,7 +13,7 @@ Sučelje Explorer (prikazano na slici ispod) omogućuje vam odabir skupa podatak
  2. Istražite [Katalog](https://planetarycomputer.microsoft.com/catalog) skupova podataka - saznajte svrhu svakog od njih.
  3. Koristite Explorer - odaberite skup podataka koji vas zanima, odaberite relevantan upit i opciju prikaza.
 
-![The Planetary Computer Explorer](../../../../translated_images/hr/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![The Planetary Computer Explorer](../../../../translated_images/hr/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Vaš zadatak:`
 Sada proučite vizualizaciju koja je prikazana u pregledniku i odgovorite na sljedeće:

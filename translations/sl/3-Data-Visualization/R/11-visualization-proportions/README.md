@@ -88,7 +88,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, tortni graf, ki prikazuje deleže teh podatkov glede na ti dve kategoriji gob. Zelo pomembno je, da je vrstni red oznak pravilen, še posebej tukaj, zato preverite vrstni red, s katerim je ustvarjen niz oznak!
 
-![tortni graf](../../../../../translated_images/sl/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
+![tortni graf](../../../../../translated_images/sl/pie1-wb.685df063673751f4.webp)
 
 ## Krofi!
 
@@ -123,7 +123,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![krofni graf](../../../../../translated_images/sl/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
+![krofni graf](../../../../../translated_images/sl/donut-wb.34e6fb275da9d834.webp)
 
 Ta koda uporablja dve knjižnici - ggplot2 in webr. Z uporabo funkcije PieDonut iz knjižnice webr lahko enostavno ustvarimo krofni graf!
 
@@ -160,7 +160,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Z uporabo vafeljnega grafa lahko jasno vidite deleže barv klobukov v tem naboru podatkov o gobah. Zanimivo je, da je veliko gob z zelenimi klobuki!
 
-![vafeljni graf](../../../../../translated_images/sl/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
+![vafeljni graf](../../../../../translated_images/sl/waffle.aaa75c5337735a6e.webp)
 
 V tej lekciji ste se naučili treh načinov vizualizacije deležev. Najprej morate razvrstiti svoje podatke v kategorije in nato odločiti, kateri je najboljši način za prikaz podatkov - torta, krof ali vafelj. Vsi so okusni in uporabniku takoj ponudijo vpogled v nabor podatkov.
 
