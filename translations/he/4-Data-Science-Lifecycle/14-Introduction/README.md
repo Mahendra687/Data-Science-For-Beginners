@@ -16,7 +16,7 @@
 
 השיעור הזה מתמקד ב-3 חלקים מתוך מחזור החיים: איסוף, עיבוד ותחזוקה.
 
-![תרשים של מחזור החיים של מדעי הנתונים](../../../../translated_images/he/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
+![תרשים של מחזור החיים של מדעי הנתונים](../../../../translated_images/he/data-science-lifecycle.a1e362637503c4fb.webp)  
 > תמונה מאת [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## איסוף
@@ -89,7 +89,7 @@
 
 |תהליך מדעי הנתונים של הצוות (TDSP)|תהליך התקן התעשייתי לכריית נתונים (CRISP-DM)|
 |--|--|
-|![מחזור החיים של מדעי הנתונים של הצוות](../../../../translated_images/he/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![תמונה של תהליך מדעי הנתונים](../../../../translated_images/he/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
+|![מחזור החיים של מדעי הנתונים של הצוות](../../../../translated_images/he/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![תמונה של תהליך מדעי הנתונים](../../../../translated_images/he/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | תמונה מאת [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | תמונה מאת [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [שאלון לאחר השיעור](https://ff-quizzes.netlify.app/en/ds/quiz/27)

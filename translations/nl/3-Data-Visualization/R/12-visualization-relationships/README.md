@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/nl/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
+![scatterplot 1](../../../../../translated_images/nl/scatter1.86b8900674d88b26.webp)
 
 Laat nu dezelfde data zien met een honingkleurenschema om te laten zien hoe de prijs zich door de jaren heen ontwikkelt. Dit kun je doen door een 'scale_color_gradientn'-parameter toe te voegen om de verandering per jaar weer te geven:
 
@@ -52,7 +52,7 @@ Laat nu dezelfde data zien met een honingkleurenschema om te laten zien hoe de p
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/nl/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
+![scatterplot 2](../../../../../translated_images/nl/scatter2.4d1cbc693bad20e2.webp)
 
 Met deze kleurenschemawijziging kun je duidelijk zien dat er door de jaren heen een sterke stijging is in de prijs per pond honing. Als je een steekproef uit de data neemt om dit te controleren (bijvoorbeeld Arizona), zie je een patroon van prijsstijgingen per jaar, met enkele uitzonderingen:
 
@@ -83,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Je ziet dat de grootte van de stippen geleidelijk toeneemt.
 
-![scatterplot 3](../../../../../translated_images/nl/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
+![scatterplot 3](../../../../../translated_images/nl/scatter3.722d21e6f20b3ea2.webp)
 
 Is dit een eenvoudig geval van vraag en aanbod? Door factoren zoals klimaatverandering en het instorten van kolonies is er misschien minder honing beschikbaar, waardoor de prijs jaar na jaar stijgt?
 
@@ -98,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Antwoord: Ja, met enkele uitzonderingen rond het jaar 2003:
 
-![line chart 1](../../../../../translated_images/nl/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
+![line chart 1](../../../../../translated_images/nl/line1.299b576fbb2a59e6.webp)
 
 Vraag: Kunnen we in 2003 ook een piek in de honingvoorraad zien? Wat als je kijkt naar de totale productie door de jaren heen?
 
@@ -106,7 +106,7 @@ Vraag: Kunnen we in 2003 ook een piek in de honingvoorraad zien? Wat als je kijk
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/nl/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
+![line chart 2](../../../../../translated_images/nl/line2.3b18fcda7176ceba.webp)
 
 Antwoord: Niet echt. Als je kijkt naar de totale productie, lijkt deze in dat specifieke jaar zelfs te zijn toegenomen, hoewel de hoeveelheid geproduceerde honing over het algemeen afneemt in deze jaren.
 
@@ -126,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 In deze visualisatie kun je de opbrengst per kolonie en het aantal kolonies door de jaren heen vergelijken, naast elkaar met een wrap ingesteld op 3 kolommen:
 
-![facet grid](../../../../../translated_images/nl/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
+![facet grid](../../../../../translated_images/nl/facet.491ad90d61c2a7cc.webp)
 
 Voor deze dataset valt er niets bijzonders op met betrekking tot het aantal kolonies en hun opbrengst, jaar na jaar en staat na staat. Is er een andere manier om een correlatie tussen deze twee variabelen te vinden?
 
@@ -143,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/nl/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
+![superimposed plots](../../../../../translated_images/nl/dual-line.fc4665f360a54018.webp)
 
 Hoewel er rond 2003 niets opvallends te zien is, eindigen we deze les met een iets positiever noot: hoewel het aantal kolonies over het algemeen afneemt, stabiliseert het aantal kolonies, zelfs als hun opbrengst per kolonie afneemt.
 

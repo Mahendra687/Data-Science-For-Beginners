@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![אורך מקסימלי לפי סדר](../../../../../translated_images/he/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![אורך מקסימלי לפי סדר](../../../../../translated_images/he/max-length-per-order.e5b283d952c78c12.webp)
 
 זה נותן סקירה כללית של ההתפלגות הכללית של אורך גוף לפי סדר הציפורים, אך זו אינה הדרך האופטימלית להציג התפלגויות אמיתיות. משימה זו בדרך כלל מתבצעת על ידי יצירת היסטוגרמה.
 ## עבודה עם היסטוגרמות
@@ -47,7 +47,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![התפלגות על פני מערך הנתונים כולו](../../../../../translated_images/he/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![התפלגות על פני מערך הנתונים כולו](../../../../../translated_images/he/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 כפי שניתן לראות, רוב 400+ הציפורים במערך הנתונים הזה נמצאות בטווח של מתחת ל-2000 עבור מסת הגוף המקסימלית שלהן. ניתן לקבל תובנות נוספות על הנתונים על ידי שינוי הפרמטר `bins` למספר גבוה יותר, כמו 30:
 
@@ -55,7 +55,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![התפלגות-30 מקטעים](../../../../../translated_images/he/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![התפלגות-30 מקטעים](../../../../../translated_images/he/distribution-30bins.6a3921ea7a421bf7.webp)
 
 תרשים זה מציג את ההתפלגות בצורה מעט יותר מפורטת. ניתן ליצור תרשים פחות מוטה שמאלה על ידי הבטחת בחירת נתונים רק בטווח נתון:
 
@@ -67,7 +67,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![היסטוגרמה מסוננת](../../../../../translated_images/he/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![היסטוגרמה מסוננת](../../../../../translated_images/he/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ נסו מסננים ונקודות נתונים אחרות. כדי לראות את ההתפלגות המלאה של הנתונים, הסירו את המסנן `['MaxBodyMass']` כדי להציג התפלגויות עם תוויות.
 
@@ -81,7 +81,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 נראה שיש מתאם צפוי בין שני האלמנטים הללו לאורך ציר צפוי, עם נקודת התכנסות חזקה במיוחד אחת:
 
-![תרשים דו-ממדי](../../../../../translated_images/he/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![תרשים דו-ממדי](../../../../../translated_images/he/2d-plot.c504786f439bd7eb.webp)
 
 היסטוגרמות עובדות היטב כברירת מחדל עבור נתונים מספריים. מה אם אתם צריכים לראות התפלגויות לפי נתונים טקסטואליים? 
 ## חקר מערך הנתונים להתפלגויות באמצעות נתונים טקסטואליים 
@@ -112,7 +112,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![מוטת כנפיים ומצב שימור](../../../../../translated_images/he/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![מוטת כנפיים ומצב שימור](../../../../../translated_images/he/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 נראה שאין מתאם טוב בין מוטת כנפיים מינימלית למצב השימור. בדקו אלמנטים אחרים במערך הנתונים באמצעות שיטה זו. תוכלו לנסות מסננים שונים גם כן. האם אתם מוצאים מתאם כלשהו?
 
@@ -126,7 +126,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![תרשים צפיפות](../../../../../translated_images/he/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![תרשים צפיפות](../../../../../translated_images/he/density-plot.675ccf865b76c690.webp)
 
 ניתן לראות כיצד התרשים משקף את התרשים הקודם עבור נתוני מוטת כנפיים מינימלית; הוא פשוט מעט חלק יותר. אם תרצו לחזור לקו המדרגות של MaxBodyMass בתרשים השני שבניתם, תוכלו להחליק אותו היטב על ידי יצירתו מחדש באמצעות שיטה זו:
 
@@ -134,7 +134,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![צפיפות מסת גוף](../../../../../translated_images/he/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![צפיפות מסת גוף](../../../../../translated_images/he/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 אם תרצו קו חלק, אך לא חלק מדי, ערכו את הפרמטר `adjust`: 
 
@@ -142,7 +142,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![מסת גוף פחות חלקה](../../../../../translated_images/he/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![מסת גוף פחות חלקה](../../../../../translated_images/he/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ קראו על הפרמטרים הזמינים עבור סוג תרשים זה ונסו להתנסות!
 
@@ -152,7 +152,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![מסת גוף לפי סדר](../../../../../translated_images/he/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![מסת גוף לפי סדר](../../../../../translated_images/he/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 אתגר
 
