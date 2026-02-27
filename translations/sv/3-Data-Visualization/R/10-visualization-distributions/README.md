@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max längd per ordning](../../../../../translated_images/sv/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![max längd per ordning](../../../../../translated_images/sv/max-length-per-order.e5b283d952c78c12.webp)
 
 Detta ger en översikt över den generella fördelningen av kroppslängd per fågelordning, men det är inte det optimala sättet att visa verkliga fördelningar. Den uppgiften hanteras vanligtvis genom att skapa ett histogram.
 ## Arbeta med histogram
@@ -47,7 +47,7 @@ Detta ger en översikt över den generella fördelningen av kroppslängd per få
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![fördelning över hela datasetet](../../../../../translated_images/sv/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![fördelning över hela datasetet](../../../../../translated_images/sv/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Som du kan se, faller de flesta av de 400+ fåglarna i detta dataset inom intervallet under 2000 för deras Max Kroppsmassa. Få mer insikt i datan genom att ändra `bins`-parametern till ett högre nummer, något som 30:
 
@@ -55,7 +55,7 @@ Som du kan se, faller de flesta av de 400+ fåglarna i detta dataset inom interv
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![fördelning-30bins](../../../../../translated_images/sv/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![fördelning-30bins](../../../../../translated_images/sv/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Detta diagram visar fördelningen på ett lite mer detaljerat sätt. Ett diagram som är mindre snedvridet åt vänster kan skapas genom att säkerställa att du endast väljer data inom ett visst intervall:
 
@@ -67,7 +67,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtrerat histogram](../../../../../translated_images/sv/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![filtrerat histogram](../../../../../translated_images/sv/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Prova några andra filter och datapunkter. För att se den fullständiga fördelningen av datan, ta bort `['MaxBodyMass']`-filtret för att visa märkta fördelningar.
 
@@ -81,7 +81,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Det verkar finnas en förväntad korrelation mellan dessa två element längs en förväntad axel, med en särskilt stark konvergenspunkt:
 
-![2d diagram](../../../../../translated_images/sv/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![2d diagram](../../../../../translated_images/sv/2d-plot.c504786f439bd7eb.webp)
 
 Histogram fungerar bra som standard för numerisk data. Vad händer om du behöver se fördelningar enligt textdata? 
 ## Utforska datasetet för fördelningar med hjälp av textdata 
@@ -112,7 +112,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![vingbredd och bevarande](../../../../../translated_images/sv/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![vingbredd och bevarande](../../../../../translated_images/sv/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Det verkar inte finnas någon bra korrelation mellan minsta vingbredd och bevarandestatus. Testa andra element i datasetet med denna metod. Du kan prova olika filter också. Hittar du någon korrelation?
 
@@ -126,7 +126,7 @@ Låt oss arbeta med täthetsdiagram nu!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![täthetsdiagram](../../../../../translated_images/sv/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![täthetsdiagram](../../../../../translated_images/sv/density-plot.675ccf865b76c690.webp)
 
 Du kan se hur diagrammet speglar det tidigare för Minsta Vingbredd-data; det är bara lite smidigare. Om du ville återbesöka den hackiga MaxKroppsmassa-linjen i det andra diagrammet du byggde, kunde du jämna ut den mycket väl genom att återskapa den med denna metod:
 
@@ -134,7 +134,7 @@ Du kan se hur diagrammet speglar det tidigare för Minsta Vingbredd-data; det ä
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![kroppsmassa täthet](../../../../../translated_images/sv/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![kroppsmassa täthet](../../../../../translated_images/sv/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Om du ville ha en smidig, men inte alltför smidig linje, redigera `adjust`-parametern: 
 
@@ -142,7 +142,7 @@ Om du ville ha en smidig, men inte alltför smidig linje, redigera `adjust`-para
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![mindre smidig kroppsmassa](../../../../../translated_images/sv/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![mindre smidig kroppsmassa](../../../../../translated_images/sv/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Läs om de parametrar som finns tillgängliga för denna typ av diagram och experimentera!
 
@@ -152,7 +152,7 @@ Denna typ av diagram erbjuder vackert förklarande visualiseringar. Med några f
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![kroppsmassa per ordning](../../../../../translated_images/sv/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![kroppsmassa per ordning](../../../../../translated_images/sv/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Utmaning
 
