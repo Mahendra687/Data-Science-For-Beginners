@@ -1,12 +1,12 @@
 # Data Science sa Cloud
 
-![cloud-picture](../../../translated_images/tl/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
+![cloud-picture](../../../translated_images/tl/cloud-picture.f5526de3c6c6387b.webp)
 
 > Larawan ni [Jelleke Vanooteghem](https://unsplash.com/@ilumire) mula sa [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Kapag pinag-uusapan ang paggawa ng data science gamit ang malalaking datos, ang cloud ay maaaring maging isang malaking tulong. Sa susunod na tatlong aralin, tatalakayin natin kung ano ang cloud at kung bakit ito napaka-kapaki-pakinabang. Susuriin din natin ang isang dataset tungkol sa heart failure at gagawa ng modelo upang makatulong sa pagsusuri ng posibilidad na magkaroon ng heart failure ang isang tao. Gagamitin natin ang kapangyarihan ng cloud upang sanayin, i-deploy, at gamitin ang modelo sa dalawang magkaibang paraan. Ang isang paraan ay gamit lamang ang user interface sa isang Low code/No code na paraan, at ang isa pang paraan ay gamit ang Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/tl/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
+![project-schema](../../../translated_images/tl/project-schema.420e56d495624541.webp)
 
 ### Mga Paksa
 
