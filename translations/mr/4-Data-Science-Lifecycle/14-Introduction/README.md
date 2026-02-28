@@ -16,7 +16,7 @@
 
 या धड्यात जीवनचक्राच्या 3 भागांवर लक्ष केंद्रित केले आहे: डेटा संकलन, प्रक्रिया आणि देखभाल.
 
-![डेटा सायन्स जीवनचक्राचे चित्र](../../../../translated_images/mr/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
+![डेटा सायन्स जीवनचक्राचे चित्र](../../../../translated_images/mr/data-science-lifecycle.a1e362637503c4fb.webp)  
 > फोटो [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/) यांच्याकडून
 
 ## डेटा संकलन
@@ -92,7 +92,7 @@
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/mr/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/mr/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/mr/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![Data Science Process Alliance Image](../../../../translated_images/mr/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | प्रतिमा [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) यांच्याकडून | प्रतिमा [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) यांच्याकडून |
 
 ## [व्याख्यानानंतरची प्रश्नमंजूषा](https://ff-quizzes.netlify.app/en/ds/quiz/27)
