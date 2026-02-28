@@ -13,7 +13,7 @@
  2. Изучить [каталог наборов данных](https://planetarycomputer.microsoft.com/catalog) — узнать назначение каждого набора.
  3. Использовать Explorer — выбрать интересующий набор данных, подходящий запрос и вариант визуализации.
 
-![The Planetary Computer Explorer](../../../../translated_images/ru/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![The Planetary Computer Explorer](../../../../translated_images/ru/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Ваше задание:`
 Теперь изучите визуализацию, которая отображается в браузере, и ответьте на следующие вопросы:

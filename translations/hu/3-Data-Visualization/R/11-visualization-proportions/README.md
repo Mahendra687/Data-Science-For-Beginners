@@ -86,7 +86,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voilá, egy torta diagram, amely bemutatja az adatok arányait a gombák két osztálya szerint. Nagyon fontos, hogy a címkék sorrendje helyes legyen, különösen itt, ezért ellenőrizd a címke tömb létrehozásának sorrendjét!
 
-![torta diagram](../../../../../translated_images/hu/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
+![torta diagram](../../../../../translated_images/hu/pie1-wb.685df063673751f4.webp)
 
 ## Fánkok!
 
@@ -121,7 +121,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![fánk diagram](../../../../../translated_images/hu/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
+![fánk diagram](../../../../../translated_images/hu/donut-wb.34e6fb275da9d834.webp)
 
 Ez a kód két könyvtárat használ - ggplot2 és webr. A webr könyvtár PieDonut függvényével könnyen készíthetünk fánk diagramot!
 
@@ -158,7 +158,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 A waffle diagram segítségével egyértelműen láthatod a gombakalap színek arányait ebben az adatállományban. Érdekes módon sok zöld kalapú gomba van!
 
-![waffle diagram](../../../../../translated_images/hu/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
+![waffle diagram](../../../../../translated_images/hu/waffle.aaa75c5337735a6e.webp)
 
 Ebben a leckében három módot tanultál meg az arányok vizualizálására. Először csoportosítanod kell az adatokat kategóriákba, majd eldönteni, hogy melyik a legjobb módja az adatok megjelenítésének - torta, fánk vagy waffle. Mindegyik ínycsiklandó, és azonnali pillanatképet nyújt az adatállományról.
 

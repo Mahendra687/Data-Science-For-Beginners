@@ -13,7 +13,7 @@
  2. לחקור את [הקטלוג](https://planetarycomputer.microsoft.com/catalog) של מערכי הנתונים - ללמוד את מטרת כל אחד מהם.
  3. להשתמש ב-Explorer - לבחור מערך נתונים שמעניין אותך, לבחור שאילתה רלוונטית ואפשרות הצגה מתאימה.
 
-![The Planetary Computer Explorer](../../../../translated_images/he/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![The Planetary Computer Explorer](../../../../translated_images/he/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `המשימה שלך:`
 כעת למד את הוויזואליזציה שמוצגת בדפדפן וענה על השאלות הבאות:

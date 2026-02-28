@@ -1,6 +1,6 @@
 # Vòng đời Khoa học Dữ liệu
 
-![communication](../../../translated_images/vi/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
+![communication](../../../translated_images/vi/communication.06d8e2a88d30d168.webp)
 > Ảnh của <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> trên <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Trong các bài học này, bạn sẽ khám phá một số khía cạnh của vòng đời Khoa học Dữ liệu, bao gồm phân tích và giao tiếp xoay quanh dữ liệu.

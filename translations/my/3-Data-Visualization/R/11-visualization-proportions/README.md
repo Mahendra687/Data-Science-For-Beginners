@@ -85,7 +85,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```  
 Voila, ဒီဒေတာကို အမျိုးအစားနှစ်မျိုးအလိုက် ဖော်ပြထားသည့် ပိုင်းကတ်တစ်ခုဖြစ်သည်။ အမှတ်အသားများ၏ အစီအစဉ်ကို မှန်ကန်စေရန် အထူးသတိထားပါ။  
 
-![pie chart](../../../../../translated_images/my/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
+![pie chart](../../../../../translated_images/my/pie1-wb.685df063673751f4.webp)
 
 ## ဒိုနတ်ကတ်များ!
 
@@ -119,7 +119,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```  
 
-![donut chart](../../../../../translated_images/my/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
+![donut chart](../../../../../translated_images/my/donut-wb.34e6fb275da9d834.webp)
 
 ဒီကုဒ်သည် ggplot2 နှင့် webr ဆိုသော လိုက်ဘရရီနှစ်ခုကို အသုံးပြုထားသည်။ webr လိုက်ဘရရီ၏ PieDonut function ကို အသုံးပြု၍ ဒိုနတ်ကတ်ကို လွယ်ကူစွာ ဖန်တီးနိုင်သည်။  
 
@@ -155,7 +155,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 ဝဖယ်ကတ်ကို အသုံးပြု၍ မှို cap color များ၏ အချိုးအစားကို ရှင်းလင်းစွာ မြင်နိုင်သည်။ စိတ်ဝင်စားစရာကောင်းသည်မှာ အစိမ်းရောင် cap များစွာရှိနေခြင်းဖြစ်သည်။  
 
-![waffle chart](../../../../../translated_images/my/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
+![waffle chart](../../../../../translated_images/my/waffle.aaa75c5337735a6e.webp)
 
 ဒီသင်ခန်းစာတွင် သင်သည် အချိုးအစားများကို ဖော်ပြရန် နည်းလမ်းသုံးမျိုးကို သင်ယူခဲ့သည်- ပိုင်းကတ်၊ ဒိုနတ်ကတ်၊ နှင့် ဝဖယ်ကတ်။ ဒေတာကို အုပ်စုဖွဲ့ပြီး အကောင်းဆုံး ဖော်ပြနည်းကို ရွေးချယ်ပါ။  
 

@@ -1,6 +1,6 @@
 # Vizualizációk
 
-![egy méh egy levendulavirágon](../../../translated_images/hu/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
+![egy méh egy levendulavirágon](../../../translated_images/hu/bee.0aa1d91132b12e3a.webp)
 > Fotó: <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> az <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> oldalán
 
 

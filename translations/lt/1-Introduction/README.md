@@ -1,6 +1,6 @@
 # Įvadas į Duomenų Mokslą
 
-![duomenys veiksme](../../../translated_images/lt/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
+![duomenys veiksme](../../../translated_images/lt/data.48e22bb7617d8d92.webp)  
 > Nuotrauka: <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> iš <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Šiose pamokose sužinosite, kaip apibrėžiamas Duomenų Mokslas, ir susipažinsite su etiniais aspektais, kuriuos privalo apsvarstyti duomenų mokslininkas. Taip pat sužinosite, kas yra duomenys, ir šiek tiek apie statistiką bei tikimybes – pagrindines Duomenų Mokslo akademines sritis.

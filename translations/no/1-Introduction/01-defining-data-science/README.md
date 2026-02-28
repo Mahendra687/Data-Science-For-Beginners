@@ -6,7 +6,7 @@
 
 ---
 
-[![Definere Data Science Video](../../../../translated_images/no/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Definere Data Science Video](../../../../translated_images/no/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -144,7 +144,7 @@ Hvis vi vil gjøre det enda mer komplisert, kan vi plotte tiden brukt på hver m
 
 I denne utfordringen skal vi prøve å finne konsepter som er relevante for feltet Data Science ved å se på tekster. Vi skal ta en Wikipedia-artikkel om Data Science, laste ned og behandle teksten, og deretter lage en ordsky som denne:
 
-![Ordsky for Data Science](../../../../translated_images/no/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
+![Ordsky for Data Science](../../../../translated_images/no/ds_wordcloud.664a7c07dca57de0.webp)
 
 Besøk [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') for å lese gjennom koden. Du kan også kjøre koden og se hvordan den utfører alle datatransformasjonene i sanntid.
 

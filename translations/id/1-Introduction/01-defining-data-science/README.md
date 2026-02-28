@@ -6,7 +6,7 @@
 
 ---
 
-[![Video Mendefinisikan Ilmu Data](../../../../translated_images/id/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video Mendefinisikan Ilmu Data](../../../../translated_images/id/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Kuis sebelum kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -144,7 +144,7 @@ Jika kita ingin lebih rumit lagi, kita dapat memplot waktu yang dihabiskan untuk
 
 Dalam tantangan ini, kita akan mencoba menemukan konsep-konsep yang relevan dengan bidang Data Science dengan melihat teks. Kita akan mengambil artikel Wikipedia tentang Data Science, mengunduh dan memproses teksnya, lalu membuat word cloud seperti ini:
 
-![Word Cloud untuk Data Science](../../../../translated_images/id/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
+![Word Cloud untuk Data Science](../../../../translated_images/id/ds_wordcloud.664a7c07dca57de0.webp)
 
 Kunjungi [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') untuk membaca kode. Anda juga dapat menjalankan kode tersebut, dan melihat bagaimana kode tersebut melakukan semua transformasi data secara real-time.
 

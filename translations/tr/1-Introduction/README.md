@@ -1,6 +1,6 @@
 # Veri Bilimine Giriş
 
-![veri iş başında](../../../translated_images/tr/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
+![veri iş başında](../../../translated_images/tr/data.48e22bb7617d8d92.webp)
 > Fotoğraf: <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> tarafından <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> üzerinde
   
 Bu derslerde, Veri Bilimi'nin nasıl tanımlandığını keşfedecek ve bir veri bilimcinin dikkate alması gereken etik konuları öğreneceksiniz. Ayrıca verinin nasıl tanımlandığını öğrenecek ve Veri Bilimi'nin temel akademik alanları olan istatistik ve olasılık hakkında biraz bilgi edineceksiniz.

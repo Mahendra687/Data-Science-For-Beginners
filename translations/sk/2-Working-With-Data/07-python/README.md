@@ -4,7 +4,7 @@
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Práca s Pythonom - _Sketchnote od [@nitya](https://twitter.com/nitya)_                   |
 
-[![Úvodné video](../../../../translated_images/sk/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Úvodné video](../../../../translated_images/sk/video-ds-python.245247dc811db8e4.webp)](https://youtu.be/dZjWOGbsN4Y)
 
 Databázy ponúkajú veľmi efektívne spôsoby ukladania dát a ich dotazovania pomocou dotazovacích jazykov, no najflexibilnejším spôsobom spracovania dát je napísanie vlastného programu na manipuláciu s dátami. V mnohých prípadoch by bolo efektívnejšie použiť dotaz do databázy. Avšak v prípadoch, keď je potrebné zložitejšie spracovanie dát, to nie je možné jednoducho vykonať pomocou SQL. 
 Spracovanie dát je možné programovať v akomkoľvek programovacom jazyku, ale existujú určité jazyky, ktoré sú na prácu s dátami na vyššej úrovni. Dátoví vedci zvyčajne preferujú jeden z nasledujúcich jazykov:
@@ -64,7 +64,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Graf časovej série](../../../../translated_images/sk/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
+![Graf časovej série](../../../../translated_images/sk/timeseries-1.80de678ab1cf727e.webp)
 
 Teraz predpokladajme, že každý týždeň organizujeme párty pre priateľov a berieme na párty ďalších 10 balení zmrzliny. Môžeme vytvoriť ďalšiu sériu, indexovanú podľa týždňov, aby sme to ukázali:
 ```python
@@ -75,7 +75,7 @@ Keď sčítame dve série, dostaneme celkový počet:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Graf časovej série](../../../../translated_images/sk/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
+![Graf časovej série](../../../../translated_images/sk/timeseries-2.aae51d575c55181c.webp)
 
 > **Poznámka**: Nepoužívame jednoduchú syntax `total_items+additional_items`. Ak by sme to urobili, dostali by sme veľa hodnôt `NaN` (*Not a Number*) v výslednej sérii. Je to preto, že pre niektoré indexové body v sérii `additional_items` chýbajú hodnoty, a sčítanie `NaN` s čímkoľvek vedie k `NaN`. Preto musíme počas sčítania špecifikovať parameter `fill_value`.
 
@@ -84,7 +84,7 @@ Pri časových sériách môžeme tiež **preukladať** sériu s rôznymi časov
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Mesačné priemery časovej série](../../../../translated_images/sk/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
+![Mesačné priemery časovej série](../../../../translated_images/sk/timeseries-3.f3147cbc8c624881.webp)
 
 ### DataFrame
 
@@ -210,7 +210,7 @@ Prvým problémom, na ktorý sa zameriame, je modelovanie epidémie šírenia CO
 
 Keďže chceme demonštrovať, ako pracovať s dátami, pozývame vás otvoriť [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) a prečítať si ho od začiatku do konca. Môžete tiež spustiť bunky a splniť niektoré výzvy, ktoré sme pre vás nechali na konci.
 
-![COVID Spread](../../../../translated_images/sk/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
+![COVID Spread](../../../../translated_images/sk/covidspread.f3d131c4f1d260ab.webp)
 
 > Ak neviete, ako spustiť kód v Jupyter Notebooku, pozrite si [tento článok](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -232,7 +232,7 @@ Kompletný príklad analýzy tohto datasetu pomocou [Text Analytics for Health](
 
 Otvorte [`notebook-papers.ipynb`](notebook-papers.ipynb) a prečítajte si ho od začiatku do konca. Môžete tiež spustiť bunky a splniť niektoré výzvy, ktoré sme pre vás nechali na konci.
 
-![Covid Medical Treatment](../../../../translated_images/sk/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
+![Covid Medical Treatment](../../../../translated_images/sk/covidtreat.b2ba59f57ca45fbc.webp)
 
 ## Spracovanie obrazových dát
 

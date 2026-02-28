@@ -1,6 +1,6 @@
 # Visualisierungen
 
-![eine Biene auf einer Lavendelblüte](../../../translated_images/de/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
+![eine Biene auf einer Lavendelblüte](../../../translated_images/de/bee.0aa1d91132b12e3a.webp)  
 > Foto von <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> auf <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Daten zu visualisieren ist eine der wichtigsten Aufgaben eines Data Scientists. Bilder sagen mehr als tausend Worte, und eine Visualisierung kann Ihnen helfen, alle möglichen interessanten Aspekte Ihrer Daten zu erkennen, wie z. B. Spitzen, Ausreißer, Gruppierungen, Tendenzen und vieles mehr, die Ihnen helfen können, die Geschichte zu verstehen, die Ihre Daten erzählen möchten.

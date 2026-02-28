@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/ru/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
+![scatterplot 1](../../../../../translated_images/ru/scatter1.86b8900674d88b26.webp)
 
 Теперь покажите те же данные с цветовой схемой, напоминающей цвет мёда, чтобы отобразить, как цена меняется год за годом. Вы можете сделать это, добавив параметр 'scale_color_gradientn', чтобы показать изменения:
 
@@ -52,7 +52,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/ru/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
+![scatterplot 2](../../../../../translated_images/ru/scatter2.4d1cbc693bad20e2.webp)
 
 С изменением цветовой схемы становится очевидным, что цена за фунт мёда значительно увеличивается с течением времени. Если вы проверите выборку данных (например, для штата Аризона), вы увидите закономерность увеличения цен год за годом, с редкими исключениями:
 
@@ -83,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Вы можете заметить, как размер точек постепенно увеличивается.
 
-![scatterplot 3](../../../../../translated_images/ru/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
+![scatterplot 3](../../../../../translated_images/ru/scatter3.722d21e6f20b3ea2.webp)
 
 Это простой случай спроса и предложения? Из-за таких факторов, как изменение климата и разрушение колоний, становится ли мёда меньше с каждым годом, что приводит к увеличению цены?
 
@@ -98,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Ответ: Да, с некоторыми исключениями около 2003 года:
 
-![line chart 1](../../../../../translated_images/ru/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
+![line chart 1](../../../../../translated_images/ru/line1.299b576fbb2a59e6.webp)
 
 Вопрос: А в 2003 году можно ли также увидеть всплеск предложения мёда? Что если посмотреть на общий объём производства год за годом?
 
@@ -106,7 +106,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/ru/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
+![line chart 2](../../../../../translated_images/ru/line2.3b18fcda7176ceba.webp)
 
 Ответ: Не совсем. Если посмотреть на общий объём производства, он, наоборот, кажется увеличившимся в этот год, хотя в целом объём производства мёда снижается в течение этих лет.
 
@@ -126,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 В этой визуализации вы можете сравнить урожайность на одну колонию и количество колоний год за годом, бок о бок, с настройкой wrap на 3 для столбцов:
 
-![facet grid](../../../../../translated_images/ru/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
+![facet grid](../../../../../translated_images/ru/facet.491ad90d61c2a7cc.webp)
 
 Для этого набора данных ничего особенно не выделяется в отношении количества колоний и их урожайности год за годом и штат за штатом. Можно ли найти другой способ выявить корреляцию между этими двумя переменными?
 
@@ -143,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/ru/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
+![superimposed plots](../../../../../translated_images/ru/dual-line.fc4665f360a54018.webp)
 
 Хотя ничего явно не выделяется около 2003 года, это позволяет завершить урок на более позитивной ноте: несмотря на общее снижение количества колоний, их число стабилизируется, даже если урожайность на одну колонию уменьшается.
 

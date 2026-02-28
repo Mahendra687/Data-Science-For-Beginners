@@ -13,7 +13,7 @@ Kiolesura cha Explorer (kinachoonyeshwa kwenye picha hapa chini) kinakuruhusu ku
  2. Chunguza [Catalog ya dataset](https://planetarycomputer.microsoft.com/catalog) - elewa madhumuni ya kila moja.
  3. Tumia Explorer - chagua dataset inayokuvutia, chagua swali linalofaa na chaguo la uwasilishaji.
 
-![The Planetary Computer Explorer](../../../../translated_images/sw/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![The Planetary Computer Explorer](../../../../translated_images/sw/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Jukumu Lako:`
 Sasa chunguza taswira inayotolewa kwenye kivinjari na jibu yafuatayo:

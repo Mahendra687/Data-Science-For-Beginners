@@ -1,6 +1,6 @@
 # עבודה עם נתונים
 
-![data love](../../../translated_images/he/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
+![data love](../../../translated_images/he/data-love.a22ef29e6742c852.webp)  
 > צילום על ידי <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> ב-<a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 בשיעורים אלו תלמדו כמה מהדרכים שבהן ניתן לנהל, לעבד ולהשתמש בנתונים ביישומים. תלמדו על מסדי נתונים יחסיים ולא-יחסיים וכיצד ניתן לאחסן בהם נתונים. תלמדו את היסודות של עבודה עם Python לניהול נתונים, ותגלו כמה מהדרכים הרבות שבהן ניתן לעבוד עם Python לניהול וניתוח נתונים.  

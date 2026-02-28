@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max lengte per orde](../../../../../translated_images/nl/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![max lengte per orde](../../../../../translated_images/nl/max-length-per-order.e5b283d952c78c12.webp)
 
 Dit geeft een overzicht van de algemene verdeling van lichaamslengte per vogelorde, maar het is niet de optimale manier om echte distributies weer te geven. Die taak wordt meestal uitgevoerd door een histogram te maken.
 ## Werken met histogrammen
@@ -47,7 +47,7 @@ Dit geeft een overzicht van de algemene verdeling van lichaamslengte per vogelor
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distributie over de hele dataset](../../../../../translated_images/nl/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![distributie over de hele dataset](../../../../../translated_images/nl/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Zoals je kunt zien, valt het merendeel van de 400+ vogels in deze dataset in het bereik van minder dan 2000 voor hun maximale lichaamsmassa. Krijg meer inzicht in de gegevens door de parameter `bins` te wijzigen naar een hoger aantal, bijvoorbeeld 30:
 
@@ -55,7 +55,7 @@ Zoals je kunt zien, valt het merendeel van de 400+ vogels in deze dataset in het
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distributie-30bins](../../../../../translated_images/nl/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![distributie-30bins](../../../../../translated_images/nl/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Dit diagram toont de distributie op een iets meer gedetailleerde manier. Een diagram dat minder naar links is scheefgetrokken, kan worden gemaakt door ervoor te zorgen dat je alleen gegevens selecteert binnen een bepaald bereik:
 
@@ -67,7 +67,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![gefilterd histogram](../../../../../translated_images/nl/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![gefilterd histogram](../../../../../translated_images/nl/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Probeer enkele andere filters en gegevenspunten. Om de volledige distributie van de gegevens te zien, verwijder je de `['MaxBodyMass']` filter om gelabelde distributies weer te geven.
 
@@ -81,7 +81,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Er lijkt een verwachte correlatie te zijn tussen deze twee elementen langs een verwachte as, met één bijzonder sterk convergentiepunt:
 
-![2d plot](../../../../../translated_images/nl/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![2d plot](../../../../../translated_images/nl/2d-plot.c504786f439bd7eb.webp)
 
 Histogrammen werken standaard goed voor numerieke gegevens. Wat als je distributies wilt zien op basis van tekstgegevens? 
 ## Verken de dataset voor distributies met behulp van tekstgegevens 
@@ -112,7 +112,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![vleugelspan en beschermingsstatus](../../../../../translated_images/nl/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![vleugelspan en beschermingsstatus](../../../../../translated_images/nl/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Er lijkt geen goede correlatie te zijn tussen minimale vleugelspanwijdte en beschermingsstatus. Test andere elementen van de dataset met deze methode. Je kunt ook verschillende filters proberen. Vind je enige correlatie?
 
@@ -126,7 +126,7 @@ Laten we nu werken met dichtheidsdiagrammen!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![dichtheidsdiagram](../../../../../translated_images/nl/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![dichtheidsdiagram](../../../../../translated_images/nl/density-plot.675ccf865b76c690.webp)
 
 Je kunt zien hoe het diagram het vorige voor minimale vleugelspanwijdte gegevens weerspiegelt; het is gewoon iets vloeiender. Als je die hoekige MaxBodyMass-lijn in het tweede diagram dat je hebt gemaakt opnieuw wilt bekijken, kun je deze heel goed gladstrijken door deze opnieuw te maken met deze methode:
 
@@ -134,7 +134,7 @@ Je kunt zien hoe het diagram het vorige voor minimale vleugelspanwijdte gegevens
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![lichaamsmassa dichtheid](../../../../../translated_images/nl/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![lichaamsmassa dichtheid](../../../../../translated_images/nl/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Als je een gladde, maar niet te gladde lijn wilt, bewerk dan de parameter `adjust`: 
 
@@ -142,7 +142,7 @@ Als je een gladde, maar niet te gladde lijn wilt, bewerk dan de parameter `adjus
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![minder gladde lichaamsmassa](../../../../../translated_images/nl/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![minder gladde lichaamsmassa](../../../../../translated_images/nl/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Lees over de beschikbare parameters voor dit type diagram en experimenteer!
 
@@ -152,7 +152,7 @@ Dit type diagram biedt prachtig verklarende visualisaties. Met een paar regels c
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![lichaamsmassa per orde](../../../../../translated_images/nl/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![lichaamsmassa per orde](../../../../../translated_images/nl/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Uitdaging
 

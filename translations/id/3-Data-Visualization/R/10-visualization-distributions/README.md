@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![panjang maksimum per ordo](../../../../../translated_images/id/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![panjang maksimum per ordo](../../../../../translated_images/id/max-length-per-order.e5b283d952c78c12.webp)
 
 Ini memberikan gambaran umum tentang distribusi panjang tubuh per Ordo burung, tetapi ini bukan cara terbaik untuk menampilkan distribusi yang sebenarnya. Tugas ini biasanya dilakukan dengan membuat Histogram.
 ## Bekerja dengan histogram
@@ -47,7 +47,7 @@ Ini memberikan gambaran umum tentang distribusi panjang tubuh per Ordo burung, t
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribusi seluruh dataset](../../../../../translated_images/id/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![distribusi seluruh dataset](../../../../../translated_images/id/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Seperti yang Anda lihat, sebagian besar dari 400+ burung dalam dataset ini berada dalam rentang di bawah 2000 untuk Max Body Mass mereka. Dapatkan lebih banyak wawasan tentang data dengan mengubah parameter `bins` ke angka yang lebih tinggi, seperti 30:
 
@@ -55,7 +55,7 @@ Seperti yang Anda lihat, sebagian besar dari 400+ burung dalam dataset ini berad
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribusi-30bins](../../../../../translated_images/id/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![distribusi-30bins](../../../../../translated_images/id/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Grafik ini menunjukkan distribusi dengan cara yang sedikit lebih rinci. Grafik yang kurang condong ke kiri dapat dibuat dengan memastikan bahwa Anda hanya memilih data dalam rentang tertentu:
 
@@ -67,7 +67,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![histogram yang disaring](../../../../../translated_images/id/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![histogram yang disaring](../../../../../translated_images/id/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Coba beberapa filter dan titik data lainnya. Untuk melihat distribusi penuh data, hapus filter `['MaxBodyMass']` untuk menampilkan distribusi yang diberi label.
 
@@ -81,7 +81,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Tampaknya ada korelasi yang diharapkan antara kedua elemen ini sepanjang sumbu yang diharapkan, dengan satu titik konvergensi yang sangat kuat:
 
-![plot 2d](../../../../../translated_images/id/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![plot 2d](../../../../../translated_images/id/2d-plot.c504786f439bd7eb.webp)
 
 Histogram bekerja dengan baik secara default untuk data numerik. Bagaimana jika Anda perlu melihat distribusi berdasarkan data teks? 
 ## Jelajahi dataset untuk distribusi menggunakan data teks 
@@ -112,7 +112,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![kolasi rentang sayap dan konservasi](../../../../../translated_images/id/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![kolasi rentang sayap dan konservasi](../../../../../translated_images/id/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Tampaknya tidak ada korelasi yang baik antara rentang sayap minimum dan status konservasi. Uji elemen lain dari dataset menggunakan metode ini. Anda juga dapat mencoba filter yang berbeda. Apakah Anda menemukan korelasi?
 
@@ -126,7 +126,7 @@ Mari kita bekerja dengan plot kepadatan sekarang!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![plot kepadatan](../../../../../translated_images/id/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![plot kepadatan](../../../../../translated_images/id/density-plot.675ccf865b76c690.webp)
 
 Anda dapat melihat bagaimana plot ini mencerminkan grafik sebelumnya untuk data Rentang Sayap Minimum; hanya saja sedikit lebih halus. Jika Anda ingin melihat garis MaxBodyMass yang bergerigi pada grafik kedua yang Anda buat, Anda dapat menghaluskannya dengan sangat baik dengan membuat ulang menggunakan metode ini:
 
@@ -134,7 +134,7 @@ Anda dapat melihat bagaimana plot ini mencerminkan grafik sebelumnya untuk data 
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![kepadatan massa tubuh](../../../../../translated_images/id/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![kepadatan massa tubuh](../../../../../translated_images/id/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Jika Anda menginginkan garis yang halus, tetapi tidak terlalu halus, edit parameter `adjust`: 
 
@@ -142,7 +142,7 @@ Jika Anda menginginkan garis yang halus, tetapi tidak terlalu halus, edit parame
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![massa tubuh kurang halus](../../../../../translated_images/id/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![massa tubuh kurang halus](../../../../../translated_images/id/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Baca tentang parameter yang tersedia untuk jenis plot ini dan bereksperimenlah!
 
@@ -152,7 +152,7 @@ Jenis grafik ini menawarkan visualisasi yang sangat informatif. Dengan beberapa 
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![massa tubuh per ordo](../../../../../translated_images/id/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![massa tubuh per ordo](../../../../../translated_images/id/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Tantangan
 

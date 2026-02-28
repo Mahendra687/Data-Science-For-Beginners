@@ -1,6 +1,6 @@
 # Вступ до науки про дані
 
-![дані в дії](../../../translated_images/uk/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
+![дані в дії](../../../translated_images/uk/data.48e22bb7617d8d92.webp)
 > Фото зроблено <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Стівеном Доусоном</a> на <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 У цих уроках ви дізнаєтеся, як визначається наука про дані, а також ознайомитеся з етичними аспектами, які має враховувати спеціаліст з даних. Ви також дізнаєтеся, як визначаються дані, і трохи ознайомитеся зі статистикою та ймовірністю — основними академічними напрямами науки про дані.

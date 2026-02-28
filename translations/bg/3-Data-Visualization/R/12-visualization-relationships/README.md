@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/bg/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
+![scatterplot 1](../../../../../translated_images/bg/scatter1.86b8900674d88b26.webp)
 
 Сега покажете същите данни с цветова схема, вдъхновена от мед, за да покажете как цената се развива през годините. Можете да направите това, като добавите параметър 'scale_color_gradientn', който показва промяната година след година:
 
@@ -52,7 +52,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/bg/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
+![scatterplot 2](../../../../../translated_images/bg/scatter2.4d1cbc693bad20e2.webp)
 
 С тази промяна в цветовата схема можете да видите, че има очевидна прогресия през годините по отношение на цената на килограм мед. Всъщност, ако разгледате примерен набор от данни, за да проверите (например щат Аризона), можете да видите модел на увеличение на цената година след година, с малко изключения:
 
@@ -83,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Можете да видите как размерът на точките постепенно се увеличава.
 
-![scatterplot 3](../../../../../translated_images/bg/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
+![scatterplot 3](../../../../../translated_images/bg/scatter3.722d21e6f20b3ea2.webp)
 
 Дали това е просто случай на търсене и предлагане? Поради фактори като климатични промени и колапс на колониите, има ли по-малко мед за покупка година след година, и затова цената се увеличава?
 
@@ -98,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Отговор: Да, с някои изключения около 2003 година:
 
-![line chart 1](../../../../../translated_images/bg/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
+![line chart 1](../../../../../translated_images/bg/line1.299b576fbb2a59e6.webp)
 
 Въпрос: Е, през 2003 година можем ли да видим и скок в предлагането на мед? Какво ще стане, ако разгледате общото производство година след година?
 
@@ -106,7 +106,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/bg/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
+![line chart 2](../../../../../translated_images/bg/line2.3b18fcda7176ceba.webp)
 
 Отговор: Не съвсем. Ако разгледате общото производство, всъщност изглежда, че то се е увеличило през тази конкретна година, въпреки че като цяло количеството произведен мед намалява през тези години.
 
@@ -126,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 В тази визуализация можете да сравните добива на колония и броя на колониите година след година, една до друга, с настройка на wrap на 3 за колоните:
 
-![facet grid](../../../../../translated_images/bg/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
+![facet grid](../../../../../translated_images/bg/facet.491ad90d61c2a7cc.webp)
 
 За този набор от данни нищо особено не изпъква по отношение на броя на колониите и техния добив, година след година и щат след щат. Има ли различен начин за откриване на корелация между тези две променливи?
 
@@ -143,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/bg/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
+![superimposed plots](../../../../../translated_images/bg/dual-line.fc4665f360a54018.webp)
 
 Докато нищо не изпъква около 2003 година, това ни позволява да завършим урока с малко по-щастлива нотка: въпреки че броят на колониите като цяло намалява, той се стабилизира, дори ако техният добив на колония намалява.
 

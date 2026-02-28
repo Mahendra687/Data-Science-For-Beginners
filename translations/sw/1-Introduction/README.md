@@ -1,6 +1,6 @@
 # Utangulizi wa Sayansi ya Takwimu
 
-![data in action](../../../translated_images/sw/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
+![data in action](../../../translated_images/sw/data.48e22bb7617d8d92.webp)
 > Picha na <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> kwenye <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Katika masomo haya, utagundua jinsi Sayansi ya Takwimu inavyofafanuliwa na kujifunza kuhusu masuala ya kimaadili ambayo lazima yazingatiwe na mwanasayansi wa takwimu. Pia utajifunza jinsi takwimu zinavyofafanuliwa na kupata maarifa kidogo kuhusu takwimu na uwezekano, maeneo ya msingi ya kitaaluma ya Sayansi ya Takwimu.

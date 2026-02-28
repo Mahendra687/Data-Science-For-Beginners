@@ -13,7 +13,7 @@
  2. استكشاف [كتالوج البيانات](https://planetarycomputer.microsoft.com/catalog) - لمعرفة الغرض من كل مجموعة بيانات.
  3. استخدام Explorer - اختيار مجموعة بيانات تهمك، وتحديد استعلام مناسب وخيار عرض.
 
-![واجهة Explorer للحاسوب الكوكبي](../../../../translated_images/ar/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![واجهة Explorer للحاسوب الكوكبي](../../../../translated_images/ar/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `مهمتك:`
 الآن قم بدراسة التصور الذي يتم عرضه في المتصفح وأجب عن الأسئلة التالية:

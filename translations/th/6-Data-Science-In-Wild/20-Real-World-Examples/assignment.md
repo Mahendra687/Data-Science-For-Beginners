@@ -13,7 +13,7 @@
  2. สำรวจ [แคตตาล็อกชุดข้อมูล](https://planetarycomputer.microsoft.com/catalog) - เพื่อเรียนรู้วัตถุประสงค์ของแต่ละชุดข้อมูล
  3. ใช้ Explorer - เลือกชุดข้อมูลที่คุณสนใจ เลือกคำสั่งค้นหาที่เกี่ยวข้อง และตัวเลือกการแสดงผล
 
-![The Planetary Computer Explorer](../../../../translated_images/th/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![The Planetary Computer Explorer](../../../../translated_images/th/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `งานของคุณ:`
 ศึกษาการแสดงผลที่ปรากฏในเบราว์เซอร์และตอบคำถามต่อไปนี้:

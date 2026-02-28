@@ -6,7 +6,7 @@
 
 ---
 
-[![డేటా సైన్స్ నిర్వచనం వీడియో](../../../../translated_images/te/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
+[![డేటా సైన్స్ నిర్వచనం వీడియో](../../../../translated_images/te/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [పూర్వ-లెక్చర్ క్విజ్](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -144,7 +144,7 @@
 
 ఈ సవాలలో, మేము డేటా సైన్స్ రంగానికి సంబంధించిన భావనలను పాఠ్యాలను పరిశీలించడం ద్వారా కనుగొనడానికి ప్రయత్నిస్తాము. మేము డేటా సైన్స్ పై వికీపీడియా వ్యాసాన్ని తీసుకుని, టెక్స్ట్‌ను డౌన్లోడ్ చేసి ప్రాసెస్ చేసి, ఈ విధమైన పద మేఘాన్ని నిర్మిస్తాము:
 
-![Word Cloud for Data Science](../../../../translated_images/te/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
+![Word Cloud for Data Science](../../../../translated_images/te/ds_wordcloud.664a7c07dca57de0.webp)
 
 కోడ్‌ను చదవడానికి [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') ను సందర్శించండి. మీరు కోడ్‌ను కూడా నడిపించి, అన్ని డేటా మార్పిడి ప్రక్రియలను ప్రత్యక్షంగా చూడవచ్చు.
 

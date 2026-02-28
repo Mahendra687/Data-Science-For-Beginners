@@ -16,7 +16,7 @@
 
 এই পাঠটি লাইফসাইকেলের ৩টি অংশের উপর কেন্দ্রীভূত: ডেটা সংগ্রহ, প্রক্রিয়াকরণ এবং রক্ষণাবেক্ষণ।
 
-![ডেটা সায়েন্স লাইফসাইকেলের চিত্র](../../../../translated_images/bn/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
+![ডেটা সায়েন্স লাইফসাইকেলের চিত্র](../../../../translated_images/bn/data-science-lifecycle.a1e362637503c4fb.webp)
 > ছবি [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/) দ্বারা
 
 ## ডেটা সংগ্রহ
@@ -89,7 +89,7 @@
 
 |টিম ডেটা সায়েন্স প্রক্রিয়া (TDSP)|ক্রস-ইন্ডাস্ট্রি স্ট্যান্ডার্ড প্রক্রিয়া ফর ডেটা মাইনিং (CRISP-DM)|
 |--|--|
-|![টিম ডেটা সায়েন্স লাইফসাইকেল](../../../../translated_images/bn/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![ডেটা সায়েন্স প্রক্রিয়া অ্যালায়েন্স চিত্র](../../../../translated_images/bn/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
+|![টিম ডেটা সায়েন্স লাইফসাইকেল](../../../../translated_images/bn/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![ডেটা সায়েন্স প্রক্রিয়া অ্যালায়েন্স চিত্র](../../../../translated_images/bn/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | ছবি [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) দ্বারা | ছবি [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) দ্বারা |
 
 ## [পোস্ট-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ds/quiz/27)

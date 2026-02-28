@@ -6,7 +6,7 @@
 
 ---
 
-[![Video o definiranju podatkovne znanosti](../../../../translated_images/hr/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video o definiranju podatkovne znanosti](../../../../translated_images/hr/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -144,7 +144,7 @@ Ako želimo ići još složenije, možemo prikazati vrijeme potrebno za svaki mo
 
 U ovom izazovu pokušat ćemo pronaći koncepte relevantne za područje Data Sciencea analizirajući tekstove. Uzet ćemo članak s Wikipedije o Data Scienceu, preuzeti i obraditi tekst, a zatim izraditi oblak riječi poput ovog:
 
-![Oblak riječi za Data Science](../../../../translated_images/hr/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
+![Oblak riječi za Data Science](../../../../translated_images/hr/ds_wordcloud.664a7c07dca57de0.webp)
 
 Posjetite [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') kako biste pregledali kod. Također možete pokrenuti kod i vidjeti kako u stvarnom vremenu obavlja sve transformacije podataka.
 

@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![lunghezza massima per ordine](../../../../../translated_images/it/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![lunghezza massima per ordine](../../../../../translated_images/it/max-length-per-order.e5b283d952c78c12.webp)
 
 Questo fornisce una panoramica della distribuzione generale della lunghezza corporea per Ordine di uccelli, ma non è il modo ottimale per mostrare le vere distribuzioni. Questo compito è solitamente gestito creando un Istogramma.
 
@@ -48,7 +48,7 @@ Questo fornisce una panoramica della distribuzione generale della lunghezza corp
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribuzione sull'intero dataset](../../../../../translated_images/it/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![distribuzione sull'intero dataset](../../../../../translated_images/it/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Come puoi vedere, la maggior parte dei 400+ uccelli in questo dataset rientra nella fascia sotto i 2000 per la loro Massa Corporea Massima. Ottieni maggiori informazioni sui dati modificando il parametro `bins` a un numero più alto, ad esempio 30:
 
@@ -56,7 +56,7 @@ Come puoi vedere, la maggior parte dei 400+ uccelli in questo dataset rientra ne
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribuzione-30bins](../../../../../translated_images/it/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![distribuzione-30bins](../../../../../translated_images/it/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Questo grafico mostra la distribuzione in modo un po' più dettagliato. Un grafico meno sbilanciato a sinistra potrebbe essere creato assicurandoti di selezionare solo i dati entro un determinato intervallo:
 
@@ -68,7 +68,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![istogramma filtrato](../../../../../translated_images/it/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![istogramma filtrato](../../../../../translated_images/it/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Prova altri filtri e punti dati. Per vedere la distribuzione completa dei dati, rimuovi il filtro `['MaxBodyMass']` per mostrare distribuzioni etichettate.
 
@@ -82,7 +82,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Sembra esserci una correlazione prevista tra questi due elementi lungo un asse previsto, con un punto particolarmente forte di convergenza:
 
-![grafico 2d](../../../../../translated_images/it/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![grafico 2d](../../../../../translated_images/it/2d-plot.c504786f439bd7eb.webp)
 
 Gli istogrammi funzionano bene di default per i dati numerici. E se avessi bisogno di vedere le distribuzioni in base ai dati testuali? 
 ## Esplora il dataset per distribuzioni utilizzando dati testuali 
@@ -113,7 +113,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![collazione apertura alare e conservazione](../../../../../translated_images/it/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![collazione apertura alare e conservazione](../../../../../translated_images/it/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Non sembra esserci una buona correlazione tra apertura alare minima e stato di conservazione. Testa altri elementi del dataset utilizzando questo metodo. Puoi provare diversi filtri. Trovi qualche correlazione?
 
@@ -127,7 +127,7 @@ Lavoriamo ora con i grafici di densità!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![grafico di densità](../../../../../translated_images/it/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![grafico di densità](../../../../../translated_images/it/density-plot.675ccf865b76c690.webp)
 
 Puoi vedere come il grafico rispecchia quello precedente per i dati di Apertura Alare Minima; è solo un po' più fluido. Se volessi rivedere quella linea frastagliata della MaxMassaCorporea nel secondo grafico che hai costruito, potresti renderla molto più fluida ricreandola utilizzando questo metodo:
 
@@ -135,7 +135,7 @@ Puoi vedere come il grafico rispecchia quello precedente per i dati di Apertura 
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![densità massa corporea](../../../../../translated_images/it/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![densità massa corporea](../../../../../translated_images/it/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Se volessi una linea fluida, ma non troppo fluida, modifica il parametro `adjust`: 
 
@@ -143,7 +143,7 @@ Se volessi una linea fluida, ma non troppo fluida, modifica il parametro `adjust
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![massa corporea meno fluida](../../../../../translated_images/it/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![massa corporea meno fluida](../../../../../translated_images/it/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Leggi i parametri disponibili per questo tipo di grafico e sperimenta!
 
@@ -153,7 +153,7 @@ Questo tipo di grafico offre visualizzazioni esplicative molto belle. Con poche 
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![massa corporea per ordine](../../../../../translated_images/it/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![massa corporea per ordine](../../../../../translated_images/it/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Sfida
 

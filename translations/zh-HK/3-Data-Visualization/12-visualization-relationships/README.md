@@ -42,7 +42,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/zh-HK/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
+![scatterplot 1](../../../../translated_images/zh-HK/scatter1.5e1aa5fd6706c5d1.webp)
 
 接下來，使用蜂蜜色調展示價格隨年份的變化。您可以通過添加 'hue' 參數來展示每年的變化：
 
@@ -51,7 +51,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/zh-HK/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
+![scatterplot 2](../../../../translated_images/zh-HK/scatter2.c0041a58621ca702.webp)
 
 通過這種色彩方案的改變，您可以清楚地看到蜂蜜每磅價格隨年份的明顯增長趨勢。事實上，如果您查看數據中的樣本集（例如選擇一個州，亞利桑那州），您可以看到價格每年增長的模式，只有少數例外：
 
@@ -80,7 +80,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 您可以看到點的大小逐漸增大。
 
-![scatterplot 3](../../../../translated_images/zh-HK/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
+![scatterplot 3](../../../../translated_images/zh-HK/scatter3.3c160a3d1dcb36b3.webp)
 
 這是否是一個簡單的供需問題？由於氣候變化和蜂群崩潰等因素，是否每年可供購買的蜂蜜減少，因此價格上漲？
 
@@ -95,7 +95,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 答案：是的，但在2003年左右有一些例外：
 
-![line chart 1](../../../../translated_images/zh-HK/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
+![line chart 1](../../../../translated_images/zh-HK/line1.f36eb465229a3b1f.webp)
 
 ✅ 由於 Seaborn 將數據聚合到一條線上，它通過繪製均值和均值周圍的95%置信區間來顯示每個 x 值的多個測量值。[來源](https://seaborn.pydata.org/tutorial/relational.html)。這種耗時的行為可以通過添加 `ci=None` 禁用。
 
@@ -105,7 +105,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/zh-HK/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
+![line chart 2](../../../../translated_images/zh-HK/line2.a5b3493dc01058af.webp)
 
 答案：並不完全。如果您查看總生產量，實際上在那一年似乎有所增加，儘管總體而言蜂蜜的生產量在這些年中呈下降趨勢。
 
@@ -130,7 +130,7 @@ sns.relplot(
 ```
 在這個視覺化中，您可以比較每年的每群產量和蜂群數量，並將列的 wrap 設置為3：
 
-![facet grid](../../../../translated_images/zh-HK/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
+![facet grid](../../../../translated_images/zh-HK/facet.6a34851dcd540050.webp)
 
 對於這個數據集，關於蜂群數量和每群產量，按年份和州比較並沒有特別突出的地方。是否有其他方式來尋找這兩個變量之間的相關性？
 
@@ -153,7 +153,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/zh-HK/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
+![superimposed plots](../../../../translated_images/zh-HK/dual-line.a4c28ce659603fab.webp)
 
 雖然在2003年沒有明顯的異常，但這讓我們以一個稍微樂觀的結論結束本課：儘管蜂群數量總體上在下降，但蜂群數量正在穩定，即使每群產量在減少。
 

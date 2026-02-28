@@ -1,6 +1,6 @@
 # Pengantar Ilmu Data
 
-![data in action](../../../translated_images/id/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
+![data in action](../../../translated_images/id/data.48e22bb7617d8d92.webp)
 > Foto oleh <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> di <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Dalam pelajaran ini, Anda akan mempelajari bagaimana Ilmu Data didefinisikan dan memahami pertimbangan etika yang harus diperhatikan oleh seorang ilmuwan data. Anda juga akan belajar bagaimana data didefinisikan serta sedikit tentang statistik dan probabilitas, yang merupakan bidang akademik inti dari Ilmu Data.

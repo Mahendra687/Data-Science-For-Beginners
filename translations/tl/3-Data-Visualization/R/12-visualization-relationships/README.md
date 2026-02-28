@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/tl/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
+![scatterplot 1](../../../../../translated_images/tl/scatter1.86b8900674d88b26.webp)
 
 Ngayon, ipakita ang parehong data gamit ang isang kulay ng pulot upang ipakita kung paano nagbago ang presyo sa paglipas ng mga taon. Magagawa mo ito sa pamamagitan ng pagdaragdag ng parameter na 'scale_color_gradientn' upang ipakita ang pagbabago, taon-taon:
 
@@ -52,7 +52,7 @@ Ngayon, ipakita ang parehong data gamit ang isang kulay ng pulot upang ipakita k
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/tl/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
+![scatterplot 2](../../../../../translated_images/tl/scatter2.4d1cbc693bad20e2.webp)
 
 Sa pagbabago ng color scheme na ito, makikita mo na malinaw na may malakas na pagtaas sa paglipas ng mga taon sa presyo ng pulot bawat libra. Sa katunayan, kung titingnan mo ang isang sample set sa data upang i-verify (pumili ng isang partikular na estado, Arizona halimbawa) makikita mo ang pattern ng pagtaas ng presyo taon-taon, na may ilang mga pagbubukod:
 
@@ -83,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Makikita mo ang unti-unting pagtaas ng laki ng mga tuldok.
 
-![scatterplot 3](../../../../../translated_images/tl/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
+![scatterplot 3](../../../../../translated_images/tl/scatter3.722d21e6f20b3ea2.webp)
 
 Ito ba ay simpleng kaso ng supply at demand? Dahil sa mga salik tulad ng pagbabago ng klima at colony collapse, mas kaunti ba ang pulot na magagamit para bilhin taon-taon, kaya't tumataas ang presyo?
 
@@ -98,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Sagot: Oo, na may ilang mga pagbubukod sa paligid ng taong 2003:
 
-![line chart 1](../../../../../translated_images/tl/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
+![line chart 1](../../../../../translated_images/tl/line1.299b576fbb2a59e6.webp)
 
 Tanong: Sa 2003, makikita rin ba natin ang pagtaas sa supply ng pulot? Paano kung tingnan mo ang kabuuang produksyon taon-taon?
 
@@ -106,7 +106,7 @@ Tanong: Sa 2003, makikita rin ba natin ang pagtaas sa supply ng pulot? Paano kun
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/tl/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
+![line chart 2](../../../../../translated_images/tl/line2.3b18fcda7176ceba.webp)
 
 Sagot: Hindi talaga. Kung titingnan mo ang kabuuang produksyon, tila ito ay tumaas sa partikular na taon na iyon, kahit na sa pangkalahatan ang dami ng pulot na ginagawa ay bumababa sa mga taong ito.
 
@@ -126,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Sa visualization na ito, maaari mong ihambing ang ani bawat kolonya at bilang ng mga kolonya taon-taon, magkatabi na may wrap na nakatakda sa 3 para sa mga column:
 
-![facet grid](../../../../../translated_images/tl/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
+![facet grid](../../../../../translated_images/tl/facet.491ad90d61c2a7cc.webp)
 
 Para sa dataset na ito, walang partikular na kapansin-pansin tungkol sa bilang ng mga kolonya at kanilang ani, taon-taon at estado sa estado. Mayroon bang ibang paraan upang tingnan ang paghahanap ng ugnayan sa pagitan ng dalawang variable na ito?
 
@@ -143,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/tl/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
+![superimposed plots](../../../../../translated_images/tl/dual-line.fc4665f360a54018.webp)
 
 Habang walang kapansin-pansin sa mata sa paligid ng taong 2003, pinapayagan tayo nitong tapusin ang araling ito sa mas masayang tala: habang may pangkalahatang pagbaba sa bilang ng mga kolonya, ang bilang ng mga kolonya ay nagiging matatag kahit na ang kanilang ani bawat kolonya ay bumababa.
 

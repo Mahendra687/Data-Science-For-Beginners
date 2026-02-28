@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![lungime maximă per ordin](../../../../../translated_images/ro/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![lungime maximă per ordin](../../../../../translated_images/ro/max-length-per-order.e5b283d952c78c12.webp)
 
 Acest grafic oferă o privire de ansamblu asupra distribuției generale a lungimii corpului per Ordin de păsări, dar nu este cea mai bună modalitate de a afișa distribuțiile reale. Această sarcină este de obicei realizată prin crearea unui histogramă.
 ## Lucrul cu histograme
@@ -47,7 +47,7 @@ Acest grafic oferă o privire de ansamblu asupra distribuției generale a lungim
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribuție pe întregul set de date](../../../../../translated_images/ro/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![distribuție pe întregul set de date](../../../../../translated_images/ro/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 După cum poți vedea, majoritatea celor 400+ păsări din acest set de date se încadrează în intervalul de sub 2000 pentru masa corporală maximă. Obține mai multe informații despre date modificând parametrul `bins` la un număr mai mare, cum ar fi 30:
 
@@ -55,7 +55,7 @@ După cum poți vedea, majoritatea celor 400+ păsări din acest set de date se 
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribuție-30bins](../../../../../translated_images/ro/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![distribuție-30bins](../../../../../translated_images/ro/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Acest grafic arată distribuția într-un mod puțin mai detaliat. Un grafic mai puțin înclinat spre stânga ar putea fi creat asigurându-te că selectezi doar datele dintr-un anumit interval:
 
@@ -67,7 +67,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![histogramă filtrată](../../../../../translated_images/ro/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![histogramă filtrată](../../../../../translated_images/ro/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Încearcă alte filtre și puncte de date. Pentru a vedea distribuția completă a datelor, elimină filtrul `['MaxBodyMass']` pentru a afișa distribuțiile etichetate.
 
@@ -81,7 +81,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Pare să existe o corelație așteptată între aceste două elemente de-a lungul unui ax previzibil, cu un punct de convergență deosebit de puternic:
 
-![grafic 2d](../../../../../translated_images/ro/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![grafic 2d](../../../../../translated_images/ro/2d-plot.c504786f439bd7eb.webp)
 
 Histogramele funcționează bine în mod implicit pentru date numerice. Ce se întâmplă dacă trebuie să vezi distribuții în funcție de date text? 
 ## Explorează setul de date pentru distribuții utilizând date text 
@@ -112,7 +112,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![anvergură și status conservare](../../../../../translated_images/ro/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![anvergură și status conservare](../../../../../translated_images/ro/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Nu pare să existe o corelație bună între anvergura minimă a aripilor și statusul de conservare. Testează alte elemente ale setului de date utilizând această metodă. Poți încerca diferite filtre. Găsești vreo corelație?
 
@@ -126,7 +126,7 @@ Să lucrăm acum cu grafice de densitate!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![grafic de densitate](../../../../../translated_images/ro/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![grafic de densitate](../../../../../translated_images/ro/density-plot.675ccf865b76c690.webp)
 
 Poți vedea cum graficul reflectă cel anterior pentru datele despre anvergura minimă a aripilor; este doar puțin mai lin. Dacă ai vrea să revizitezi acea linie „în trepte” a masei corporale maxime din al doilea grafic pe care l-ai construit, ai putea să o netezești foarte bine recreând-o utilizând această metodă:
 
@@ -134,7 +134,7 @@ Poți vedea cum graficul reflectă cel anterior pentru datele despre anvergura m
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![densitate masă corporală](../../../../../translated_images/ro/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![densitate masă corporală](../../../../../translated_images/ro/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Dacă ai vrea o linie netedă, dar nu prea netedă, editează parametrul `adjust`: 
 
@@ -142,7 +142,7 @@ Dacă ai vrea o linie netedă, dar nu prea netedă, editează parametrul `adjust
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![masă corporală mai puțin netedă](../../../../../translated_images/ro/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![masă corporală mai puțin netedă](../../../../../translated_images/ro/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Citește despre parametrii disponibili pentru acest tip de grafic și experimentează!
 
@@ -152,7 +152,7 @@ Acest tip de grafic oferă vizualizări explicative frumoase. Cu câteva linii d
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![masă corporală per ordin](../../../../../translated_images/ro/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![masă corporală per ordin](../../../../../translated_images/ro/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Provocare
 

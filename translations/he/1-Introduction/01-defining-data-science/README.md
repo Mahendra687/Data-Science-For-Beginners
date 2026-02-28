@@ -6,7 +6,7 @@
 
 ---
 
-[![סרטון הגדרת מדע הנתונים](../../../../translated_images/he/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
+[![סרטון הגדרת מדע הנתונים](../../../../translated_images/he/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -144,7 +144,7 @@
 
 באתגר הזה, ננסה למצוא מושגים רלוונטיים לתחום מדעי הנתונים על ידי התבוננות בטקסטים. ניקח מאמר מוויקיפדיה על מדעי הנתונים, נוריד ונעבד את הטקסט, ואז נבנה ענן מילים כמו זה:
 
-![ענן מילים למדעי הנתונים](../../../../translated_images/he/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
+![ענן מילים למדעי הנתונים](../../../../translated_images/he/ds_wordcloud.664a7c07dca57de0.webp)
 
 בקרו ב-[`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') כדי לקרוא את הקוד. תוכלו גם להריץ את הקוד ולראות כיצד הוא מבצע את כל השינויים בנתונים בזמן אמת.
 

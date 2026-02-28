@@ -1,6 +1,6 @@
 # مقدمه‌ای بر علم داده
 
-![داده در عمل](../../../translated_images/fa/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
+![داده در عمل](../../../translated_images/fa/data.48e22bb7617d8d92.webp)
 > عکس از <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">استیون داوسون</a> در <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 در این درس‌ها، شما خواهید آموخت که علم داده چگونه تعریف می‌شود و با ملاحظات اخلاقی که یک دانشمند داده باید در نظر بگیرد آشنا خواهید شد. همچنین خواهید آموخت که داده چگونه تعریف می‌شود و کمی درباره آمار و احتمال، حوزه‌های اصلی علمی علم داده، یاد خواهید گرفت.

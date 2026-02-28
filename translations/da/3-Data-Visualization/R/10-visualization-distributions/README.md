@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![maksimal længde pr. orden](../../../../../translated_images/da/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![maksimal længde pr. orden](../../../../../translated_images/da/max-length-per-order.e5b283d952c78c12.webp)
 
 Dette giver et overblik over den generelle fordeling af kropslængde pr. fugleorden, men det er ikke den optimale måde at vise egentlige fordelinger. Denne opgave håndteres normalt ved at oprette et histogram.
 ## Arbejde med histogrammer
@@ -47,7 +47,7 @@ Dette giver et overblik over den generelle fordeling af kropslængde pr. fugleor
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![fordeling over hele datasættet](../../../../../translated_images/da/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![fordeling over hele datasættet](../../../../../translated_images/da/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Som du kan se, falder de fleste af de 400+ fugle i dette datasæt inden for området under 2000 for deres maksimale kropsmasse. Få mere indsigt i dataene ved at ændre `bins`-parameteren til et højere tal, f.eks. 30:
 
@@ -55,7 +55,7 @@ Som du kan se, falder de fleste af de 400+ fugle i dette datasæt inden for omr�
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![fordeling-30bins](../../../../../translated_images/da/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![fordeling-30bins](../../../../../translated_images/da/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Dette diagram viser fordelingen på en lidt mere detaljeret måde. Et diagram, der er mindre skævt mod venstre, kunne oprettes ved at sikre, at du kun vælger data inden for et givet område:
 
@@ -67,7 +67,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtreret histogram](../../../../../translated_images/da/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![filtreret histogram](../../../../../translated_images/da/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Prøv nogle andre filtre og datapunkter. For at se den fulde fordeling af dataene skal du fjerne `['MaxBodyMass']`-filteret for at vise mærkede fordelinger.
 
@@ -81,7 +81,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Der ser ud til at være en forventet korrelation mellem disse to elementer langs en forventet akse, med et særligt stærkt konvergenspunkt:
 
-![2d plot](../../../../../translated_images/da/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![2d plot](../../../../../translated_images/da/2d-plot.c504786f439bd7eb.webp)
 
 Histogrammer fungerer godt som standard for numeriske data. Hvad hvis du har brug for at se fordelinger baseret på tekstdata? 
 ## Udforsk datasættet for fordelinger ved hjælp af tekstdata 
@@ -112,7 +112,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![vingefang og bevaringsstatus](../../../../../translated_images/da/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![vingefang og bevaringsstatus](../../../../../translated_images/da/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Der ser ikke ud til at være en god korrelation mellem minimumsvingefang og bevaringsstatus. Test andre elementer i datasættet ved hjælp af denne metode. Du kan også prøve forskellige filtre. Finder du nogen korrelation?
 
@@ -126,7 +126,7 @@ Lad os arbejde med tæthedsdiagrammer nu!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![tæthedsdiagram](../../../../../translated_images/da/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![tæthedsdiagram](../../../../../translated_images/da/density-plot.675ccf865b76c690.webp)
 
 Du kan se, hvordan diagrammet afspejler det tidligere for Minimum Wingspan-data; det er bare lidt glattere. Hvis du ville genbesøge den hakkede MaxBodyMass-linje i det andet diagram, du oprettede, kunne du glatte den meget godt ud ved at genskabe den ved hjælp af denne metode:
 
@@ -134,7 +134,7 @@ Du kan se, hvordan diagrammet afspejler det tidligere for Minimum Wingspan-data;
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![kropsmasse tæthed](../../../../../translated_images/da/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![kropsmasse tæthed](../../../../../translated_images/da/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Hvis du ville have en glat, men ikke alt for glat linje, kan du redigere `adjust`-parameteren: 
 
@@ -142,7 +142,7 @@ Hvis du ville have en glat, men ikke alt for glat linje, kan du redigere `adjust
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![mindre glat kropsmasse](../../../../../translated_images/da/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![mindre glat kropsmasse](../../../../../translated_images/da/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Læs om de tilgængelige parametre for denne type diagram og eksperimentér!
 
@@ -152,7 +152,7 @@ Denne type diagram tilbyder smukt forklarende visualiseringer. Med få linjer ko
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![kropsmasse pr. orden](../../../../../translated_images/da/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![kropsmasse pr. orden](../../../../../translated_images/da/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Udfordring
 

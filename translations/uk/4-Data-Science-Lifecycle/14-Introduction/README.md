@@ -16,7 +16,7 @@
 
 Цей урок зосереджується на трьох частинах життєвого циклу: зборі, обробці та підтримці.
 
-![Діаграма життєвого циклу науки про дані](../../../../translated_images/uk/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
+![Діаграма життєвого циклу науки про дані](../../../../translated_images/uk/data-science-lifecycle.a1e362637503c4fb.webp)  
 > Фото від [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Збір
@@ -92,7 +92,7 @@
 
 |Процес команди науки про дані (TDSP)|Стандартний процес для добування даних у різних галузях (CRISP-DM)|
 |--|--|
-|![Життєвий цикл TDSP](../../../../translated_images/uk/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png)|![Зображення CRISP-DM](../../../../translated_images/uk/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png)|
+|![Життєвий цикл TDSP](../../../../translated_images/uk/tdsp-lifecycle2.e19029d598e2e73d.webp)|![Зображення CRISP-DM](../../../../translated_images/uk/CRISP-DM.8bad2b4c66e62aa7.webp)|
 | Зображення від [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Зображення від [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Післялекційний тест](https://ff-quizzes.netlify.app/en/ds/quiz/27)

@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/uk/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
+![scatterplot 1](../../../../../translated_images/uk/scatter1.86b8900674d88b26.webp)
 
 Тепер покажіть ті ж дані з кольоровою схемою меду, щоб продемонструвати, як ціна змінюється з роками. Ви можете зробити це, додавши параметр 'scale_color_gradientn', щоб показати зміни рік за роком:
 
@@ -52,7 +52,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/uk/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
+![scatterplot 2](../../../../../translated_images/uk/scatter2.4d1cbc693bad20e2.webp)
 
 З цією зміною кольорової схеми ви можете побачити очевидну тенденцію до зростання ціни за фунт меду з роками. Дійсно, якщо ви перевірите вибірку даних (наприклад, штат Аризона), ви побачите закономірність підвищення цін рік за роком, з деякими винятками:
 
@@ -83,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Ви можете побачити, як розмір точок поступово збільшується.
 
-![scatterplot 3](../../../../../translated_images/uk/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
+![scatterplot 3](../../../../../translated_images/uk/scatter3.722d21e6f20b3ea2.webp)
 
 Чи це простий випадок попиту та пропозиції? Через такі фактори, як зміна клімату та колапс колоній, чи стає мед менш доступним для покупки рік за роком, і тому ціна зростає?
 
@@ -98,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Відповідь: Так, з деякими винятками близько 2003 року:
 
-![line chart 1](../../../../../translated_images/uk/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
+![line chart 1](../../../../../translated_images/uk/line1.299b576fbb2a59e6.webp)
 
 Запитання: Ну, а чи можемо ми також побачити сплеск у постачанні меду в 2003 році? Що, якщо подивитися на загальне виробництво рік за роком?
 
@@ -106,7 +106,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/uk/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
+![line chart 2](../../../../../translated_images/uk/line2.3b18fcda7176ceba.webp)
 
 Відповідь: Не зовсім. Якщо подивитися на загальне виробництво, здається, що воно фактично збільшилося в цьому конкретному році, хоча загалом кількість виробленого меду зменшується протягом цих років.
 
@@ -126,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 У цій візуалізації ви можете порівняти урожайність на колонію та кількість колоній рік за роком, поруч із wrap, встановленим на 3 для колонок:
 
-![facet grid](../../../../../translated_images/uk/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
+![facet grid](../../../../../translated_images/uk/facet.491ad90d61c2a7cc.webp)
 
 Для цього набору даних нічого особливого не виділяється щодо кількості колоній та їх урожайності рік за роком і штат за штатом. Чи є інший спосіб знайти кореляцію між цими двома змінними?
 
@@ -143,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/uk/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
+![superimposed plots](../../../../../translated_images/uk/dual-line.fc4665f360a54018.webp)
 
 Хоча нічого особливого не виділяється близько 2003 року, це дозволяє нам завершити урок на трохи позитивнішій ноті: хоча загалом кількість колоній зменшується, їх кількість стабілізується, навіть якщо їх урожайність на колонію знижується.
 

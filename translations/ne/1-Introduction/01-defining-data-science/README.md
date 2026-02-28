@@ -6,7 +6,7 @@
 
 ---
 
-[![डाटा साइन्सको परिभाषा भिडियो](../../../../translated_images/ne/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
+[![डाटा साइन्सको परिभाषा भिडियो](../../../../translated_images/ne/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [पूर्व-व्याख्यान क्विज](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -144,7 +144,7 @@
 
 यस चुनौतीमा, हामी डेटा साइन्सको क्षेत्रमा सान्दर्भिक अवधारणाहरू पत्ता लगाउने प्रयास गर्नेछौं। हामी डेटा साइन्सको विषयमा विकिपिडिया लेख लिनेछौं, पाठ डाउनलोड र प्रक्रिया गर्नेछौं, र त्यसपछि यस्तो वर्ड क्लाउड बनाउनेछौं:
 
-![डेटा साइन्सको लागि वर्ड क्लाउड](../../../../translated_images/ne/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
+![डेटा साइन्सको लागि वर्ड क्लाउड](../../../../translated_images/ne/ds_wordcloud.664a7c07dca57de0.webp)
 
 कोड पढ्नका लागि [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') मा जानुहोस्। तपाईं कोड चलाउन सक्नुहुन्छ, र वास्तविक समयमा सबै डेटा रूपान्तरणहरू कसरी प्रदर्शन हुन्छन् हेर्न सक्नुहुन्छ।
 

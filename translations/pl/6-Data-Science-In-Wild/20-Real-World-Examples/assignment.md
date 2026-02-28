@@ -13,7 +13,7 @@ Interfejs Explorer (pokazany na zrzucie ekranu poniżej) pozwala wybrać zbiór 
  2. Przeglądaj [Katalog zbiorów danych](https://planetarycomputer.microsoft.com/catalog) – dowiedz się, do czego służy każdy zbiór.
  3. Skorzystaj z Explorer – wybierz interesujący Cię zbiór danych, odpowiednie zapytanie i opcję renderowania.
 
-![The Planetary Computer Explorer](../../../../translated_images/pl/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![The Planetary Computer Explorer](../../../../translated_images/pl/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Twoje zadanie:`
 Przeanalizuj wizualizację, która zostanie wygenerowana w przeglądarce, i odpowiedz na następujące pytania:

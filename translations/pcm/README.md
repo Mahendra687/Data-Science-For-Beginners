@@ -17,11 +17,11 @@
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Azure Cloud Advocates for Microsoft dey happy to offer 10-week, 20-lesson curriculum wey dey all about Data Science. Each lesson get pre-lesson and post-lesson quizzes, written instructions to complete the lesson, solution, and assignment. Our project-based way of teaching go allow you learn while you build, na correct way for new skills to "stick".
+Azure Cloud Advocates for Microsoft happy to offer 10-week, 20-lesson curriculum wey dey all about Data Science. Each lesson get pre-lesson and post-lesson quizzes, written instructions to complete lesson, solution, plus assignment. Our project-based way to teach dey allow you learn as you dey build, dat na correct way for new skills to 'stick'.
 
 **Big thanks to our authors:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Special thanks 🙏 go to our [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) authors, reviewers and content contributors,** especially Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+**🙏 Special thanks 🙏 to our [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) authors, reviewers and content contributors,** notably Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/pcm/00-Title.8af36cd35da1ac55.webp)|
@@ -36,22 +36,32 @@ Azure Cloud Advocates for Microsoft dey happy to offer 10-week, 20-lesson curric
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](./README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
 > **Prefer to Clone Locally?**
-
-> This repository get 50+ language translations wey dey make di download size big well-well. To clone without translations, use sparse checkout:
+>
+> This repository get 50+ language translations wey go increase di download size well well. To clone without di translations, use sparse checkout:
+>
+> **Bash / macOS / Linux:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
 > cd Data-Science-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> Dis one go give you everything wey you need to complete di course with fast download.
+>
+> **CMD (Windows):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
+> cd Data-Science-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> Dis one go give you everytin you need to finish di course with much faster download.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**If you want more translations wey dem dey support dey listed [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**If you want make dem add more translation languages, di ones wey dem dey support dey listed [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Join Our Community 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-We get Discord learn with AI series wey dey go now, learn more and join us for [Learn with AI Series](https://aka.ms/learnwithai/discord) from 18 - 30 September, 2025. You go get correct tips and tricks to use GitHub Copilot for Data Science.
+We get Discord learn with AI series wey dey go on, learn more and join us for [Learn with AI Series](https://aka.ms/learnwithai/discord) from 18 - 30 September, 2025. You go fit get tips and tricks on how to use GitHub Copilot for Data Science.
 
 ![Learn with AI series](../../translated_images/pcm/1.2b28cdc6205e26fe.webp)
 
@@ -59,47 +69,47 @@ We get Discord learn with AI series wey dey go now, learn more and join us for [
 
 Start with these resources:
 
-- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) For this page, you go find beginner resources, Student packs and even ways wey you fit get free cert voucher. This one na page wey you go like bookmark and dey check from time to time as we dey change content every month.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join global student ambassadors community, dis fit be your way enter Microsoft.
+- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) For dis page, you go find beginner resources, Student packs plus ways to get free cert voucher. Dis na one page wey you for bookmark and come check sometimes as we dey change di content at least every month.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join one global community of student ambassadors, dis fit be your way enter Microsoft.
 
-# How to Start
+# How to start
 
 ## 📚 Documentation
 
 - **[Installation Guide](INSTALLATION.md)** - Step-by-step setup instructions for beginners
 - **[Usage Guide](USAGE.md)** - Examples and common workflows
 - **[Troubleshooting](TROUBLESHOOTING.md)** - Solutions to common wahala
-- **[Contributing Guide](CONTRIBUTING.md)** - How to add your own work for this project
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute to dis project
 - **[For Teachers](for-teachers.md)** - Teaching guidance and classroom resources
 
 ## 👨‍🎓 For Students
-> **Complete Beginners**: You never sabi Data Science before? Start with our [beginner-friendly examples](examples/README.md)! These simple examples wey fine-commented go help you understand the basics before you jump for the full curriculum.
-> **[Students](https://aka.ms/student-page)**: to use this curriculum by yourself, fork the whole repo and do the exercises by yourself, start with the pre-lecture quiz. Then read the lecture and do the rest of the activities. Try create the projects by understanding the lessons instead of just copying solution code; but that code dey for the /solutions folders for each project-oriented lesson. Another way na to form study group with your friends and go through the content together. If you want study more, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Complete Beginners**: You be new for data science? Start from our [beginner-friendly examples](examples/README.md)! These simple, well-commented examples go help you understand basics before you enter full curriculum.
+> **[Students](https://aka.ms/student-page)**: To use this curriculum by yourself, fork di full repo and finish all di exercises on your own, start with pre-lecture quiz. Then read di lecture and finish di rest activities. Try create di projects by understanding di lessons not just copy di solution code; but di code still dey for the /solutions folders for each project-oriented lesson. Another idea na to form study group with friends make una go through di content together. For more study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Quick Start:**
-1. Check the [Installation Guide](INSTALLATION.md) to set up your environment
-2. Review the [Usage Guide](USAGE.md) make you sabi how to wok with the curriculum
-3. Start with Lesson 1 and continue sequentially
+1. Check di [Installation Guide](INSTALLATION.md) make you set up your environment
+2. Review di [Usage Guide](USAGE.md) to sabi how to take work with di curriculum
+3. Start with Lesson 1 and waka through am step by step
 4. Join our [Discord community](https://aka.ms/ds4beginners/discord) for support
 
 ## 👩‍🏫 For Teachers
+> **Teachers**: we don [included some suggestions](for-teachers.md) on how to use dis curriculum. We go like make una give feedback [for our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **Teachers**: we don put some suggestions for [how to use this curriculum](for-teachers.md). We go like hear your feedback [inside our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 ## Meet di Team
 
 [![Promo video](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
 **Gif by** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 Click di image wey dey above for video about di project an di people wey create am!
+> 🎥 Click di image wey dey top for see video about di project and di people wey create am!
 
 ## Pedagogy
 
-We don choose two pedagogical tenets as we dey build dis curriculum: make sure say e dey project-based an e get frequent quizzes. By di time dis series end, students go don sabi basic principles of data science, including ethical concepts, data preparation, different ways to work with data, data visualization, data analysis, real-world use cases of data science, an more.
+We don choose two main tings for how we go teach dis curriculum: to make sure say e get project-based learning and sey e get plenty quizzes. By di time we finish dis series, students go don sabi di basic principles of data science, including ethical concepts, how to prepare data, different ways to work with data, how to do data visualization, data analysis, real-world use cases of data science, plus more.
 
-Plus, low-stakes quiz before class dey set di intention of di student to learn one topic, while second quiz after class dey make sure say dem still remember well. Dis curriculum e design to be flexible an fun, an you fit do am fully or partly. Di projects start small an dem go get more complex by di end of di 10 week cycle.
+Plus, one low-stakes quiz wey de happen before class go set di student mind for learning di topic, and the second quiz after class go make sure dem remember well-well. Dis curriculum design make am flexible and fun, and you fit do am all or just part. Di projects start small-small then dem go hard as you near di 10 week period.
 
-> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md) guidelines dem. We welcome your constructive feedback!
+> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md) guidelines. We dey welcome una constructive feedback!
 
 ## Each lesson get:
 
@@ -107,26 +117,26 @@ Plus, low-stakes quiz before class dey set di intention of di student to learn o
 - Optional supplemental video
 - Pre-lesson warmup quiz
 - Written lesson
-- For project-based lessons, step-by-step guides on how to build di project
+- For project-based lessons, step-by-step guides on how to build the project
 - Knowledge checks
-- Challenge
+- One challenge
 - Supplemental reading
 - Assignment
 - [Post-lesson quiz](https://ff-quizzes.netlify.app/en/)
 
-> **Note about quizzes**: All quizzes dey inside Quiz-App folder, total na 40 quizzes with three questions each. Dem dey linked from inside lessons, but you fit run quiz app locally or deploy am for Azure; follow di instruction inside `quiz-app` folder. Dem dey slowly dey localize.
+> **About quizzes:** All di quizzes dey inside di Quiz-App folder, total of 40 quizzes with three questions each. Dem linked from inside di lessons, but you fit run di quiz app locally or deploy am for Azure; follow di instruction for di `quiz-app` folder. Dem dey localize am small-small.
 
 ## 🎓 Beginner-Friendly Examples
 
-**New to Data Science?** We don create special [examples directory](examples/README.md) with simple, well-commented code to help you start:
+**New for Data Science?** We create special [examples directory](examples/README.md) with simple, well-commented code wey go help you start:
 
 - 🌟 **Hello World** - Your first data science program
 - 📂 **Loading Data** - Learn how to read and explore datasets
-- 📊 **Simple Analysis** - Calculate statistics an find patterns
-- 📈 **Basic Visualization** - Create charts an graphs
+- 📊 **Simple Analysis** - Calculate statistics and find patterns
+- 📈 **Basic Visualization** - Create charts and graphs
 - 🔬 **Real-World Project** - Complete workflow from start to finish
 
-Each example get detailed comments wey explain every step, e perfect for absolute beginners!
+Every example get detailed comments to explain every step, so e perfect for total beginners!
 
 👉 **[Start with the examples](examples/README.md)** 👈
 
@@ -140,54 +150,54 @@ Each example get detailed comments wey explain every step, e perfect for absolut
 
 | Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Defining Data Science | [Introduction](1-Introduction/README.md) | Learn di basic concepts behind data science an how e relate to artificial intelligence, machine learning, an big data. | [lesson](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 01 | Defining Data Science | [Introduction](1-Introduction/README.md) | Learn the basic concepts behind data science and how e relate to artificial intelligence, machine learning, and big data. | [lesson](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Data Science Ethics | [Introduction](1-Introduction/README.md) | Data Ethics Concepts, Challenges & Frameworks. | [lesson](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Defining Data | [Introduction](1-Introduction/README.md) | How data dey classified an di common sources. | [lesson](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Introduction to Statistics & Probability | [Introduction](1-Introduction/README.md) | Di mathematical techniques of probability an statistics to understand data. | [lesson](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Working with Relational Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to relational data an di basics of exploring an analyzing relational data with di Structured Query Language, wey dem also sabi as SQL (wey dem dey pronounce “see-quell”). | [lesson](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | Working with NoSQL Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to non-relational data, di different types an basics of exploring an analyzing document databases. | [lesson](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Working with Python | [Working With Data](2-Working-With-Data/README.md) | Basics of using Python for data exploration with libraries like Pandas. Foundational understanding of Python programming dey recommended. | [lesson](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Data Preparation | [Working With Data](2-Working-With-Data/README.md) | Topics on data techniques for cleaning and transforming data to handle challenges of missing, inaccurate, or incomplete data. | [lesson](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 03 | Defining Data | [Introduction](1-Introduction/README.md) | How data dey classified and di common sources. | [lesson](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Introduction to Statistics & Probability | [Introduction](1-Introduction/README.md) | Di mathematical techniques of probability and statistics to understand data. | [lesson](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Working with Relational Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to relational data and basics of exploring and analyzing relational data with Structured Query Language, wey dem call SQL (pronounced “see-quell”). | [lesson](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | Working with NoSQL Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to non-relational data, wetin different types and basics of exploring and analyzing document databases. | [lesson](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Working with Python | [Working With Data](2-Working-With-Data/README.md) | Basics of using Python for data exploration with libraries like Pandas. E good if you sabi Python programming first. | [lesson](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Data Preparation | [Working With Data](2-Working-With-Data/README.md) | Topics on data techniques for cleaning and transforming data to handle missing, inaccurate, or incomplete data. | [lesson](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Visualizing Quantities | [Data Visualization](3-Data-Visualization/README.md) | Learn how to use Matplotlib to visualize bird data 🦆 | [lesson](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualizing Distributions of Data | [Data Visualization](3-Data-Visualization/README.md) | Visualizing observations and trends inside interval. | [lesson](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Visualizing Proportions | [Data Visualization](3-Data-Visualization/README.md) | Visualizing discrete an grouped percentages. | [lesson](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Visualizing Relationships | [Data Visualization](3-Data-Visualization/README.md) | Visualizing connections and correlations between sets of data an their variables. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Meaningful Visualizations | [Data Visualization](3-Data-Visualization/README.md) | Techniques and guidance to make your visualizations valuable for effective problem solving and insights. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | Visualizing Proportions | [Data Visualization](3-Data-Visualization/README.md) | Visualizing discrete and grouped percentages. | [lesson](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | Visualizing Relationships | [Data Visualization](3-Data-Visualization/README.md) | Visualizing connections and correlations between sets of data and their variables. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Meaningful Visualizations | [Data Visualization](3-Data-Visualization/README.md) | Techniques and guidance for making your visualizations valuable for effective problem solving and insights. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Introduction to the Data Science lifecycle | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Introduction to di data science lifecycle and di first step of acquiring and extracting data. | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analyzing | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Dis phase of di data science lifecycle focus on techniques to analyze data. | [lesson](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Dis phase of di data science lifecycle focus on presenting di insights from data in way wey go make am easy for decision makers to understand. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Dis series of lessons introduce data science in the cloud and di benefits. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 15 | Analyzing | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Dis phase of di data science lifecycle dey focus on techniques to analyze data. | [lesson](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Dis phase of di data science lifecycle dey focus on presenting di insights from data in a way wey go make am easy for decision makers to understand. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Dis series of lessons introduce data science for cloud and di benefits. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
 | 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Training models using Low Code tools. |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deploying models with Azure Machine Learning Studio. | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects for di real world. | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects for real world. | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
 Follow dis steps to open dis sample inside Codespace:
-1. Click di Code drop-down menu an select Open with Codespaces option.
-2. Select + New codespace for di bottom of di pane.
+1. Click Code drop-down menu and select di Open with Codespaces option.
+2. Select + New codespace for di bottom for di pane.
 For more info, check di [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Follow dis steps to open dis repo inside container using your local machine an VSCode with di VS Code Remote - Containers extension:
+Follow dis steps to open dis repo in container using your local machine and VSCode with di VS Code Remote - Containers extension:
 
-1. If e be your first time to use developer container, make sure your system get di pre-reqs (like say Docker dey installed) for [di getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. If na your first time to use development container, make sure say your system get all wetin e need (like Docker) by checking [di getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-To use dis repository, you fit open di repo inside isolated Docker volume:
+To use dis repository, you fit either open di repo in isolated Docker volume:
 
-**Note**: Under di hood, dis go use Remote-Containers: **Clone Repository in Container Volume...** command to clone di source code into Docker volume instead of local filesystem. [Volumes](https://docs.docker.com/storage/volumes/) na preferred way to store container data.
+**Note**: Under di hood, dis one go use Remote-Containers: **Clone Repository in Container Volume...** command to clone di source code to Docker volume instead of local filesystem. [Volumes](https://docs.docker.com/storage/volumes/) na di preferred way to keep container data.
 
-Or open locally cloned or downloaded version of di repo:
+Or open locally cloned or downloaded version of di repository:
 
-- Clone dis repository to your local filesystem.
-- Press F1 an select **Remote-Containers: Open Folder in Container...** command.
-- Select di cloned copy of dis folder, wait for container to start, an try am.
+- Clone dis repo to your local filesystem.
+- Press F1 and select **Remote-Containers: Open Folder in Container...** command.
+- Select di cloned copy of dis folder, wait make container start, then try am out.
 
 ## Offline access
 
-You fit run dis documentation offline by using [Docsify](https://docsify.js.org/#/). Fork dis repo, [install Docsify](https://docsify.js.org/#/quickstart) for your local machine, then inside di root folder of dis repo, type `docsify serve`. Website go run for port 3000 for your localhost: `localhost:3000`.
+You fit run dis documentation offline by using [Docsify](https://docsify.js.org/#/). Fork dis repo, [install Docsify](https://docsify.js.org/#/quickstart) for your local machine, then for di root folder of dis repo, type `docsify serve`. Di website go dey served on port 3000 on your localhost: `localhost:3000`.
 
-> Note, notebooks no go render via Docsify, so if you need run notebook, make you do am separately inside VS Code running Python kernel.
+> Note, notebooks no go render with Docsify, so if you need run notebook, do am separately in VS Code with Python kernel.
 
 ## Other Curricula
 
@@ -235,19 +245,19 @@ Our team dey produce other curricula! Check am out:
 
 ## Getting Help
 
-**You dey get wahala?** Check our [Troubleshooting Guide](TROUBLESHOOTING.md) for how you fit solve common problems.
+**You dey get wahala?** Check our [Troubleshooting Guide](TROUBLESHOOTING.md) for solutions to common problems.
 
-If you jam gbege or get any question about how to build AI apps. Join other people wey dey learn and programmers wey sabi for talks about MCP. E be like one supportive community wey you fit ask question anytime and dem dey share knowledge freely.
+If you jam stuck or get any question about how to build AI apps. Join other learners plus experienced developers for discussions about MCP. Na community wey dey support, where questions dey welcome and knowledge dey share freely.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-If you get product feedback or you see error while you dey build, com visit:
+If you get product feedback or errors wen you dey build, visit:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Disclaimer**:
-Dis dokument dem don translate am wit AI translation service wey dem dey call [Co-op Translator](https://github.com/Azure/co-op-translator). Even we dey try make everything correct, abeg make you sabi say machine translation fit get some mistake or wahala. Di original dokumentwey talk for e own language na di correct one. For important tins, e beta make person wey sabi do human translation do am. We no go responsible if pesin no understand well or if mistakes happen because of dis translation.
+**Disclaimer**:  
+Dis document na AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator) wey translate am. Even though we try make e correct, abeg sabi say automated translation fit get some mistake or no correct. Di original document wey dey im own language na di correct one. If na serious tin you dey check, better make professional human translate am. We no go responsible for any wahala or misunderstanding wey fit happen because of this translation.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
