@@ -1,6 +1,6 @@
 # Arbeiten mit Daten
 
-![data love](../../../translated_images/de/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
+![data love](../../../translated_images/de/data-love.a22ef29e6742c852.webp)
 > Foto von <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> auf <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 In diesen Lektionen lernst du einige der Möglichkeiten kennen, wie Daten verwaltet, manipuliert und in Anwendungen genutzt werden können. Du wirst etwas über relationale und nicht-relationale Datenbanken erfahren und wie Daten in ihnen gespeichert werden können. Du lernst die Grundlagen der Arbeit mit Python zur Datenverwaltung und entdeckst einige der vielen Möglichkeiten, wie du mit Python Daten verwalten und analysieren kannst.

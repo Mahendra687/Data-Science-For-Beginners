@@ -6,7 +6,7 @@
 
 ---
 
-[![فيديو تعريف علم البيانات](../../../../translated_images/ar/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
+[![فيديو تعريف علم البيانات](../../../../translated_images/ar/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -144,7 +144,7 @@
 
 في هذا التحدي، سنحاول العثور على المفاهيم ذات الصلة بمجال علم البيانات من خلال النظر في النصوص. سنأخذ مقالة من ويكيبيديا عن علم البيانات، ونقوم بتنزيل ومعالجة النص، ثم نبني سحابة كلمات مثل هذه:
 
-![سحابة كلمات لعلم البيانات](../../../../translated_images/ar/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
+![سحابة كلمات لعلم البيانات](../../../../translated_images/ar/ds_wordcloud.664a7c07dca57de0.webp)
 
 قم بزيارة [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') لقراءة الكود. يمكنك أيضًا تشغيل الكود، ومشاهدة كيفية تنفيذ جميع تحويلات البيانات في الوقت الفعلي.
 

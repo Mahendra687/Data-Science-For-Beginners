@@ -4,7 +4,7 @@
 
 نيتيا ناراسيمهان، الفنانة
 
-![رسم تخطيطي لخريطة الطريق](../../../translated_images/ar/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)
+![رسم تخطيطي لخريطة الطريق](../../../translated_images/ar/00-Roadmap.4905d6567dff4753.webp)
 
 ---
 
