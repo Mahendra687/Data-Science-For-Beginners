@@ -13,7 +13,7 @@
  2. مجموعه داده‌های [Catalog](https://planetarycomputer.microsoft.com/catalog) را بررسی کنید - هدف هر کدام را یاد بگیرید.
  3. از Explorer استفاده کنید - یک مجموعه داده مورد علاقه انتخاب کنید، یک پرسش مرتبط و گزینه رندر مناسب انتخاب کنید.
 
-![Explorer کامپیوتر سیاره‌ای](../../../../translated_images/fa/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
+![Explorer کامپیوتر سیاره‌ای](../../../../translated_images/fa/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `وظیفه شما:`
 اکنون مصورسازی‌ای که در مرورگر رندر شده است را بررسی کنید و به سوالات زیر پاسخ دهید:
