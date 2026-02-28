@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max length per order](../../../../../translated_images/ko/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
+![max length per order](../../../../../translated_images/ko/max-length-per-order.e5b283d952c78c12.webp)
 
 이 그래프는 새의 Order별 몸 길이의 일반적인 분포를 보여주지만, 실제 분포를 표시하기에는 최적의 방법이 아닙니다. 이 작업은 보통 히스토그램을 생성하여 수행됩니다.
 
@@ -48,7 +48,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribution over entire dataset](../../../../../translated_images/ko/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
+![distribution over entire dataset](../../../../../translated_images/ko/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 보시다시피, 이 데이터셋에 포함된 400개 이상의 새들 중 대부분은 Max Body Mass가 2000 이하 범위에 속합니다. `bins` 매개변수를 30과 같은 더 높은 숫자로 변경하여 데이터를 더 자세히 살펴보세요:
 
@@ -56,7 +56,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribution-30bins](../../../../../translated_images/ko/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
+![distribution-30bins](../../../../../translated_images/ko/distribution-30bins.6a3921ea7a421bf7.webp)
 
 이 차트는 분포를 조금 더 세부적으로 보여줍니다. 왼쪽으로 덜 치우친 차트를 만들려면 특정 범위 내의 데이터만 선택하도록 필터링하면 됩니다:
 
@@ -68,7 +68,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtered histogram](../../../../../translated_images/ko/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
+![filtered histogram](../../../../../translated_images/ko/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ 다른 필터와 데이터 포인트를 시도해 보세요. 데이터의 전체 분포를 보려면 `['MaxBodyMass']` 필터를 제거하여 라벨이 있는 분포를 표시하세요.
 
@@ -82,7 +82,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 이 두 요소가 예상 축을 따라 예상되는 상관관계를 가지며, 특히 강한 수렴 지점이 하나 있는 것으로 보입니다:
 
-![2d plot](../../../../../translated_images/ko/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
+![2d plot](../../../../../translated_images/ko/2d-plot.c504786f439bd7eb.webp)
 
 히스토그램은 기본적으로 숫자 데이터에 잘 작동합니다. 그렇다면 텍스트 데이터에 따라 분포를 확인해야 한다면 어떻게 해야 할까요?
 
@@ -114,7 +114,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![wingspan and conservation collation](../../../../../translated_images/ko/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
+![wingspan and conservation collation](../../../../../translated_images/ko/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 최소 날개 길이와 보존 상태 간에 뚜렷한 상관관계는 없어 보입니다. 이 방법을 사용하여 데이터셋의 다른 요소를 테스트해 보세요. 다른 필터도 시도해 보세요. 상관관계를 발견할 수 있나요?
 
@@ -128,7 +128,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![density plot](../../../../../translated_images/ko/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
+![density plot](../../../../../translated_images/ko/density-plot.675ccf865b76c690.webp)
 
 이 플롯은 이전의 최소 날개 길이 데이터와 유사한 결과를 보여줍니다. 단지 조금 더 부드럽게 표현되었을 뿐입니다. 두 번째로 생성한 MaxBodyMass의 울퉁불퉁한 선을 다시 방문하고 싶다면, 이 방법을 사용하여 매우 부드럽게 만들 수 있습니다:
 
@@ -136,7 +136,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![bodymass density](../../../../../translated_images/ko/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
+![bodymass density](../../../../../translated_images/ko/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 너무 부드럽지 않은 선을 원한다면 `adjust` 매개변수를 편집하세요:
 
@@ -144,7 +144,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![less smooth bodymass](../../../../../translated_images/ko/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
+![less smooth bodymass](../../../../../translated_images/ko/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ 이 유형의 플롯에 사용할 수 있는 매개변수에 대해 읽어보고 실험해 보세요!
 
@@ -154,7 +154,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![bodymass per order](../../../../../translated_images/ko/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
+![bodymass per order](../../../../../translated_images/ko/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 도전 과제
 
